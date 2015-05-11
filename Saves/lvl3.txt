@@ -1,0 +1,25 @@
+linhas 22
+colunas 33
+
+gggggggggggarrggggggggggggggggggg
+gggggggggggsrrggggggggggggggggggg
+gggs<<<<<<<<<<<vbxc<<<<<<gggggggg
+gggarrggrrgggggggggsrxcrrgggggggg
+gggsrrggrrgggggggggggrrrrrggggggg
+gggsrrggrrggggggggggggsxcrrgggggg
+gggarrggrrgggggggggggggarrrgggggg
+gggarrggrrgggggggggggggarrrgggggg
+gggsrrggrrgggggggggggggarrrgggggg
+gggsvbrrvbrrrrrrgggggggarvbgggggg
+gggggggggggg<xcrggggggggrrrgggggg
+gggggggggggg<<<<ggggggggrrrgggggg
+gggggggggggg<<<<ggggggggrrrgggggg
+ggggggggggggxc<<ggggggggrrrgggggg
+ggggggggggggxc<r<r<rr<r<r<r<rgggg
+ggggggggggggggggggggggggvbrrggggg
+ggggggggggggggggggggggggrrrrggggg
+ggggggggggggggggggggggggrrrrggggg
+gggggggggggggrrrr<<<<<<<<vb<<xc<<
+gggggggggggggrrrrggggggg<rrrrrrrr
+gggggggggggggrvbrgggggggggggggggg
+gggggggggggggrrrrgggggggggggggggg
