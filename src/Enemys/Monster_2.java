@@ -118,25 +118,25 @@ public class Monster_2  extends Zombies_1{
         if(inGame){
             if(animation_state==0) {
                 pausa=false;
-                g.drawImage(ani_reborn.getSprite(), posx, posy, 43,43, null);
+                g.drawImage(ani_reborn.getSprite(), posx, posy-5, 43,43, null);
                 ani_reborn.update(System.currentTimeMillis());
                 if(ani_reborn.isdeu_reset())
                     animation_state=1;
             }
             else if(animation_state==1){
                 pausa=true;
-                g.drawImage(ani_walking.getSprite(), posx, posy, 43, 43, null);
+                g.drawImage(ani_walking.getSprite(), posx, posy-15, 43, 43, null);
                 ani_walking.update(System.currentTimeMillis());
                 //se morrer animation_state=3
             }
             else if(animation_state==2) {
                 pausa=false;
-                g.drawImage(ani_atack.getSprite(), posx, posy,  43, 43, null);
+                g.drawImage(ani_atack.getSprite(), posx, posy-15,  43, 43, null);
                 ani_atack.update(System.currentTimeMillis());
             }
             else if(animation_state==3) {
                 pausa = false;
-                g.drawImage(ani_death.getSprite(), posx, posy, 43, 43, null);
+                g.drawImage(ani_death.getSprite(), posx, posy-15, 43, 43, null);
                 ani_death.update(System.currentTimeMillis());
                 if (ani_reborn.isdeu_reset()) {
                     animation_state = 5;
