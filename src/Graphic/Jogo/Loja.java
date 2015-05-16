@@ -1,7 +1,6 @@
 package Graphic.Jogo;
 
 import com.company.Main;
-import com.sun.org.apache.bcel.internal.generic.SWITCH;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -61,6 +60,9 @@ public class Loja extends JPanel{
     private BufferedImage coin6;
     private ArrayList<BufferedImage> Listcoins;
     Animator ani_coin;
+
+    private BufferedImage Building1;
+
     private Timer timer;
 
     public Loja() {
@@ -93,6 +95,7 @@ public class Loja extends JPanel{
             coin5 =     ImageIO.read(new File("Textures/Loja/Coin5.png"));
             coin6 =     ImageIO.read(new File("Textures/Loja/Coin6.png"));
 
+            Building1 = ImageIO.read(new File("Textures/Buildings/1/A1_1.png"));
 
         } catch (IOException e) {
 
@@ -134,51 +137,10 @@ public class Loja extends JPanel{
 
     private void draw(Graphics g) {
 
-        Graphics2D g2d = (Graphics2D) g;
-
         draw_life(g);
         draw_gold(g);
-
-//experimentar g.drawimage() em vez dos rectângulos
-
-        g2d.setColor(Color.BLACK);
-        g2d.draw(button1);
-        g2d.draw(button2);
-        g2d.draw(button3);
-        g2d.draw(button4);
-        g2d.draw(button5);
-
-
-        g2d.setColor(Color.LIGHT_GRAY);
-        g.fillRect(25, 50, 50, 50);
-        g.fillRect(25, 110, 50, 50);
-        g.fillRect(25, 170, 50, 50);
-        g.fillRect(25, 230, 50, 50);
-        g.fillRect(25  , 290 , 50 , 50);
-
-
-        if (flag>0)
-            g.setColor(Color.GRAY);
-        else if(flag==0)
-            g.setColor(Color.LIGHT_GRAY);
-
-
-        if(flag == 1) {
-            g.fillRect(25  , 50 , 50 , 50);
-        }
-        else if(flag == 2) {
-            g.fillRect(  25  , 110 , 50 , 50);
-        }
-        else if(flag == 3) {
-            g.fillRect( 25  , 170 , 50 , 50);
-        }
-        else if(flag == 4) {
-            g.fillRect(25 , 230 , 50 , 50);
-        }
-        else if(flag == 5) {
-            g.fillRect(25 , 290 , 50 , 50);
-        }
-
+        draw_rectangles(g);
+        draw_build1(g);
 
     }
 
@@ -230,9 +192,62 @@ public class Loja extends JPanel{
         g.drawString(String.valueOf(coins),43,435);
     }
 
+    private void draw_rectangles(Graphics g){
+//experimentar g.drawimage() em vez dos rectângulos
+        Graphics2D g2d = (Graphics2D) g;
+
+
+        g2d.setColor(Color.BLACK);
+        g2d.draw(button1);
+        g2d.draw(button2);
+        g2d.draw(button3);
+        g2d.draw(button4);
+        g2d.draw(button5);
+
+
+        g2d.setColor(Color.LIGHT_GRAY);
+        g.fillRect(25, 50, 50, 50);
+        g.fillRect(25, 110, 50, 50);
+        g.fillRect(25, 170, 50, 50);
+        g.fillRect(25, 230, 50, 50);
+        g.fillRect(25  , 290 , 50 , 50);
+
+
+        if (flag>0)
+            g.setColor(Color.GRAY);
+        else if(flag==0)
+            g.setColor(Color.LIGHT_GRAY);
+
+
+        if(flag == 1) {
+            g.fillRect(25  , 50 , 50 , 50);
+        }
+        else if(flag == 2) {
+            g.fillRect(  25  , 110 , 50 , 50);
+        }
+        else if(flag == 3) {
+            g.fillRect( 25  , 170 , 50 , 50);
+        }
+        else if(flag == 4) {
+            g.fillRect(25 , 230 , 50 , 50);
+        }
+        else if(flag == 5) {
+            g.fillRect(25 , 290 , 50 , 50);
+        }
+
+
+    }
+
     private void draw_build1(Graphics g) {
 
+        //Building icon
+        g.drawImage(Building1, 17, 45, 70, 70, null);
 
+        //cost
+        Font fnt1 = new Font("arial",Font.BOLD,15);
+        g.setFont(fnt1);
+        g.setColor(Color.YELLOW);
+        g.drawString("15",60,61);
     }
 
     private void change_coin(int amount) {

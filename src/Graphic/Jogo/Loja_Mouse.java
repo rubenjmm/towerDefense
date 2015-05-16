@@ -64,47 +64,7 @@ public class Loja_Mouse implements MouseListener,MouseMotionListener{
 
     @Override
     public void mouseEntered(MouseEvent e) {
-/*
 
-        int mx = e.getX();
-        int my = e.getY();
-
-        if(mx>= 25&& mx<= 75) {
-            if(my>= 50 && my<= 100){
-                Main.getLoja().setFlag(1);
-                Main.getLoja().hightlight();
-            }
-        }
-
-
-        if(mx>= 25&& mx<= 75) {
-            if(my>= 110 && my<= 160 ){
-                Main.getLoja().setFlag(2);
-                Main.getLoja().hightlight();
-            }
-        }
-
-        if(mx>= 25&& mx<= 75) {
-            if(my>= 170 && my<= 220){
-                Main.getLoja().setFlag(3);
-                Main.getLoja().hightlight();;
-            }
-        }
-
-        if(mx>= 25&& mx<= 75) {
-            if(my>= 230 && my<= 280){
-                Main.getLoja().setFlag(4);
-                Main.getLoja().hightlight();
-            }
-        }
-
-        if(mx>= 25&& mx<= 75) {
-            if(my>= 290 && my<= 340){
-                Main.getLoja().setFlag(5);
-                Main.getLoja().hightlight();
-            }
-        }
-*/
     }
 
     @Override
@@ -129,6 +89,17 @@ public class Loja_Mouse implements MouseListener,MouseMotionListener{
 
     @Override
     public void mousePressed(MouseEvent e) {
+
+        int mx = e.getX();
+        int my = e.getY();
+        int cnt=0;
+
+        if(mx>= 25&& mx<= 75) {
+            if(my>= 50 && my<= 100){
+                Main.getLoja().setFlag(1);
+                cnt=1;
+            }
+        }
 
     }
 

@@ -52,44 +52,12 @@ public class Configurations {
     }
 
     public  void gui_ndragon() throws IllegalArgumentException {
-/*
-        String s = JOptionPane.showInputDialog("Quantos Dragões ?");
-        n_dragoes = Integer.parseInt(s);
-        if(n_dragoes<1 || n_dragoes>Estrategia.getN_x_n()/2)
-            throw new IllegalArgumentException("Argumento inválido");
 
-        Estrategia.setN_dragoes(n_dragoes);
-*/
     }
 
     public  void gui_teclas(){
-/*
-        String s  = JOptionPane.showInputDialog("Introduza a tecla necessária para mover o heroi para cima");
-        char up = s.charAt(0);
-
-        s  = JOptionPane.showInputDialog("Introduza a tecla necessária para mover o heroi para a direita");
-        char right = s.charAt(0);
-
-        s  = JOptionPane.showInputDialog("Introduza a tecla necessária para mover o heroi para baixo");
-        char down = s.charAt(0);
-
-        s  = JOptionPane.showInputDialog("Introduza a tecla necessária para mover o heroi para a esquerda");
-        char left = s.charAt(0);
-
-        s  = JOptionPane.showInputDialog("Introduza a tecla necessária para usar os dardos");
-        char darts = s.charAt(0);
 
 
-        Main.getFrame1().getJogo().setMover_baixo(key_events(down));
-
-        Main.getFrame1().getJogo().setMover_cima(key_events(up));
-
-        Main.getFrame1().getJogo().setMover_left(key_events(left));
-
-        Main.getFrame1().getJogo().setMover_right(key_events(right));
-
-        Main.getFrame1().getJogo().setAtira_dardo(key_events(darts));
-*/
     }
 
     public int key_events(char a) {
