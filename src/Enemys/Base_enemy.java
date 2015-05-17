@@ -16,27 +16,30 @@ import java.util.Random;
  */
 public class Base_enemy {
 
-    private char[][] board = Main.getMap().getMapa();
-    private boolean inGame = false;
-    private int posx_b,posy_b;
-    private int posx,posy;
+    public char[][] board = Main.getMap().getMapa();
+    public boolean inGame = false;
+    public int posx_b,posy_b;
+    public int posx,posy;
 
-    private Timer timer;
-    private int timer_delay=70;
+    public Timer timer;
+    public int timer_delay=70;
 
 
     //ANIMACOES
-    private int animation_state = 0;
-    private int cnt=0,atack_cnt=0;
+    public boolean is_walking=true;
+    public int animation_state = 0;
+    public int cnt=0,atack_cnt=0;
+    public int strikes=3;
     /*
        0 -> walking
        1 -> Atacking
      */
 
+    public int life = 100;
 
-    private ArrayList<BufferedImage> Listwalking;
+    public ArrayList<BufferedImage> Listwalking;
     Animator ani_walking;
-    private ArrayList<BufferedImage> Listatack;
+    public ArrayList<BufferedImage> Listatack;
     Animator ani_atack;
 
 
@@ -47,27 +50,20 @@ public class Base_enemy {
 
     public void inic() {
 
-/*
-Inicializar ArrayList de imagens
-Inicializar class de animação
- */
+        /*
+        Inicializar ArrayList de imagens
+        Inicializar class de animação
+         */
 
     }
 
     public void draw (Graphics g){
-        if(inGame){
-            if(animation_state==0) {
 
-            }
-            else if(animation_state==1){
-
-            }
-        }
     }
 
     ActionListener actionListener = new ActionListener() {
         public void actionPerformed(ActionEvent actionEvent) {
-            if(Main.getState()== Main.STATE.GAME){
+            if(Main.getState()== Main.STATE.GAME && is_walking){
                 update_pos();
             }
         }
@@ -164,6 +160,7 @@ Inicializar class de animação
     }
 
     public void inic_pos(){
+
         Random r = new Random();
         int num = r.nextInt(6);
         posy_b = 0;
@@ -187,10 +184,37 @@ Inicializar class de animação
         posy = posx_b * 25;
     }
 
+    public void atack() {
+
+
+        if(ani_atack.isdeu_reset())
+            cnt++;
+
+        if(cnt>4){
+            atack_cnt++;
+            cnt=0;
+        }
+        //a cada 3 ataques, player perde 10% da hp
+        if(atack_cnt== strikes ){
+            atack_cnt=0;
+            Main.getLoja().change_life();
+        }
+    }
+
     //////////////////////////////// GETTER's ////////////////////////////////
 
     public boolean isInGame() {
         return inGame;
+    }
+
+    public int getLife() {
+        return life;
+    }
+
+    //////////////////////////////// SETTER's ////////////////////////////////
+
+    public void setLife(int life) {
+        this.life = life;
     }
 
 }

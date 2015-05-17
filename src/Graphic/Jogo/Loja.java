@@ -118,7 +118,7 @@ public class Loja extends JPanel{
 
     public void newgame() {
         life = 10;
-        coins = 0;
+        coins = 50;
     }
 
 

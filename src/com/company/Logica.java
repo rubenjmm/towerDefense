@@ -1,11 +1,15 @@
 package com.company;
 
+import Buildings.Base_building;
+import Buildings.Type_building;
+import Enemys.Base_enemy;
 import Enemys.Monster_2;
-import Enemys.Zombies_1;
+import Enemys.Monster_1;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 import java.util.Random;
 
 import javax.swing.Timer;
@@ -22,11 +26,16 @@ public class Logica {
     private int delay = 2000; //milliseconds
     private Timer timer;
     private boolean mobs_inic = false;
-    private Zombies_1[] mobs_tipo1;
-    private Monster_2[]  mobs_tipo2;
+    private Base_enemy[] mobs_tipo1;
+    private Base_enemy[]  mobs_tipo2;
 
-    private int number_mobs_t1=10;
-    private int number_mobs_t2=2;
+    //Depende do lvl, e vai estar num dos ficheiros
+    private int number_mobs_t1=1;
+    private int number_mobs_t2=1;
+
+    private boolean building_inic=false;
+    private ArrayList<Base_building> buildings;
+    private Type_building type_b = new Type_building();
 
     public Logica() {
 
@@ -41,9 +50,10 @@ public class Logica {
 
     public void inicializar_mobs(){
 
-        mobs_tipo1 = new Zombies_1[number_mobs_t1];
+        //é preciso alterar... para Base_enemy
+        mobs_tipo1 = new Monster_1[number_mobs_t1];
         for(int i=0;i<mobs_tipo1.length;i++)
-            mobs_tipo1[i] = new Zombies_1();
+            mobs_tipo1[i] = new Monster_1();
 
         mobs_tipo2 = new Monster_2[number_mobs_t2];
         for(int i=0;i<mobs_tipo2.length;i++)
@@ -62,11 +72,12 @@ public class Logica {
                 mobs_tipo2[i].draw(g);
         }
 
-/*
         if ( building_inic ) {
-            for(int i = 0;i <)
+            for(int i = 0;i <buildings.size();i++ ){
+                buildings.get(i).draw(g);
+            }
 
-        }*/
+        }
 
     }
 
@@ -115,7 +126,12 @@ public class Logica {
         int posx_b= x/24;
         int posy_b= y/25;
 
-        //criar um edificio do tipo                  Main.setHeld_id(0);
+        if (Main.getMap().getMapa()[posx_b][posy_b] == 'g') {
+            buildings.add( type_b.get_building(build_id, posx_b, posy_b));
+            building_inic = true;
+        }
+
+        Main.setHeld_id(0);
     }
 
 

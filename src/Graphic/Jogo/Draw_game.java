@@ -1,9 +1,7 @@
 package Graphic.Jogo;
 
 import Buildings.Building1_sprites;
-import Enemys.Zombies_1;
 import Graphic.Menus.Main_Menu;
-import Graphic.Menus.Main_Mouse;
 import com.company.Main;
 
 import javax.swing.*;
