@@ -59,7 +59,7 @@ public class Monster_1 extends Base_enemy{
     }
 
     public void draw (Graphics g){
-        if(inGame){
+        if(inGame && !is_dead){
 
             if(animation_state==0) {
                 g.drawImage(ani_walking.getSprite(), posx, posy, 39, 32, null); //width & height

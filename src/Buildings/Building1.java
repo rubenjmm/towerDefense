@@ -37,6 +37,10 @@ public class Building1 extends Base_building {
 
     public Building1 (int x,int y) {
 
+        atack_delay = 500;//ms
+
+        inic();
+
         this.posx_b=x;
         this.posy_b=y;
 
@@ -66,7 +70,6 @@ public class Building1 extends Base_building {
         List_8.add(Building1_sprites.getA17());
         List_8.add(Building1_sprites.getA27());
 
-        //timer = new Time(atack_delay , actionListener);
 
     }
 

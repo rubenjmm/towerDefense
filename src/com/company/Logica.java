@@ -135,6 +135,15 @@ public class Logica {
     }
 
 
-    //////////////////////// GETTER AND SETTER ////////////////////////
+    //////////////////////////////// GETTER's ////////////////////////////////
+
+
+    public Base_enemy[] getMobs_tipo2() {
+        return mobs_tipo2;
+    }
+
+    public Base_enemy[] getMobs_tipo1() {
+        return mobs_tipo1;
+    }
 
 }

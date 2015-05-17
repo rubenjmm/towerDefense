@@ -36,6 +36,7 @@ public class Base_enemy {
      */
 
     public int life = 100;
+    public boolean is_dead = false;
 
     public ArrayList<BufferedImage> Listwalking;
     Animator ani_walking;
@@ -63,7 +64,7 @@ public class Base_enemy {
 
     ActionListener actionListener = new ActionListener() {
         public void actionPerformed(ActionEvent actionEvent) {
-            if(Main.getState()== Main.STATE.GAME && is_walking){
+            if(Main.getState()== Main.STATE.GAME && is_walking && !is_dead){
                 update_pos();
             }
         }
@@ -201,6 +202,20 @@ public class Base_enemy {
         }
     }
 
+    public boolean change_life(int hit) {
+
+        this.life = this.life - hit;
+        if(this.life <= 0) {
+
+            is_dead = true;
+            return true; //mob morreu
+        }
+        else {
+            return false; //mob continua vivo
+        }
+    }
+
+
     //////////////////////////////// GETTER's ////////////////////////////////
 
     public boolean isInGame() {
@@ -213,8 +228,5 @@ public class Base_enemy {
 
     //////////////////////////////// SETTER's ////////////////////////////////
 
-    public void setLife(int life) {
-        this.life = life;
-    }
 
 }

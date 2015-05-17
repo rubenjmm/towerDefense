@@ -6,6 +6,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.Time;
+import java.util.Timer;
 
 /**
  * Created by Ricardo on 12/05/2015.
@@ -15,6 +16,7 @@ public class Base_building {
     public int atack;
     public int posx_b,posy_b;
     public int posx,posy;
+
 
     public Time timer;
     public int atack_delay;
@@ -30,6 +32,20 @@ public class Base_building {
         this.posx_b=x;
         this.posy_b=y;
 
+        inic() ;
+    }
+
+    ActionListener actionListener = new ActionListener() {
+        public void actionPerformed(ActionEvent actionEvent) {
+            if(Main.getState()== Main.STATE.GAME){
+                atack();
+            }
+        }
+    };
+
+    public void inic() {
+
+        timer = new Timer( atack_delay ,actionListener);
     }
 
     public void draw(Graphics g) {
@@ -42,15 +58,6 @@ public class Base_building {
         //encontrar um mob vivo
 
     }
-
-
-    ActionListener actionListener = new ActionListener() {
-        public void actionPerformed(ActionEvent actionEvent) {
-            if(Main.getState()== Main.STATE.GAME){
-                atack();
-            }
-        }
-    };
 
     public void atack() {
 
@@ -69,8 +76,6 @@ public class Base_building {
     public void change_pos() {
 
     }
-
-
 
 
 }

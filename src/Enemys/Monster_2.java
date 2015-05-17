@@ -13,6 +13,8 @@ import java.util.ArrayList;
 public class Monster_2  extends Base_enemy{
 
 
+    public boolean died = false;
+
     /*
        0 -> Walking
        1 -> Atack
@@ -94,7 +96,7 @@ public class Monster_2  extends Base_enemy{
 
     public void draw (Graphics g){
 
-        if(inGame){
+        if(inGame && !is_dead){
 
             if(animation_state==0){
                 is_walking=true;
@@ -116,15 +118,16 @@ public class Monster_2  extends Base_enemy{
                 if(ani_reborn.isdeu_reset())
                     animation_state=0;//começa andar
             }
-            else if(animation_state==3) {
+        }
+        else if( is_dead && !died) {
+
                 is_walking = false;
                 g.drawImage(ani_death.getSprite(), posx, posy-15, 43, 43, null);
                 ani_death.update(System.currentTimeMillis());
                 if (ani_reborn.isdeu_reset()) {
-                    animation_state = 5;//no more animations^^
                     ani_death.stop();
+                    died = true;
                 }
-            }
         }
     }
 
