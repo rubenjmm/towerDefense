@@ -4,74 +4,58 @@ import com.company.Main;
 
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import java.awt.event.MouseMotionListener;
 
 /**
  * Created by Ricardo on 27/04/2015.
  */
-public class Jogo_MouseInput implements MouseListener {
+public class Jogo_MouseInput implements MouseListener,MouseMotionListener {
 
     @Override
-    public void mousePressed(MouseEvent e) {
-
-        int mx = e.getX();
-        int my = e.getY();
-
-        if(Main.getState() == Main.STATE.GAME) {
-
-            //Playbutton
-            if (mx >= 150 && mx <= 250) {
-                if (my >= 200 && my <= 250) {
-                    Main.setState('G');
-                    //f.setVisible(false);
-                    //f.dispose();
-                }
-            }
-
-            //helpButton
-            if (mx >= 400 && mx <= 500) {
-                if (my >= 200 && my <= 250) {
-
-                }
-            }
-            //closeButton
-            if (mx >= 650 && mx <= 750) {
-                if (my >= 200 && my <= 250) {
-                    //System.exit(0);
-                }
-            }
-
-            //loadButton
-            if (mx >= 280 && mx <= 380) {
-                if (my >= 300 && my <= 350) {
-
-                }
-            }
-            //saveButton
-            if (mx >= 530 && mx <= 630) {
-                if (my >= 300 && my <= 350) {
-
-                }
-            }
+    public void mouseMoved(MouseEvent e) {
 
 
-            //optionsButton
-            if (mx >= 400 && mx <= 530) {
-                if (my >= 400 && my <= 450) {
-
-                }
-            }
+        if( Main.isHelditem() ) {
+            Main.setMouse_x(e.getX());
+            Main.setMouse_y(e.getY());
         }
-
     }
-
 
     @Override
     public void mouseClicked(MouseEvent e) {
 
+
+        if (  Main.isHelditem() ) {
+            //was dragging an item
+
+            Main.getGame_logic().place_building(e.getX(),e.getY(), Main.getHeld_id() );
+
+            Main.setHelditem(false);
+            Main.setHeld_id(0);
+
+            Main.setMouse_x(-5);
+            Main.setMouse_y(-5);
+        }
+
+
+
+
     }
 
     @Override
+    public void mousePressed(MouseEvent e) {
+
+
+    }
+
+
+    @Override
     public void mouseEntered(MouseEvent e) {
+
+    }
+
+    @Override
+    public void mouseDragged(MouseEvent e) {
 
     }
 

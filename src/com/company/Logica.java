@@ -53,7 +53,7 @@ public class Logica {
         mobs_inic = true;
     }
 
-    public void draw_mobs(Graphics g){
+    public void draw(Graphics g){
 
         if ( mobs_inic ) {
             for (int i = 0; i < mobs_tipo1.length; i++)
@@ -61,6 +61,13 @@ public class Logica {
             for (int i = 0; i < mobs_tipo2.length; i++)
                 mobs_tipo2[i].draw(g);
         }
+
+/*
+        if ( building_inic ) {
+            for(int i = 0;i <)
+
+        }*/
+
     }
 
     ActionListener actionListener = new ActionListener() {
@@ -103,7 +110,15 @@ public class Logica {
         }
     }
 
-    public Zombies_1[] getMobs() {
-        return mobs_tipo1;
+    public void place_building(int x, int y, int build_id) {
+
+        int posx_b= x/24;
+        int posy_b= y/25;
+
+        //criar um edificio do tipo                  Main.setHeld_id(0);
     }
+
+
+    //////////////////////// GETTER AND SETTER ////////////////////////
+
 }

@@ -20,7 +20,7 @@ public class Main_Mouse implements MouseListener,MouseMotionListener {
     }
 
     @Override
-    public void mousePressed(MouseEvent e) {
+    public void mouseClicked(MouseEvent e) {
 
         int mx = e.getX();
         int my = e.getY();
@@ -115,7 +115,7 @@ public class Main_Mouse implements MouseListener,MouseMotionListener {
     }
 
     @Override
-    public void mouseClicked(MouseEvent e) {
+    public void mousePressed(MouseEvent e) {
 
     }
 

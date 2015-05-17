@@ -17,49 +17,82 @@ public class Loja_Mouse implements MouseListener,MouseMotionListener{
 
         int mx = e.getX();
         int my = e.getY();
-        int cnt=0;
 
         if(mx>= 25&& mx<= 75) {
-            if(my>= 50 && my<= 100){
+
+            if (my >= 50 && my <= 100) {
                 Main.getLoja().setFlag(1);
-                cnt=1;
-            }
-        }
-
-
-        if(mx>= 25&& mx<= 75) {
-            if(my>= 110 && my<= 160 ){
+            } else if (my >= 110 && my <= 160) {
                 Main.getLoja().setFlag(2);
-                cnt=1;
-            }
-        }
-
-        if(mx>= 25&& mx<= 75) {
-            if(my>= 170 && my<= 220){
+            } else if (my >= 170 && my <= 220) {
                 Main.getLoja().setFlag(3);
-                cnt=1;
-            }
-        }
-
-        if(mx>= 25&& mx<= 75) {
-            if(my>= 230 && my<= 280){
+            } else if (my >= 230 && my <= 280) {
                 Main.getLoja().setFlag(4);
-                cnt=1;
-            }
-        }
-
-        if(mx>= 25&& mx<= 75) {
-            if(my>= 290 && my<= 340){
+            } else if (my >= 290 && my <= 340) {
                 Main.getLoja().setFlag(5);
-                cnt=1;
+            }
+            else {
+                Main.getLoja().setFlag(0);
             }
         }
-
-        if(cnt == 0) {
+        else {
             Main.getLoja().setFlag(0);
         }
 
-        //Main.getLoja().hightlight();
+    }
+
+
+    @Override
+    public void mouseClicked(MouseEvent e) {
+
+        int mx = e.getX();
+        int my = e.getY();
+
+        if(mx>= 25&& mx<= 75) {
+
+            if (my >= 50 && my <= 100) {
+                Main.setHelditem(true);
+                Main.setHeld_id(1);
+            } else if (my >= 110 && my <= 160) {
+                Main.setHelditem(true);
+                Main.setHeld_id(2);
+            } else if (my >= 170 && my <= 220) {
+                Main.setHelditem(true);
+                Main.setHeld_id(3);
+            } else if (my >= 230 && my <= 280) {
+                Main.setHelditem(true);
+                Main.setHeld_id(4);
+            } else if (my >= 290 && my <= 340) {
+                Main.setHelditem(true);
+                Main.setHeld_id(5);
+            }
+            else {
+                Main.setHelditem(false);
+                Main.setHeld_id(0);
+            }
+        }
+        else {
+            Main.setHelditem(false);
+            Main.setHeld_id(0);
+        }
+
+    }
+
+
+
+
+
+    @Override
+    public void mousePressed(MouseEvent e) {
+
+
+    }
+
+
+    @Override
+    public void mouseReleased(MouseEvent e) {
+
+
     }
 
     @Override
@@ -69,37 +102,6 @@ public class Loja_Mouse implements MouseListener,MouseMotionListener{
 
     @Override
     public void mouseExited(MouseEvent e) {
-/*
-        int mx = e.getX();
-        int my = e.getY();
-
-        if(mx>= 25&& mx<= 75) {
-            if( (my>= 50 && my<= 100 )  ||   (my>= 110 && my<= 160)    ||    (my>= 230 && my<= 280)      ||     (my>= 290 && my<= 340)   ){
-                Main.getLoja().setFlag(0);
-                System.out.println("EXITEDS");
-            }
-        }
-*/
-    }
-
-    @Override
-    public void mouseClicked(MouseEvent e) {
-
-    }
-
-    @Override
-    public void mousePressed(MouseEvent e) {
-
-        int mx = e.getX();
-        int my = e.getY();
-        int cnt=0;
-
-        if(mx>= 25&& mx<= 75) {
-            if(my>= 50 && my<= 100){
-                Main.getLoja().setFlag(1);
-                cnt=1;
-            }
-        }
 
     }
 
@@ -107,10 +109,6 @@ public class Loja_Mouse implements MouseListener,MouseMotionListener{
     @Override
     public void mouseDragged(MouseEvent e) {
 
-    }
-
-    @Override
-    public void mouseReleased(MouseEvent e) {
 
     }
 

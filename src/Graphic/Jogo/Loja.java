@@ -1,5 +1,6 @@
 package Graphic.Jogo;
 
+import Buildings.Building1_sprites;
 import com.company.Main;
 
 import javax.imageio.ImageIO;
@@ -61,13 +62,15 @@ public class Loja extends JPanel{
     private ArrayList<BufferedImage> Listcoins;
     Animator ani_coin;
 
-    private BufferedImage Building1;
+    private BufferedImage Building1 = Building1_sprites.getA11();
 
     private Timer timer;
 
     public Loja() {
 
         this.addMouseMotionListener(new Loja_Mouse());
+        this.addMouseListener(new Loja_Mouse());
+
         setPreferredSize(new Dimension(WIDTH,HEIGHT));
         setBackground(Color.darkGray);
 
@@ -95,7 +98,6 @@ public class Loja extends JPanel{
             coin5 =     ImageIO.read(new File("Textures/Loja/Coin5.png"));
             coin6 =     ImageIO.read(new File("Textures/Loja/Coin6.png"));
 
-            Building1 = ImageIO.read(new File("Textures/Buildings/1/A1_1.png"));
 
         } catch (IOException e) {
 
@@ -141,7 +143,6 @@ public class Loja extends JPanel{
         draw_gold(g);
         draw_rectangles(g);
         draw_build1(g);
-
     }
 
     private void draw_life(Graphics g){
@@ -193,7 +194,7 @@ public class Loja extends JPanel{
     }
 
     private void draw_rectangles(Graphics g){
-//experimentar g.drawimage() em vez dos rectângulos
+
         Graphics2D g2d = (Graphics2D) g;
 
 
@@ -249,6 +250,7 @@ public class Loja extends JPanel{
         g.setColor(Color.YELLOW);
         g.drawString("15",60,61);
     }
+
 
     private void change_coin(int amount) {
         coins = coins + amount ;

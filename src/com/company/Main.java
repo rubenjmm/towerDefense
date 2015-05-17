@@ -1,5 +1,6 @@
 package com.company;
 
+import Buildings.Building1_sprites;
 import Enemys.Monster1_sprites;
 import Enemys.Monster2_sprites;
 import Graphic.Jogo.Frame;
@@ -25,12 +26,22 @@ public class Main {
     };
 
 
+
+    private static boolean helditem = false;
+    private static int     held_id = 0;
+    private static int mouse_x,mouse_y;
+
+
+
     private static STATE state = STATE.Main_menu;
 
     public static void main(String[] args) {
-        //Inicializar as texturas dos mobs
+        //Inicializar as texturas
         Monster1_sprites.inic();
         Monster2_sprites.inic();
+        Building1_sprites.inic();
+
+
 
         game_logic = new Logica();
         inic_menu();
@@ -100,6 +111,41 @@ public class Main {
 
     public static Frame getFrame1() {
         return frame1;
+    }
+
+
+
+    public static void setHelditem(boolean held) {
+        helditem = held;
+    }
+
+    public static void setHeld_id(int id) {
+        held_id = id;
+    }
+
+    public static boolean isHelditem() {
+        return helditem;
+    }
+
+    public static int getHeld_id() {
+        return held_id;
+    }
+
+
+    public static int getMouse_x() {
+        return mouse_x;
+    }
+
+    public static void setMouse_x(int mouse_x) {
+        Main.mouse_x = mouse_x;
+    }
+
+    public static int getMouse_y() {
+        return mouse_y;
+    }
+
+    public static void setMouse_y(int mouse_y) {
+        Main.mouse_y = mouse_y;
     }
 
 }
