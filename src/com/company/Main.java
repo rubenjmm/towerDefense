@@ -26,12 +26,9 @@ public class Main {
     };
 
 
-
     private static boolean helditem = false;
     private static int     held_id = 0;
     private static int mouse_x,mouse_y;
-
-
 
     private static STATE state = STATE.Main_menu;
 

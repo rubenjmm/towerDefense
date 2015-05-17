@@ -38,6 +38,15 @@ public class Logica {
     private ArrayList<Base_building> buildings;
     private Type_building type_b = new Type_building();
 
+    ActionListener actionListener = new ActionListener() {
+        public void actionPerformed(ActionEvent actionEvent) {
+            if(Main.getState()== Main.STATE.GAME){
+                mobSpawner();
+                check_life();
+            }
+        }
+    };
+
     public Logica() {
 
         timer = new Timer(delay, actionListener);
@@ -84,15 +93,6 @@ public class Logica {
 
     }
 
-    ActionListener actionListener = new ActionListener() {
-        public void actionPerformed(ActionEvent actionEvent) {
-            if(Main.getState()== Main.STATE.GAME){
-                mobSpawner();
-                check_life();
-            }
-        }
-    };
-
     private void check_life() {
         if( Main.getLoja().getLife()  <= 0){
             //gameover
@@ -129,7 +129,7 @@ public class Logica {
         int posx_b= x/24;
         int posy_b= y/25;
 
-        if (Main.getMap().getMapa()[posx_b][posy_b] == 'g') {
+        if ( Main.getMap().getMapa()[posy_b][posx_b] == 'g') {
             buildings.add( type_b.get_building(build_id, posx_b, posy_b));
             building_inic = true;
         }

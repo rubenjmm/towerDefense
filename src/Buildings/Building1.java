@@ -25,19 +25,10 @@ public class Building1 extends Base_building {
        8 -> left/down
      */
 
- /*   private ArrayList<BufferedImage> List_1;
-    private ArrayList<BufferedImage> List_2;
-    private ArrayList<BufferedImage> List_3;
-    private ArrayList<BufferedImage> List_4;
-    private ArrayList<BufferedImage> List_5;
-    private ArrayList<BufferedImage> List_6;
-    private ArrayList<BufferedImage> List_7;
-    private ArrayList<BufferedImage> List_8;
-*/
-
     public Building1 (int x,int y) {
 
-        atack_delay = 500;//ms
+        atack_delay = 1500;//ms
+        atack = 15; //Damage
 
         inic();
 
@@ -47,43 +38,57 @@ public class Building1 extends Base_building {
         posx=posx_b*24;
         posy=posy_b*25;
 
- /*       List_1 = new ArrayList<BufferedImage>();
-        List_2 = new ArrayList<BufferedImage>();
-        List_3 = new ArrayList<BufferedImage>();
-        List_4 = new ArrayList<BufferedImage>();
-        List_5 = new ArrayList<BufferedImage>();
-        List_6 = new ArrayList<BufferedImage>();
-        List_7 = new ArrayList<BufferedImage>();
-        List_8 = new ArrayList<BufferedImage>();
-
-        List_1.add(Building1_sprites.getA15());
-        List_1.add(Building1_sprites.getA25());
-
-        List_2.add(Building1_sprites.getA13());
-        List_2.add(Building1_sprites.getA23());
-
-        List_3.add(Building1_sprites.getA12());
-        List_3.add(Building1_sprites.getA22());
-
-        List_4.add(Building1_sprites.getA14());
-        List_4.add(Building1_sprites.getA24());
-
-        List_5.add(Building1_sprites.getA16());
-        List_5.add(Building1_sprites.getA26());
-
-        List_6.add(Building1_sprites.getA18());
-        List_6.add(Building1_sprites.getA28());
-
-        List_7.add(Building1_sprites.getA11());
-        List_7.add(Building1_sprites.getA21());
-
-        List_8.add(Building1_sprites.getA17());
-        List_8.add(Building1_sprites.getA27());
-*/
-
-        //TESTE
+        // Default image
         img1 = Building1_sprites.getA11();
         img2 = Building1_sprites.getA21();
+    }
+
+    @Override
+    public void change_animation() {
+
+        if(animation_state==1){
+            img1=Building1_sprites.getA15();
+            img2=Building1_sprites.getA25();
+
+        }
+        else if(animation_state==2) {
+
+            img1=Building1_sprites.getA13();
+            img2=Building1_sprites.getA23();
+
+        }
+        else if(animation_state==3) {
+
+            img1=Building1_sprites.getA12();
+            img2=Building1_sprites.getA22();
+        }
+        else if(animation_state==4) {
+
+            img1=Building1_sprites.getA14();
+            img2=Building1_sprites.getA24();
+        }
+        else if(animation_state==5) {
+
+            img1=Building1_sprites.getA16();
+            img2=Building1_sprites.getA26();
+        }
+        else if(animation_state==6) {
+
+            img1=Building1_sprites.getA18();
+            img2=Building1_sprites.getA28();
+
+        }
+        else if(animation_state==7) {
+
+            img1=Building1_sprites.getA11();
+            img2=Building1_sprites.getA21();
+        }
+        else  {
+
+            img1=Building1_sprites.getA17();
+            img2=Building1_sprites.getA27();
+        }
+
     }
 
 }
