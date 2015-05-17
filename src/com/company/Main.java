@@ -39,7 +39,6 @@ public class Main {
         Building1_sprites.inic();
 
 
-
         game_logic = new Logica();
         inic_menu();
     }

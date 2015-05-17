@@ -104,14 +104,13 @@ public class Monster_2  extends Base_enemy{
                 is_walking=true;
                 g.drawImage(ani_walking.getSprite(), posx, posy-15, 43, 43, null);
                 ani_walking.update(System.currentTimeMillis());
-                //se morrer animation_state=3
             }
             else if(animation_state==1) {
                 is_walking=false;
                 g.drawImage(ani_atack.getSprite(), posx, posy-15,  43, 43, null);
                 ani_atack.update(System.currentTimeMillis());
                 atack();
-                //se morrer animation_state=3;
+
             }
             else if(animation_state==2) {
                 is_walking=false;
@@ -121,12 +120,12 @@ public class Monster_2  extends Base_enemy{
                     animation_state=0;//começa andar
             }
         }
-        else if( is_dead && !died) {
+        else if( inGame && is_dead && !died ) {
 
                 is_walking = false;
                 g.drawImage(ani_death.getSprite(), posx, posy-15, 43, 43, null);
                 ani_death.update(System.currentTimeMillis());
-                if (ani_reborn.isdeu_reset()) {
+                if (ani_death.isdeu_reset()) {
                     ani_death.stop();
                     died = true;
                 }

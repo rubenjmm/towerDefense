@@ -13,7 +13,6 @@ public class Building1 extends Base_building {
 
 
     //ANIMACOES
-    private int animation_state = 7;
     /*
        1 -> left
        2 -> left/up
@@ -46,39 +45,39 @@ public class Building1 extends Base_building {
     @Override
     public void change_animation() {
 
-        if(animation_state==1){
+        if(animation_actual_state==1){
             img1=Building1_sprites.getA15();
             img2=Building1_sprites.getA25();
 
         }
-        else if(animation_state==2) {
+        else if(animation_actual_state==2) {
 
             img1=Building1_sprites.getA13();
             img2=Building1_sprites.getA23();
 
         }
-        else if(animation_state==3) {
+        else if(animation_actual_state==3) {
 
             img1=Building1_sprites.getA12();
             img2=Building1_sprites.getA22();
         }
-        else if(animation_state==4) {
+        else if(animation_actual_state==4) {
 
             img1=Building1_sprites.getA14();
             img2=Building1_sprites.getA24();
         }
-        else if(animation_state==5) {
+        else if(animation_actual_state==5) {
 
             img1=Building1_sprites.getA16();
             img2=Building1_sprites.getA26();
         }
-        else if(animation_state==6) {
+        else if(animation_actual_state==6) {
 
             img1=Building1_sprites.getA18();
             img2=Building1_sprites.getA28();
 
         }
-        else if(animation_state==7) {
+        else if(animation_actual_state==7) {
 
             img1=Building1_sprites.getA11();
             img2=Building1_sprites.getA21();
@@ -89,6 +88,7 @@ public class Building1 extends Base_building {
             img2=Building1_sprites.getA27();
         }
 
+        System.out.println("State->  "+animation_actual_state);System.out.println("Next State->  "+animation_next_state);
     }
 
 }

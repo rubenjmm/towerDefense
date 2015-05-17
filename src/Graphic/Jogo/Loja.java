@@ -251,13 +251,17 @@ public class Loja extends JPanel{
         g.drawString("15",60,61);
     }
 
-
-    private void change_coin(int amount) {
-        coins = coins + amount ;
+    public void change_coin(int amount) {
+        coins = coins - amount ;
     }
+
+    //////////////////////////////// GETTER's ////////////////////////////////
 
     public int getLife() {
         return life;
     }
 
+    public int getCoins() {
+        return coins;
+    }
 }

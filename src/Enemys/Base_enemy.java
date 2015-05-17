@@ -215,7 +215,9 @@ public class Base_enemy {
         }
     }
 
-
+    public void disable_e() {
+        timer.stop();
+    }
     //////////////////////////////// GETTER's ////////////////////////////////
 
     public boolean isInGame() {

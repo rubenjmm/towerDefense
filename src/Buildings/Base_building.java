@@ -29,8 +29,8 @@ public class Base_building {
     public int mob_x,mob_y;
     public int mob_index,mob_type;
 
-    private int animation_actual_state = 7;
-    private int animation_next_state   = 7;
+    public int animation_actual_state = 7;
+    public int animation_next_state   = 7;
     /*
        1 -> left
        2 -> left/up
@@ -45,10 +45,12 @@ public class Base_building {
     public BufferedImage img1;
     public BufferedImage img2;
 
+    public boolean disabled = false;
     ActionListener timer_listener = new ActionListener() {
         public void actionPerformed(ActionEvent actionEvent) {
-            if(Main.getState()== Main.STATE.GAME){
+            if(Main.getState()== Main.STATE.GAME && !disabled){
                 atack();
+
             }
         }
     };
@@ -126,8 +128,6 @@ public class Base_building {
 
     public void atack() {
 
-        System.out.println("KJKKE");
-
         if( first_atack ){
             find_target();
             first_atack = false;
@@ -204,6 +204,13 @@ public class Base_building {
     public void change_animation() {
 
         //altera as imagens consoante a animação
+    }
+
+    public void disable_b() {
+
+        timer.setRepeats(false);
+        timer.stop();
+        disabled=true;
     }
 
     //falta o efeito..

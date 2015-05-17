@@ -57,7 +57,8 @@ public class Logica {
     public void new_game() {
 
         inicializar_mobs(); //lvl1
-        timer.start();
+        inicializar_buildings();
+        timer.restart();
     }
 
     public void inicializar_mobs(){
@@ -130,13 +131,36 @@ public class Logica {
         int posy_b= y/25;
 
         if ( Main.getMap().getMapa()[posy_b][posx_b] == 'g') {
+
+            atualizar_gold(build_id);
+
             buildings.add( type_b.get_building(build_id, posx_b, posy_b));
             building_inic = true;
         }
 
+
         Main.setHeld_id(0);
     }
 
+    public void inicializar_buildings() {
+
+        for(int i =0; i<buildings.size();i++) {
+            buildings.get(i).disable_b();
+        }
+
+        buildings = new ArrayList<Base_building>();
+    }
+
+    public void atualizar_gold(int id) {
+
+        if (id==1) {
+            //15g
+            Main.getLoja().change_coin(15);
+        }
+        else if( id==2 ) {
+
+        }
+    }
 
     //////////////////////////////// GETTER's ////////////////////////////////
 
