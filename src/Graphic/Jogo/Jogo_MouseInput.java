@@ -28,7 +28,7 @@ public class Jogo_MouseInput implements MouseListener,MouseMotionListener {
         if (  Main.isHelditem() ) {
             //was dragging an item
 
-            Main.getGame_logic().place_building(e.getX(),e.getY(), Main.getHeld_id() );
+            Main.getGame_logic().place_building(e.getX()-30,e.getY()-20, Main.getHeld_id() );
 
             Main.setHelditem(false);
             Main.setHeld_id(0);
@@ -36,9 +36,6 @@ public class Jogo_MouseInput implements MouseListener,MouseMotionListener {
             Main.setMouse_x(-5);
             Main.setMouse_y(-5);
         }
-
-
-
 
     }
 

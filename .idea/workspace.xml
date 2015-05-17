@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4e87502-f8fd-496e-af93-0cf0ddcbd433" name="Default" comment="">
+      <change type="DELETED" beforePath="E:\Java_Projetcts\Projeto Final\out\production\Projeto Final\Enemys\Zombies_1.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Draw_game$Action_listener.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Draw_game$Action_listener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Draw_game.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Draw_game.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/com/company/Logica$1.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/com/company/Logica$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/com/company/Logica.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/com/company/Logica.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Enemys/Monster_2.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Enemys/Monster_2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buildings/Base_building.java" afterPath="$PROJECT_DIR$/src/Buildings/Base_building.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/Base_enemy.java" afterPath="$PROJECT_DIR$/src/Enemys/Base_enemy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buildings/Building1.java" afterPath="$PROJECT_DIR$/src/Buildings/Building1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Graphic/Jogo/Jogo_MouseInput.java" afterPath="$PROJECT_DIR$/src/Graphic/Jogo/Jogo_MouseInput.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Logica.java" afterPath="$PROJECT_DIR$/src/com/company/Logica.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/Monster_1.java" afterPath="$PROJECT_DIR$/src/Enemys/Monster_1.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/Monster_2.java" afterPath="$PROJECT_DIR$/src/Enemys/Monster_2.java" />
@@ -49,10 +56,11 @@
       <file leaf-file-name="Logica.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Logica.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="769" max-vertical-offset="1496">
-              <caret line="147" column="0" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="543" max-vertical-offset="1462">
+              <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#Logica#0;class#Logica#0" expanded="false" />
                 <element signature="method#new_game#0;class#Logica#0" expanded="false" />
                 <element signature="method#inicializar_mobs#0;class#Logica#0" expanded="false" />
                 <element signature="method#draw#0;class#Logica#0" expanded="false" />
@@ -63,51 +71,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Base_enemy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Enemys/Base_enemy.java">
+      <file leaf-file-name="Jogo_MouseInput.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Jogo_MouseInput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="821" max-vertical-offset="1564">
-              <caret line="212" column="14" selection-start-line="212" selection-start-column="14" selection-end-line="212" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="1190">
+              <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
               <folding>
-                <element signature="method#inic#0;class#Base_enemy#0" expanded="false" />
-                <element signature="method#draw#0;class#Base_enemy#0" expanded="false" />
-                <element signature="method#update_pos#0;class#Base_enemy#0" expanded="false" />
-                <element signature="method#random_pos#0;class#Base_enemy#0" expanded="false" />
-                <element signature="method#update_boardpos#0;class#Base_enemy#0" expanded="false" />
-                <element signature="method#Spawnmob#0;class#Base_enemy#0" expanded="false" />
-                <element signature="method#inic_pos#0;class#Base_enemy#0" expanded="false" />
-                <element signature="method#atack#0;class#Base_enemy#0" expanded="false" />
+                <element signature="method#mouseMoved#0;class#Jogo_MouseInput#0" expanded="false" />
+                <element signature="method#mousePressed#0;class#Jogo_MouseInput#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Monster_2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Enemys/Monster_2.java">
+      <file leaf-file-name="Draw_game.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Draw_game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1309">
-              <caret line="128" column="32" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.48028168" vertical-offset="305" max-vertical-offset="1224">
+              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#inic#0;class#Monster_2#0" expanded="false" />
+                <element signature="class#Action_listener#0;class#Draw_game#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Base_building.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Base_building.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Buildings/Base_building.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47464788" vertical-offset="292" max-vertical-offset="1122">
-              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="762" max-vertical-offset="1683">
+              <caret line="139" column="10" selection-start-line="139" selection-start-column="10" selection-end-line="139" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Base_building#0;class#Base_building#0" expanded="false" />
-                <element signature="e#644#835#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="method#draw#0;class#Base_building#0" expanded="false" />
                 <element signature="method#find_target#0;class#Base_building#0" expanded="false" />
                 <element signature="method#atack#0;class#Base_building#0" expanded="false" />
+                <element signature="method#change_pos#0;class#Base_building#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -116,8 +115,8 @@
       <file leaf-file-name="Building1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Buildings/Building1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="395" max-vertical-offset="1445">
-              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="514" max-vertical-offset="1615">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,16 +173,16 @@
         <option value="$PROJECT_DIR$/src/Buildings/Building1_sprites.java" />
         <option value="$PROJECT_DIR$/src/Graphic/Jogo/Draw_game.java" />
         <option value="$PROJECT_DIR$/src/Graphic/Jogo/Loja_Mouse.java" />
-        <option value="$PROJECT_DIR$/src/Graphic/Jogo/Jogo_MouseInput.java" />
         <option value="$PROJECT_DIR$/src/Graphic/Jogo/Loja.java" />
         <option value="$PROJECT_DIR$/src/Buildings/Type_building.java" />
         <option value="$PROJECT_DIR$/src/Enemys/Zombies_1.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Logica.java" />
         <option value="$PROJECT_DIR$/src/Enemys/Base_enemy.java" />
-        <option value="$PROJECT_DIR$/src/Enemys/Monster_1.java" />
-        <option value="$PROJECT_DIR$/src/Enemys/Monster_2.java" />
         <option value="$PROJECT_DIR$/src/Buildings/Base_building.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Logica.java" />
         <option value="$PROJECT_DIR$/src/Buildings/Building1.java" />
+        <option value="$PROJECT_DIR$/src/Graphic/Jogo/Jogo_MouseInput.java" />
+        <option value="$PROJECT_DIR$/src/Enemys/Monster_2.java" />
+        <option value="$PROJECT_DIR$/src/Enemys/Monster_1.java" />
       </list>
     </option>
   </component>
@@ -216,6 +215,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -262,29 +263,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Load_Save" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projeto Final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projeto Final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Graphic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Menus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -364,24 +343,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projeto Final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projeto Final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saves" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -606,7 +569,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431881179655</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adding buildings part1">
+      <created>1431882745752</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1431882745752</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -647,7 +616,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -657,6 +625,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -678,11 +647,12 @@
     <MESSAGE value="qqq" />
     <MESSAGE value="Building1 a funcionar +/-" />
     <MESSAGE value="Enemys partilham todos a msm classe base" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enemys partilham todos a msm classe base" />
+    <MESSAGE value="adding buildings part1" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding buildings part1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="111" />
+      <option name="time" value="114" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -920,7 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7661972" vertical-offset="0" max-vertical-offset="1479">
           <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -928,9 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1267606" vertical-offset="968" max-vertical-offset="1887">
           <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
-          <folding>
-            <element signature="method#inic#0;class#Monster2_sprites#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -938,7 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11971831" vertical-offset="0" max-vertical-offset="710">
           <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -946,7 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.215493" vertical-offset="446" max-vertical-offset="1513">
           <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -954,7 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40704226" vertical-offset="0" max-vertical-offset="710">
           <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -975,7 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.75609756" vertical-offset="323" max-vertical-offset="4318">
           <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,22 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4549296" vertical-offset="0" max-vertical-offset="1649">
           <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
-          <folding>
-            <element signature="e#1820#1821#0" expanded="false" />
-            <element signature="e#1850#1851#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Jogo_MouseInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32394367" vertical-offset="76" max-vertical-offset="935">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="method#mouseMoved#0;class#Jogo_MouseInput#0" expanded="false" />
-            <element signature="method#mouseClicked#0;class#Jogo_MouseInput#0" expanded="false" />
-            <element signature="method#mousePressed#0;class#Jogo_MouseInput#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1014,14 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.64507043" vertical-offset="154" max-vertical-offset="2261">
           <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="e#2449#2450#0" expanded="true" />
-            <element signature="e#2489#2490#0" expanded="true" />
-            <element signature="e#2532#2533#0" expanded="true" />
-            <element signature="e#2571#2572#0" expanded="true" />
-            <element signature="e#2617#2618#0" expanded="true" />
-            <element signature="e#2656#2657#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,6 +980,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Enemys/Monster1_sprites.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3774648" vertical-offset="616" max-vertical-offset="1870">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Enemys/Base_enemy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6887324" vertical-offset="701" max-vertical-offset="1802">
+          <caret line="174" column="11" selection-start-line="174" selection-start-column="11" selection-end-line="174" selection-end-column="24" />
+          <folding>
+            <element signature="method#inic#0;class#Base_enemy#0" expanded="false" />
+            <element signature="method#draw#0;class#Base_enemy#0" expanded="false" />
+            <element signature="method#update_pos#0;class#Base_enemy#0" expanded="false" />
+            <element signature="method#random_pos#0;class#Base_enemy#0" expanded="false" />
+            <element signature="method#update_boardpos#0;class#Base_enemy#0" expanded="false" />
+            <element signature="method#Spawnmob#0;class#Base_enemy#0" expanded="false" />
+            <element signature="method#atack#0;class#Base_enemy#0" expanded="false" />
+            <element signature="method#change_life#0;class#Base_enemy#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="2023">
@@ -1055,47 +1018,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Buildings/Building1_sprites.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35352114" vertical-offset="361" max-vertical-offset="1870">
+        <state vertical-scroll-proportion="0.01830986" vertical-offset="599" max-vertical-offset="1870">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Buildings/Building1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="514" max-vertical-offset="1615">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Building1_sprites#0;class#Building1_sprites#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Buildings/Type_building.java">
+    <entry file="file://$PROJECT_DIR$/src/Buildings/Base_building.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Enemys/Monster1_sprites.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3774648" vertical-offset="616" max-vertical-offset="1870">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Draw_game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59859157" vertical-offset="0" max-vertical-offset="1224">
-          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="796" max-vertical-offset="1717">
+          <caret line="139" column="10" selection-start-line="139" selection-start-column="10" selection-end-line="139" selection-end-column="10" />
           <folding>
-            <element signature="class#Action_listener#0;class#Draw_game#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#Base_building#0;class#Base_building#0" expanded="false" />
+            <element signature="method#find_target#0;class#Base_building#0" expanded="false" />
+            <element signature="method#atack#0;class#Base_building#0" expanded="false" />
+            <element signature="method#change_pos#0;class#Base_building#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Logica.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="769" max-vertical-offset="1496">
-          <caret line="147" column="0" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="543" max-vertical-offset="1462">
+          <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#Logica#0;class#Logica#0" expanded="false" />
             <element signature="method#new_game#0;class#Logica#0" expanded="false" />
             <element signature="method#inicializar_mobs#0;class#Logica#0" expanded="false" />
             <element signature="method#draw#0;class#Logica#0" expanded="false" />
@@ -1105,38 +1063,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Enemys/Base_enemy.java">
+    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Jogo_MouseInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="821" max-vertical-offset="1564">
-          <caret line="212" column="14" selection-start-line="212" selection-start-column="14" selection-end-line="212" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="1190">
+          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
           <folding>
-            <element signature="method#inic#0;class#Base_enemy#0" expanded="false" />
-            <element signature="method#draw#0;class#Base_enemy#0" expanded="false" />
-            <element signature="method#update_pos#0;class#Base_enemy#0" expanded="false" />
-            <element signature="method#random_pos#0;class#Base_enemy#0" expanded="false" />
-            <element signature="method#update_boardpos#0;class#Base_enemy#0" expanded="false" />
-            <element signature="method#Spawnmob#0;class#Base_enemy#0" expanded="false" />
-            <element signature="method#inic_pos#0;class#Base_enemy#0" expanded="false" />
-            <element signature="method#atack#0;class#Base_enemy#0" expanded="false" />
+            <element signature="method#mouseMoved#0;class#Jogo_MouseInput#0" expanded="false" />
+            <element signature="method#mousePressed#0;class#Jogo_MouseInput#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Enemys/Monster_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71971834" vertical-offset="509" max-vertical-offset="1241">
-          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.35352114" vertical-offset="140" max-vertical-offset="1496">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#draw#0;class#Monster_1#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Enemys/Monster_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1309">
-          <caret line="128" column="32" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.7140845" vertical-offset="3" max-vertical-offset="1309">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#inic#0;class#Monster_2#0" expanded="false" />
@@ -1144,28 +1095,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Buildings/Building1.java">
+    <entry file="file://$PROJECT_DIR$/src/Buildings/Type_building.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="395" max-vertical-offset="1445">
-          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.2633803" vertical-offset="0" max-vertical-offset="710">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Buildings/Base_building.java">
+    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Draw_game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47464788" vertical-offset="292" max-vertical-offset="1122">
-          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.48028168" vertical-offset="305" max-vertical-offset="1224">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Base_building#0;class#Base_building#0" expanded="false" />
-            <element signature="e#644#835#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="method#draw#0;class#Base_building#0" expanded="false" />
-            <element signature="method#find_target#0;class#Base_building#0" expanded="false" />
-            <element signature="method#atack#0;class#Base_building#0" expanded="false" />
+            <element signature="class#Action_listener#0;class#Draw_game#0" expanded="false" />
           </folding>
         </state>
       </provider>

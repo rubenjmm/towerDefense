@@ -25,7 +25,7 @@ public class Building1 extends Base_building {
        8 -> left/down
      */
 
-    private ArrayList<BufferedImage> List_1;
+ /*   private ArrayList<BufferedImage> List_1;
     private ArrayList<BufferedImage> List_2;
     private ArrayList<BufferedImage> List_3;
     private ArrayList<BufferedImage> List_4;
@@ -33,7 +33,7 @@ public class Building1 extends Base_building {
     private ArrayList<BufferedImage> List_6;
     private ArrayList<BufferedImage> List_7;
     private ArrayList<BufferedImage> List_8;
-
+*/
 
     public Building1 (int x,int y) {
 
@@ -44,7 +44,17 @@ public class Building1 extends Base_building {
         this.posx_b=x;
         this.posy_b=y;
 
-        atack_delay = 500; //ms
+        posx=posx_b*24;
+        posy=posy_b*25;
+
+ /*       List_1 = new ArrayList<BufferedImage>();
+        List_2 = new ArrayList<BufferedImage>();
+        List_3 = new ArrayList<BufferedImage>();
+        List_4 = new ArrayList<BufferedImage>();
+        List_5 = new ArrayList<BufferedImage>();
+        List_6 = new ArrayList<BufferedImage>();
+        List_7 = new ArrayList<BufferedImage>();
+        List_8 = new ArrayList<BufferedImage>();
 
         List_1.add(Building1_sprites.getA15());
         List_1.add(Building1_sprites.getA25());
@@ -69,11 +79,11 @@ public class Building1 extends Base_building {
 
         List_8.add(Building1_sprites.getA17());
         List_8.add(Building1_sprites.getA27());
+*/
 
-
+        //TESTE
+        img1 = Building1_sprites.getA11();
+        img2 = Building1_sprites.getA21();
     }
-
-
-
 
 }

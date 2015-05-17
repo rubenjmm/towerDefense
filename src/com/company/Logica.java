@@ -9,6 +9,7 @@ import Enemys.Monster_1;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -40,6 +41,8 @@ public class Logica {
     public Logica() {
 
         timer = new Timer(delay, actionListener);
+        buildings= new ArrayList<Base_building>();
+
     }
 
     public void new_game() {

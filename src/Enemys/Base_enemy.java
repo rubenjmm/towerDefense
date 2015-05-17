@@ -222,11 +222,15 @@ public class Base_enemy {
         return inGame;
     }
 
-    public int getLife() {
-        return life;
+    public int getPosx() {
+        return posx;
     }
 
-    //////////////////////////////// SETTER's ////////////////////////////////
+    public int getPosy() {
+        return posy;
+    }
+
+//////////////////////////////// SETTER's ////////////////////////////////
 
 
 }

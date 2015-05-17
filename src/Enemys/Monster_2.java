@@ -30,6 +30,8 @@ public class Monster_2  extends Base_enemy{
 
     public void inic() {
 
+        life = 150;
+
         strikes = 1;
         animation_state=2;
         is_walking=false;
