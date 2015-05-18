@@ -1,9 +1,6 @@
 package Buildings;
 
 
-import java.awt.image.BufferedImage;
-import java.sql.Time;
-import java.util.ArrayList;
 
 /**
  * Created by Ricardo on 17/05/2015.
@@ -88,7 +85,6 @@ public class Building1 extends Base_building {
             img2=Building1_sprites.getA27();
         }
 
-        System.out.println("State->  "+animation_actual_state);System.out.println("Next State->  "+animation_next_state);
     }
 
 }

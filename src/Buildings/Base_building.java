@@ -18,8 +18,7 @@ public class Base_building {
     public int posx_b,posy_b;
     public int posx,posy;
 
-    public  int contador=0;
-    public long time=0;
+    public long time=0,time2=0;
 
     public Timer timer;
 
@@ -74,14 +73,14 @@ public class Base_building {
 
         timer = new Timer(atack_delay,timer_listener);
         timer.start();
+        time2= System.currentTimeMillis();
     }
 
     public void draw(Graphics g) {
 
-        //a cada 8 iterações verificar a posicao relativa do mob face à torre
-        if( contador++ > 8){
-            contador=0;
-            verify_pos();
+        //a cada 250ms verificar a posicao relativa do mob face à torre
+        if( System.currentTimeMillis() - time > 250){
+             verify_pos();
         }
 
         if(!atacking) {
@@ -89,7 +88,7 @@ public class Base_building {
         }
         else {
             g.drawImage(img2,posx,posy,70,70,null );
-            if( System.currentTimeMillis() - time > 150){ //ao fim de 150ms
+            if( System.currentTimeMillis() - time > 200){ //ao fim de 150ms
                 time = 0;
                 atacking=false;
             }
@@ -199,6 +198,8 @@ public class Base_building {
                 change_animation();
             }
         }
+
+        time2 = System.currentTimeMillis();
     }
 
     public void change_animation() {
