@@ -36,7 +36,6 @@ public class Logica {
     private ArrayList<Base_building> buildings;
     private Type_building type_b = new Type_building();
 
-    private int number_of_buildings=0;
 
     ActionListener actionListener = new ActionListener() {
         public void actionPerformed(ActionEvent actionEvent) {
@@ -133,7 +132,6 @@ public class Logica {
 
             buildings.add( type_b.get_building(build_id, posx_b, posy_b));
             building_inic = true;
-            number_of_buildings++;
         }
 
 
@@ -142,13 +140,9 @@ public class Logica {
 
     public void eliminar_buildings() {
 
-        if( number_of_buildings>0) {
-            for (int i = 0; i < buildings.size(); i++) {
-                buildings.get(i).disable_b();
-            }
-        }
 
-        number_of_buildings=0;
+        buildings.clear();
+        building_inic=false;
     }
 
     public void atualizar_gold(int id) {

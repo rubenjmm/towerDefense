@@ -208,13 +208,6 @@ public class Base_building {
         //altera as imagens consoante a animação
     }
 
-    public void disable_b() {
-
-        timer.setRepeats(false);
-        timer.stop();
-        disabled=true;
-    }
-
     //falta o efeito..
 
 

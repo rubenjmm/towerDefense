@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4e87502-f8fd-496e-af93-0cf0ddcbd433" name="Default" comment="Game is semi Working">
+    <list default="true" id="e4e87502-f8fd-496e-af93-0cf0ddcbd433" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/com/company/Logica.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/com/company/Logica.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buildings/Base_building.java" afterPath="$PROJECT_DIR$/src/Buildings/Base_building.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Logica.java" afterPath="$PROJECT_DIR$/src/com/company/Logica.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -32,27 +33,44 @@
       <file leaf-file-name="Building1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Buildings/Building1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="1360">
-              <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1632">
+              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Base_building.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Buildings/Base_building.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1394">
+              <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
               <folding>
-                <element signature="method#Building1#0;class#Building1#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#Base_building#1;class#Base_building#0" expanded="false" />
+                <element signature="method#inic#0;class#Base_building#0" expanded="false" />
+                <element signature="method#draw#0;class#Base_building#0" expanded="false" />
+                <element signature="method#find_target#0;class#Base_building#0" expanded="false" />
+                <element signature="method#atack#0;class#Base_building#0" expanded="false" />
+                <element signature="method#verify_pos#0;class#Base_building#0" expanded="false" />
+                <element signature="method#change_animation#0;class#Base_building#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Base_building.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Buildings/Base_building.java">
+      <file leaf-file-name="Logica.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Logica.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21573034" vertical-offset="1151" max-vertical-offset="2295">
-              <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.7410228" vertical-offset="1376" max-vertical-offset="2295">
+              <caret line="140" column="37" selection-start-line="140" selection-start-column="37" selection-end-line="140" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#Base_building#1;class#Base_building#0" expanded="false" />
-                <element signature="method#find_target#0;class#Base_building#0" expanded="false" />
-                <element signature="method#verify_pos#0;class#Base_building#0" expanded="false" />
-                <element signature="method#change_animation#0;class#Base_building#0" expanded="false" />
-                <element signature="method#disable_b#0;class#Base_building#0" expanded="false" />
+                <element signature="method#Logica#0;class#Logica#0" expanded="false" />
+                <element signature="method#check_life#0;class#Logica#0" expanded="false" />
+                <element signature="method#mobSpawner#0;class#Logica#0" expanded="false" />
+                <element signature="method#eliminar_buildings#0;class#Logica#0" expanded="false" />
+                <element signature="method#atualizar_gold#0;class#Logica#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -114,8 +132,8 @@
         <option value="$PROJECT_DIR$/src/Enemys/Monster_2.java" />
         <option value="$PROJECT_DIR$/src/Enemys/Base_enemy.java" />
         <option value="$PROJECT_DIR$/src/Graphic/Jogo/Loja.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Logica.java" />
         <option value="$PROJECT_DIR$/src/Buildings/Building1.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Logica.java" />
         <option value="$PROJECT_DIR$/src/Buildings/Base_building.java" />
       </list>
     </option>
@@ -149,6 +167,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -281,7 +300,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -553,7 +571,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431931350791</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Game is  Working">
+      <created>1431992031642</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1431992031642</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -583,14 +607,12 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21964097" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24895833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -598,12 +620,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39915523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21964097" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39915523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -629,7 +653,8 @@
     <MESSAGE value="adding buildings part2&#10;" />
     <MESSAGE value="almost done^^" />
     <MESSAGE value="Game is semi Working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Game is semi Working" />
+    <MESSAGE value="Game is  Working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Game is  Working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -649,10 +674,12 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Base_building#1;class#Base_building#0" expanded="false" />
+            <element signature="method#inic#0;class#Base_building#0" expanded="false" />
+            <element signature="method#draw#0;class#Base_building#0" expanded="false" />
             <element signature="method#find_target#0;class#Base_building#0" expanded="false" />
+            <element signature="method#atack#0;class#Base_building#0" expanded="false" />
             <element signature="method#verify_pos#0;class#Base_building#0" expanded="false" />
             <element signature="method#change_animation#0;class#Base_building#0" expanded="false" />
-            <element signature="method#disable_b#0;class#Base_building#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -912,7 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1859155" vertical-offset="89" max-vertical-offset="1105">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -920,7 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3774648" vertical-offset="616" max-vertical-offset="1870">
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -965,10 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.95218" vertical-offset="156" max-vertical-offset="1836">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#draw#0;class#Monster_2#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -976,19 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28270042" vertical-offset="462" max-vertical-offset="1445">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="method#inic#0;class#Base_enemy#0" expanded="false" />
-            <element signature="method#draw#0;class#Base_enemy#0" expanded="false" />
-            <element signature="method#update_pos#0;class#Base_enemy#0" expanded="false" />
-            <element signature="method#random_pos#0;class#Base_enemy#0" expanded="false" />
-            <element signature="method#update_boardpos#0;class#Base_enemy#0" expanded="false" />
-            <element signature="method#Spawnmob#0;class#Base_enemy#0" expanded="false" />
-            <element signature="method#inic_pos#0;class#Base_enemy#0" expanded="false" />
-            <element signature="method#atack#0;class#Base_enemy#0" expanded="false" />
-            <element signature="method#change_life#0;class#Base_enemy#0" expanded="false" />
-            <element signature="e#4790#4791#0" expanded="true" />
-            <element signature="e#4818#4819#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -996,10 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37834036" vertical-offset="122" max-vertical-offset="833">
           <caret line="62" column="29" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#inic#0;class#Monster_1#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1007,10 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4036568" vertical-offset="36" max-vertical-offset="1190">
           <caret line="30" column="44" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="method#mouseMoved#0;class#Jogo_MouseInput#0" expanded="false" />
-            <element signature="method#mousePressed#0;class#Jogo_MouseInput#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1018,12 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37834036" vertical-offset="241" max-vertical-offset="952">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="method#draw_board#0;class#Mapa#0" expanded="false" />
-            <element signature="method#draw_lvl1#0;class#Mapa#0" expanded="false" />
-            <element signature="method#draw_lvl2#0;class#Mapa#0" expanded="false" />
-            <element signature="method#print_map#0;class#Mapa#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1031,9 +1025,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43037975" vertical-offset="204" max-vertical-offset="1734">
           <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
-          <folding>
-            <element signature="method#mouseMoved#0;class#Loja_Mouse#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1041,7 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.185654" vertical-offset="262" max-vertical-offset="2397">
           <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1049,7 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.95218" vertical-offset="972" max-vertical-offset="1955">
           <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1069,45 +1058,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Logica.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55133617" vertical-offset="764" max-vertical-offset="2006">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#892#1118#0" expanded="true" />
-            <element signature="e#1117#1118#0" expanded="true" />
-            <element signature="method#Logica#0;class#Logica#0" expanded="false" />
-            <element signature="method#draw#0;class#Logica#0" expanded="false" />
-            <element signature="method#check_life#0;class#Logica#0" expanded="false" />
-            <element signature="method#mobSpawner#0;class#Logica#0" expanded="false" />
-            <element signature="method#place_building#0;class#Logica#0" expanded="false" />
-            <element signature="method#atualizar_gold#0;class#Logica#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Buildings/Building1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="1360">
-          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
-          <folding>
-            <element signature="method#Building1#0;class#Building1#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1632">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Buildings/Base_building.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21573034" vertical-offset="1151" max-vertical-offset="2295">
-          <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1394">
+          <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Base_building#1;class#Base_building#0" expanded="false" />
+            <element signature="method#inic#0;class#Base_building#0" expanded="false" />
+            <element signature="method#draw#0;class#Base_building#0" expanded="false" />
             <element signature="method#find_target#0;class#Base_building#0" expanded="false" />
+            <element signature="method#atack#0;class#Base_building#0" expanded="false" />
             <element signature="method#verify_pos#0;class#Base_building#0" expanded="false" />
             <element signature="method#change_animation#0;class#Base_building#0" expanded="false" />
-            <element signature="method#disable_b#0;class#Base_building#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Logica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7410228" vertical-offset="1376" max-vertical-offset="2295">
+          <caret line="140" column="37" selection-start-line="140" selection-start-column="37" selection-end-line="140" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Logica#0;class#Logica#0" expanded="false" />
+            <element signature="method#check_life#0;class#Logica#0" expanded="false" />
+            <element signature="method#mobSpawner#0;class#Logica#0" expanded="false" />
+            <element signature="method#eliminar_buildings#0;class#Logica#0" expanded="false" />
+            <element signature="method#atualizar_gold#0;class#Logica#0" expanded="false" />
           </folding>
         </state>
       </provider>
