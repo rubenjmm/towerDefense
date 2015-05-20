@@ -8,7 +8,6 @@ package Buildings;
 public class Building1 extends Base_building {
 
 
-
     //ANIMACOES
     /*
        1 -> left
