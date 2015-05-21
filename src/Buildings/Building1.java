@@ -20,7 +20,7 @@ public class Building1 extends Base_building {
        8 -> left/down
      */
 
-    public Building1 (int x,int y) {
+    public Building1 (int x,int y , int r) {
 
         atack_delay = 1500;//ms
         atack = 15; //Damage
@@ -29,6 +29,7 @@ public class Building1 extends Base_building {
 
         this.posx_b=x;
         this.posy_b=y;
+        this.raio = r;
 
         posx=posx_b*24;
         posy=posy_b*25;

@@ -56,14 +56,17 @@ public class Base_building {
         }
     };
 
+    public int raio=0; //raio de alcance
+
     public Base_building () {
         inic();
     }
 
-    public Base_building(int x,int y) {
+    public Base_building(int x,int y,int r) {
 
         this.posx_b=x;
         this.posy_b=y;
+        this.raio = r;
 
         posx = posx_b *24;
         posy = posy_b *25;

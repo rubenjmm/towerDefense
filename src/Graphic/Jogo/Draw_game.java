@@ -24,7 +24,6 @@ public class Draw_game extends JPanel implements ActionListener {
 
     private BufferedImage Building1 = Building1_sprites.getA11();
 
-
     public Draw_game(){
 
         this.addMouseMotionListener(new Jogo_MouseInput() );
@@ -58,14 +57,16 @@ public class Draw_game extends JPanel implements ActionListener {
 
     private void draw_build_drag(Graphics g)  {
 
-        int id =  Main.getHeld_id();
-        int posx =Main.getMouse_x();
-        int posy =Main.getMouse_y();
 
         if( Main.isHelditem() ){
+            int id =  Main.getHeld_id();
+            int posx =Main.getMouse_x();
+            int posy =Main.getMouse_y();
 
             if( id == 1) {
-                g.drawImage(Building1,posx-40 , posy-40, 70, 70, null);
+                int r = 220; //raio de alcance
+                g.drawImage(Building1,posx-35 , posy-33, 70, 70, null);
+                g.drawOval(posx-r/2, posy -r/2, r, r);
             }
         }
     }
