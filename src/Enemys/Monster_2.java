@@ -23,9 +23,9 @@ public class Monster_2  extends Base_enemy{
      */
 
     private ArrayList<BufferedImage> List_death;
-    Animator ani_death;
+    private Animator ani_death;
     private ArrayList<BufferedImage> Listreborn;
-    Animator ani_reborn;
+    private Animator ani_reborn;
 
 
     public void inic() {
@@ -110,7 +110,6 @@ public class Monster_2  extends Base_enemy{
                 g.drawImage(ani_atack.getSprite(), posx, posy-15,  43, 43, null);
                 ani_atack.update(System.currentTimeMillis());
                 atack();
-
             }
             else if(animation_state==2) {
                 is_walking=false;

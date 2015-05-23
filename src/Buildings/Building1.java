@@ -1,6 +1,8 @@
 package Buildings;
 
 
+import java.awt.image.BufferedImage;
+import java.util.ArrayList;
 
 /**
  * Created by Ricardo on 17/05/2015.
@@ -37,6 +39,12 @@ public class Building1 extends Base_building {
         // Default image
         img1 = Building1_sprites.getA11();
         img2 = Building1_sprites.getA21();
+
+        ////////////////////////////////////////////////////////////////////////
+        ArrayList<BufferedImage> Listatack = new ArrayList<BufferedImage>();
+        Listatack.add( Building1_sprites.getBullet());
+        atack_effect =  new Base_atack(Listatack,posx,posy,150);
+
     }
 
     @Override

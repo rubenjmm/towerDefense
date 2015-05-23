@@ -30,6 +30,10 @@ public class Building1_sprites {
     private  static BufferedImage A2_8;
 
 
+
+    private  static BufferedImage bullet;
+
+
     public  Building1_sprites() {
 
         inic();
@@ -39,29 +43,33 @@ public class Building1_sprites {
     public static void inic(){
 
         try {
-            A1_1 = ImageIO.read(new File("Textures/Buildings/1/A1_1.png"));
-            A2_1 = ImageIO.read(new File("Textures/Buildings/1/A2_1.png"));
+            A1_1 = ImageIO.read(new File("Textures/Buildings/Building1/1/A1_1.png"));
+            A2_1 = ImageIO.read(new File("Textures/Buildings/Building1/1/A2_1.png"));
 
-            A1_2 = ImageIO.read(new File("Textures/Buildings/2/A1_2.png"));
-            A2_2 = ImageIO.read(new File("Textures/Buildings/2/A2_2.png"));
+            A1_2 = ImageIO.read(new File("Textures/Buildings/Building1/2/A1_2.png"));
+            A2_2 = ImageIO.read(new File("Textures/Buildings/Building1/2/A2_2.png"));
 
-            A1_3 = ImageIO.read(new File("Textures/Buildings/3/A1_3.png"));
-            A2_3 = ImageIO.read(new File("Textures/Buildings/3/A2_3.png"));
+            A1_3 = ImageIO.read(new File("Textures/Buildings/Building1/3/A1_3.png"));
+            A2_3 = ImageIO.read(new File("Textures/Buildings/Building1/3/A2_3.png"));
 
-            A1_4 = ImageIO.read(new File("Textures/Buildings/4/A1_4.png"));
-            A2_4 = ImageIO.read(new File("Textures/Buildings/4/A2_4.png"));
+            A1_4 = ImageIO.read(new File("Textures/Buildings/Building1/4/A1_4.png"));
+            A2_4 = ImageIO.read(new File("Textures/Buildings/Building1/4/A2_4.png"));
 
-            A1_5 = ImageIO.read(new File("Textures/Buildings/5/A1_5.png"));
-            A2_5 = ImageIO.read(new File("Textures/Buildings/5/A2_5.png"));
+            A1_5 = ImageIO.read(new File("Textures/Buildings/Building1/5/A1_5.png"));
+            A2_5 = ImageIO.read(new File("Textures/Buildings/Building1/5/A2_5.png"));
 
-            A1_6 = ImageIO.read(new File("Textures/Buildings/6/A1_6.png"));
-            A2_6 = ImageIO.read(new File("Textures/Buildings/6/A2_6.png"));
+            A1_6 = ImageIO.read(new File("Textures/Buildings/Building1/6/A1_6.png"));
+            A2_6 = ImageIO.read(new File("Textures/Buildings/Building1/6/A2_6.png"));
 
-            A1_7 = ImageIO.read(new File("Textures/Buildings/7/A1_7.png"));
-            A2_7 = ImageIO.read(new File("Textures/Buildings/7/A2_7.png"));
+            A1_7 = ImageIO.read(new File("Textures/Buildings/Building1/7/A1_7.png"));
+            A2_7 = ImageIO.read(new File("Textures/Buildings/Building1/7/A2_7.png"));
 
-            A1_8 = ImageIO.read(new File("Textures/Buildings/8/A1_8.png"));
-            A2_8 = ImageIO.read(new File("Textures/Buildings/8/A2_8.png"));
+            A1_8 = ImageIO.read(new File("Textures/Buildings/Building1/8/A1_8.png"));
+            A2_8 = ImageIO.read(new File("Textures/Buildings/Building1/8/A2_8.png"));
+
+
+            bullet=ImageIO.read(new File("Textures/Buildings/Building1/Bullets/1.png"));
+
 
         } catch (IOException e) {
 
@@ -71,6 +79,10 @@ public class Building1_sprites {
 
     }
 
+
+    public static BufferedImage getBullet() {
+        return bullet;
+    }
 
     public static BufferedImage getA11() {
         return A1_1;

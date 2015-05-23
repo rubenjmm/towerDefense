@@ -46,6 +46,7 @@ public class Base_building {
     public BufferedImage img1;
     public BufferedImage img2;
 
+
     public boolean last_hit=false;
     public boolean disabled = false;
     ActionListener timer_listener = new ActionListener() {
@@ -58,11 +59,17 @@ public class Base_building {
 
     public int raio=0; //raio de alcance
 
+    public Base_atack atack_effect;
+
+
     public Base_building () {
+        atack_effect =  new Base_atack();
         inic();
     }
 
     public Base_building(int x,int y,int r) {
+
+        atack_effect =  new Base_atack();
 
         this.posx_b=x;
         this.posy_b=y;
@@ -103,6 +110,9 @@ public class Base_building {
             }
         }
 
+        /////////////Animacao do tiro de ataque //////////
+        atack_effect.draw(g);
+
     }
 
     public boolean find_target() {
@@ -111,6 +121,10 @@ public class Base_building {
         for(int i=0;i<Main.getGame_logic().getMobs().length;i++ ) {
 
             if (Main.getGame_logic().getMobs()[i].isInGame() && !Main.getGame_logic().getMobs()[i].is_dead) {
+                if(verify_target_range()) {
+
+                    continue;
+                }
                 target_alive = true;
                 mob_index=i;
                 break;
@@ -133,22 +147,42 @@ public class Base_building {
         }
 
         else {
-            if( in_position  ) {  //Orientado para o zombie a atacar!
-                if (target_alive) {
-                    atacking = true;
-                    time = System.currentTimeMillis();
-                    if (Main.getGame_logic().getMobs()[mob_index].change_life(atack)) { //mob morreu
+            if ( verify_target_range() ) {//verifica se o inimigo está dentro da distância de ataque
+                if (in_position) {  //Orientado para o zombie a atacar!
+                    if (target_alive) {
+                        atack_effect.shot_fired(mob_index);
+
+                        atacking = true;
+                        time = System.currentTimeMillis();
+                        //Animaçao de ataque para o mob em questão
+                        if (Main.getGame_logic().getMobs()[mob_index].change_life(atack)) { //mob morreu
                             target_alive = false;
                             in_position = false;
                             last_hit = true;
                         }
+                    }
+                }
+                else if (!target_alive) {
+                    target_alive = find_target();//procura novos mobs, target_alive=false se não restarem mais mobs
                 }
             }
-            else if( !target_alive ){
-                target_alive= find_target();//procura novos mobs, target_alive=false se não restarem mais mobs
+            else {  //Target is 2 far away
+                target_alive = find_target();
             }
         }
+    }
 
+    public boolean verify_target_range() { //dá return a true se o target pode ser atacado
+
+        mob_x = Main.getGame_logic().getMobs()[mob_index].getPosx();
+        mob_y = Main.getGame_logic().getMobs()[mob_index].getPosy();
+
+        if( Math.abs(posx - mob_x) <= raio   &&  Math.abs(posy-mob_y) <= raio) {
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 
     public void verify_pos() {
@@ -210,8 +244,6 @@ public class Base_building {
 
         //altera as imagens consoante a animação
     }
-
-    //falta o efeito..
 
 
 }
