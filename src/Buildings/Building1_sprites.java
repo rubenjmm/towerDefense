@@ -68,7 +68,7 @@ public class Building1_sprites {
             A2_8 = ImageIO.read(new File("Textures/Buildings/Building1/8/A2_8.png"));
 
 
-            bullet=ImageIO.read(new File("Textures/Buildings/Building1/Bullets/1.png"));
+            bullet=ImageIO.read( new File("Textures/Buildings/Building1/Bullets/1.png")  );
 
 
         } catch (IOException e) {
