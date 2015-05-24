@@ -43,7 +43,7 @@ public class Building1 extends Base_building {
         ////////////////////////////////////////////////////////////////////////
         ArrayList<BufferedImage> Listatack = new ArrayList<BufferedImage>();
         Listatack.add( Building1_sprites.getBullet()  );
-        atack_effect =  new Base_atack(Listatack,posx,posy,150,15);
+        atack_effect =  new Base_atack(Listatack,posx,posy,150,20);
 
     }
 

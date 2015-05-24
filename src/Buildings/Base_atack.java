@@ -24,10 +24,12 @@ public class Base_atack  {
     public int posx;
     public int posy;
 
-    //////////////////////////////////////
-    public int declivex,declivey;/////////
-    //////////////////////////////////////
+
     public int bullet_speed;
+    //////////////////////////////////////
+    public int speed_x,speed_y;///////////
+    //////////////////////////////////////
+
 
     public Base_atack() {
 
@@ -59,15 +61,49 @@ public class Base_atack  {
         mob_x = Main.getGame_logic().getMobs()[mob_index].getPosx();
         mob_y = Main.getGame_logic().getMobs()[mob_index].getPosy();
 
+        calcular_declive();
+
         mob_hited = false;
         ani_atack.play();
+
+
+    }
+
+    public void calcular_declive() {
+
+        int distancia_x,distancia_y;
+        int n_iteracoes=0;
+
+        distancia_x =  (pos_building_x - mob_x)  ;
+        distancia_y =  (pos_building_y - mob_y)  ;
+
+
+        if( Math.abs(distancia_x) > Math.abs(distancia_y)+bullet_speed) {
+            n_iteracoes = distancia_x/bullet_speed;
+            speed_x = bullet_speed;
+            speed_y = n_iteracoes*distancia_y/distancia_x;
+        }
+        else if( Math.abs(distancia_x) < Math.abs(distancia_y)+ bullet_speed) {
+            n_iteracoes = distancia_y/bullet_speed;
+            speed_y = bullet_speed;
+            speed_x = n_iteracoes*distancia_x/distancia_y;
+        }
+        else {
+            speed_x=bullet_speed;
+            speed_y=bullet_speed;
+        }
+
+
+        System.out.println("iteracoes->  "+n_iteracoes);
+        System.out.println("distanciax->  "+distancia_x);
+        System.out.println("distanciay->  "+distancia_y);
+        System.out.println("speedx-> "+speed_x+"   speedy-> "+speed_y);
+        System.out.println("\n\n\n\n");
     }
 
     public void draw(Graphics g) {
 
         if(!mob_hited) {
-            System.out.println("entrei..");
-
             g.drawImage(ani_atack.getSprite(), posx, posy, 5, 5, null); //width & height
             ani_atack.update(System.currentTimeMillis());
             check_mob_hited();
@@ -77,33 +113,17 @@ public class Base_atack  {
 
     public void update_pos(){
 
-        //    X
-        if( posx > mob_x) { //mob está à esquerda
-            posx-= bullet_speed;
-        }
-        else if ( posx < mob_x) {
-            posx+=bullet_speed;
-        }
-
-
-        //    Y
-        if( posy > mob_y) {
-            posy-=bullet_speed;
-        }
-        else if ( posy < mob_y) {
-            posy+=bullet_speed;
-        }
-
+        posx+=speed_x;
+        posy+=speed_y;
     }
 
     public void check_mob_hited() {
 
-        if(    Math.abs(posx -mob_x)<=bullet_speed  && Math.abs(posy -mob_y)<=bullet_speed ) {
+        if(    Math.abs(posx -mob_x)<=speed_x  && Math.abs(posy -mob_y)<=speed_y) {
             mob_hited = true;
             ani_atack.stop();
             posx=0;
             posy=0;
-            System.out.println("entrei..");
         }
     }
 
