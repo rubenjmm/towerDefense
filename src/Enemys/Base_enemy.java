@@ -43,7 +43,7 @@ public class Base_enemy {
     public ArrayList<BufferedImage> Listatack;
     Animator ani_atack;
 
-
+    public int coin_value=0;
 
     public Base_enemy() {
         inic();
@@ -208,6 +208,7 @@ public class Base_enemy {
         if(this.life <= 0) {
 
             is_dead = true;
+            Main.getLoja().change_coin((-1)*coin_value);
             return true; //mob morreu
         }
         else {
@@ -218,6 +219,7 @@ public class Base_enemy {
     public void disable_e() {
         timer.stop();
     }
+
     //////////////////////////////// GETTER's ////////////////////////////////
 
     public boolean isInGame() {

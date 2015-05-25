@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4e87502-f8fd-496e-af93-0cf0ddcbd433" name="Default" comment="Tentativa de adicioanr efeito de tiro pt2">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/com/company/Logica.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/com/company/Logica.class" />
+    <list default="true" id="e4e87502-f8fd-496e-af93-0cf0ddcbd433" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buildings/Base_atack.java" afterPath="$PROJECT_DIR$/src/Buildings/Base_atack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/Base_enemy.java" afterPath="$PROJECT_DIR$/src/Enemys/Base_enemy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/Monster_1.java" afterPath="$PROJECT_DIR$/src/Enemys/Monster_1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/Monster_2.java" afterPath="$PROJECT_DIR$/src/Enemys/Monster_2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projeto Final.iws" />
@@ -44,29 +45,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Base_atack.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Buildings/Base_atack.java">
+      <file leaf-file-name="Base_building.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Buildings/Base_building.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.02526003" vertical-offset="765" max-vertical-offset="1462">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="2023">
+              <caret line="158" column="49" selection-start-line="158" selection-start-column="49" selection-end-line="158" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#calcular_declive#0;class#Base_atack#0" expanded="false" />
-                <element signature="method#draw#0;class#Base_atack#0" expanded="false" />
-                <element signature="method#update_pos#0;class#Base_atack#0" expanded="false" />
-                <element signature="method#check_mob_hited#0;class#Base_atack#0" expanded="false" />
+                <element signature="method#Base_building#0;class#Base_building#0" expanded="false" />
+                <element signature="method#Base_building#1;class#Base_building#0" expanded="false" />
+                <element signature="method#inic#0;class#Base_building#0" expanded="false" />
+                <element signature="method#draw#0;class#Base_building#0" expanded="false" />
+                <element signature="method#find_target#0;class#Base_building#0" expanded="false" />
+                <element signature="method#verify_target_range#0;class#Base_building#0" expanded="false" />
+                <element signature="method#verify_pos#0;class#Base_building#0" expanded="false" />
+                <element signature="method#change_animation#0;class#Base_building#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Monster_1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Enemys/Monster_1.java">
+      <file leaf-file-name="Base_enemy.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Enemys/Base_enemy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="1156">
-              <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.5482912" vertical-offset="685" max-vertical-offset="1428">
+              <caret line="216" column="5" selection-start-line="216" selection-start-column="5" selection-end-line="216" selection-end-column="5" />
               <folding>
-                <element signature="method#draw#0;class#Monster_1#0" expanded="false" />
+                <element signature="method#inic#0;class#Base_enemy#0" expanded="false" />
+                <element signature="method#draw#0;class#Base_enemy#0" expanded="false" />
+                <element signature="method#update_pos#0;class#Base_enemy#0" expanded="false" />
+                <element signature="method#random_pos#0;class#Base_enemy#0" expanded="false" />
+                <element signature="method#update_boardpos#0;class#Base_enemy#0" expanded="false" />
+                <element signature="method#Spawnmob#0;class#Base_enemy#0" expanded="false" />
+                <element signature="method#inic_pos#0;class#Base_enemy#0" expanded="false" />
+                <element signature="method#atack#0;class#Base_enemy#0" expanded="false" />
+                <element signature="method#change_life#0;class#Base_enemy#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -142,15 +155,15 @@
         <option value="$PROJECT_DIR$/src/Buildings/Base.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/Graphic/Jogo/Loja_Mouse.java" />
-        <option value="$PROJECT_DIR$/src/Enemys/Base_enemy.java" />
         <option value="$PROJECT_DIR$/src/Graphic/Jogo/Loja.java" />
-        <option value="$PROJECT_DIR$/src/Enemys/Monster_2.java" />
         <option value="$PROJECT_DIR$/src/Buildings/Base_building.java" />
         <option value="$PROJECT_DIR$/src/Buildings/Building1_sprites.java" />
         <option value="$PROJECT_DIR$/src/Buildings/Building1.java" />
         <option value="$PROJECT_DIR$/src/com/company/Logica.java" />
-        <option value="$PROJECT_DIR$/src/Enemys/Monster_1.java" />
         <option value="$PROJECT_DIR$/src/Buildings/Base_atack.java" />
+        <option value="$PROJECT_DIR$/src/Enemys/Monster_1.java" />
+        <option value="$PROJECT_DIR$/src/Enemys/Monster_2.java" />
+        <option value="$PROJECT_DIR$/src/Enemys/Base_enemy.java" />
       </list>
     </option>
   </component>
@@ -643,7 +656,13 @@
       <option name="project" value="LOCAL" />
       <updated>1432547012702</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Tentativa de adicioanr efeito de tiro pt2">
+      <created>1432556211643</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1432556211643</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -728,7 +747,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="145" />
+      <option name="time" value="147" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1023,45 +1042,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Loja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6413502" vertical-offset="1975" max-vertical-offset="2686">
-          <caret line="252" column="0" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#change_life#0;class#Loja#0" expanded="false" />
-            <element signature="method#paint#0;class#Loja#0" expanded="false" />
-            <element signature="method#draw_life#0;class#Loja#0" expanded="false" />
-            <element signature="method#draw_gold#0;class#Loja#0" expanded="false" />
-            <element signature="method#draw_rectangles#0;class#Loja#0" expanded="false" />
-            <element signature="method#draw_build1#0;class#Loja#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Saves/lvl1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Enemys/Base_enemy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94947994" vertical-offset="857" max-vertical-offset="3791">
-          <caret line="101" column="35" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Enemys/Monster_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50520056" vertical-offset="0" max-vertical-offset="673">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding>
-            <element signature="method#inic#0;class#Monster_2#0" expanded="false" />
-            <element signature="method#draw#0;class#Monster_2#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1088,24 +1072,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="762" max-vertical-offset="2040">
           <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Buildings/Base_building.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19019316" vertical-offset="1215" max-vertical-offset="2023">
-          <caret line="148" column="14" selection-start-line="148" selection-start-column="14" selection-end-line="148" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Base_building#0;class#Base_building#0" expanded="false" />
-            <element signature="method#Base_building#1;class#Base_building#0" expanded="false" />
-            <element signature="method#inic#0;class#Base_building#0" expanded="false" />
-            <element signature="method#draw#0;class#Base_building#0" expanded="false" />
-            <element signature="method#find_target#0;class#Base_building#0" expanded="false" />
-            <element signature="method#verify_target_range#0;class#Base_building#0" expanded="false" />
-            <element signature="method#verify_pos#0;class#Base_building#0" expanded="false" />
-            <element signature="method#change_animation#0;class#Base_building#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1139,26 +1105,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Buildings/Base_atack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.827586" vertical-offset="546" max-vertical-offset="1190">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#shot_fired#0;class#Base_atack#0" expanded="false" />
+            <element signature="method#calcular_declive#0;class#Base_atack#0" expanded="false" />
+            <element signature="method#draw#0;class#Base_atack#0" expanded="false" />
+            <element signature="method#update_pos#0;class#Base_atack#0" expanded="false" />
+            <element signature="method#check_mob_hited#0;class#Base_atack#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Buildings/Base_building.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="2023">
+          <caret line="158" column="49" selection-start-line="158" selection-start-column="49" selection-end-line="158" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Base_building#0;class#Base_building#0" expanded="false" />
+            <element signature="method#Base_building#1;class#Base_building#0" expanded="false" />
+            <element signature="method#inic#0;class#Base_building#0" expanded="false" />
+            <element signature="method#draw#0;class#Base_building#0" expanded="false" />
+            <element signature="method#find_target#0;class#Base_building#0" expanded="false" />
+            <element signature="method#verify_target_range#0;class#Base_building#0" expanded="false" />
+            <element signature="method#verify_pos#0;class#Base_building#0" expanded="false" />
+            <element signature="method#change_animation#0;class#Base_building#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Enemys/Monster_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73254085" vertical-offset="0" max-vertical-offset="1768">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="method#draw#0;class#Monster_2#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Enemys/Monster_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="1156">
-          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.4294205" vertical-offset="17" max-vertical-offset="1173">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding>
             <element signature="method#draw#0;class#Monster_1#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Buildings/Base_atack.java">
+    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Loja.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02526003" vertical-offset="765" max-vertical-offset="1462">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6419019" vertical-offset="1812" max-vertical-offset="2499">
+          <caret line="252" column="0" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#calcular_declive#0;class#Base_atack#0" expanded="false" />
-            <element signature="method#draw#0;class#Base_atack#0" expanded="false" />
-            <element signature="method#update_pos#0;class#Base_atack#0" expanded="false" />
-            <element signature="method#check_mob_hited#0;class#Base_atack#0" expanded="false" />
+            <element signature="method#change_life#0;class#Loja#0" expanded="false" />
+            <element signature="method#paint#0;class#Loja#0" expanded="false" />
+            <element signature="method#draw_life#0;class#Loja#0" expanded="false" />
+            <element signature="method#draw_gold#0;class#Loja#0" expanded="false" />
+            <element signature="method#draw_rectangles#0;class#Loja#0" expanded="false" />
+            <element signature="method#draw_build1#0;class#Loja#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Enemys/Base_enemy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5482912" vertical-offset="685" max-vertical-offset="1428">
+          <caret line="216" column="5" selection-start-line="216" selection-start-column="5" selection-end-line="216" selection-end-column="5" />
+          <folding>
+            <element signature="method#inic#0;class#Base_enemy#0" expanded="false" />
+            <element signature="method#draw#0;class#Base_enemy#0" expanded="false" />
+            <element signature="method#update_pos#0;class#Base_enemy#0" expanded="false" />
+            <element signature="method#random_pos#0;class#Base_enemy#0" expanded="false" />
+            <element signature="method#update_boardpos#0;class#Base_enemy#0" expanded="false" />
+            <element signature="method#Spawnmob#0;class#Base_enemy#0" expanded="false" />
+            <element signature="method#inic_pos#0;class#Base_enemy#0" expanded="false" />
+            <element signature="method#atack#0;class#Base_enemy#0" expanded="false" />
+            <element signature="method#change_life#0;class#Base_enemy#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -21,7 +21,8 @@ public class Monster_1 extends Base_enemy{
     public void inic() {
 
         strikes = 3;
-        life = 10000;
+        life = 100;
+        coin_value=1;
 
         Listwalking   = new ArrayList<BufferedImage>();
         Listatack    = new ArrayList<BufferedImage>();

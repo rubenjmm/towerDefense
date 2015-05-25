@@ -83,8 +83,7 @@ public class Base_atack  {
             //o mais pequeno a dividir pelo maior, para ser sempre menor do que 1
             speed_y = bullet_speed*distancia_y/Math.abs(distancia_x);
 
-            System.out.println("IF\nDistanciay  "+distancia_y);
-            System.out.println("Distanciax  "+distancia_x);
+
             if( distancia_y < 0) {
                 speed_y = speed_y*(-1);
             }
@@ -104,8 +103,7 @@ public class Base_atack  {
             speed_y = bullet_speed;
             speed_x = bullet_speed*distancia_x/Math.abs(distancia_y);
 
-            System.out.println("ELSE\nDistanciax  "+distancia_x);
-            System.out.println("Distanciay  "+distancia_y);
+
             if( distancia_x > 0) {
                 speed_x = speed_x*(-1);
             }
@@ -128,13 +126,6 @@ public class Base_atack  {
             speed_y=bullet_speed;
         }
 
-
-/*
-        System.out.println("distanciax->  "+distancia_x);
-        System.out.println("distanciay->  "+distancia_y);
-        System.out.println("speedx-> "+speed_x+"   speedy-> "+speed_y);
-        System.out.println("\n\n\n\n");
-        */
     }
 
     public void draw(Graphics g) {
