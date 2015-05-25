@@ -27,7 +27,7 @@ public class Base_atack  {
 
     public int bullet_speed;
     //////////////////////////////////////
-    public int speed_x,speed_y;///////////
+    public float speed_x,speed_y;/////////
     //////////////////////////////////////
 
 
@@ -43,7 +43,7 @@ public class Base_atack  {
         this.bullet_speed=bullet_spd;
 
         ////////////////
-        this.posx=x+30;////
+        this.posx=x+15;////
         this.posy=y+30;////
         ////////////////
 
@@ -55,7 +55,7 @@ public class Base_atack  {
 
         this.mob_index = index;
 
-        posx =pos_building_x+30;
+        posx =pos_building_x+15;
         posy =pos_building_y+30;
 
         mob_x = Main.getGame_logic().getMobs()[mob_index].getPosx();
@@ -72,21 +72,56 @@ public class Base_atack  {
     public void calcular_declive() {
 
         int distancia_x,distancia_y;
-        int n_iteracoes=0;
 
         distancia_x =  (pos_building_x - mob_x)  ;
         distancia_y =  (pos_building_y - mob_y)  ;
 
 
         if( Math.abs(distancia_x) > Math.abs(distancia_y)+bullet_speed) {
-            n_iteracoes = distancia_x/bullet_speed;
             speed_x = bullet_speed;
-            speed_y = (Math.abs(distancia_x)/distancia_y)  *n_iteracoes;
+
+            //o mais pequeno a dividir pelo maior, para ser sempre menor do que 1
+            speed_y = bullet_speed*distancia_y/Math.abs(distancia_x);
+
+            System.out.println("IF\nDistanciay  "+distancia_y);
+            System.out.println("Distanciax  "+distancia_x);
+            if( distancia_y < 0) {
+                speed_y = speed_y*(-1);
+            }
+
+            if(distancia_y<0 && distancia_x>0) {
+                speed_x=(-1)*speed_x;
+            }
+
+            else if(distancia_y>0 && distancia_x>0) {
+                speed_y=(-1)*speed_y;
+                speed_x=(-1)*speed_x;
+            }
+
+
         }
         else if( Math.abs(distancia_x) < Math.abs(distancia_y)+ bullet_speed) {
-            n_iteracoes = distancia_y/bullet_speed;
             speed_y = bullet_speed;
-            speed_x =(Math.abs(distancia_y)/distancia_x)  * n_iteracoes ;
+            speed_x = bullet_speed*distancia_x/Math.abs(distancia_y);
+
+            System.out.println("ELSE\nDistanciax  "+distancia_x);
+            System.out.println("Distanciay  "+distancia_y);
+            if( distancia_x > 0) {
+                speed_x = speed_x*(-1);
+            }
+
+            if(distancia_y<0 && distancia_x<0) {
+                speed_x=(-1)*speed_x;
+            }
+
+            else if(distancia_y>0 && distancia_x>0) {
+                speed_y=(-1)*speed_y;
+
+            }
+            else if(distancia_y>0 && distancia_x<0) {
+                speed_y=(-1)*speed_y;
+                speed_x=(-1)*speed_x;
+            }
         }
         else {
             speed_x=bullet_speed;
@@ -94,11 +129,12 @@ public class Base_atack  {
         }
 
 
-        System.out.println("iteracoes->  "+n_iteracoes);
+/*
         System.out.println("distanciax->  "+distancia_x);
         System.out.println("distanciay->  "+distancia_y);
         System.out.println("speedx-> "+speed_x+"   speedy-> "+speed_y);
         System.out.println("\n\n\n\n");
+        */
     }
 
     public void draw(Graphics g) {
@@ -119,7 +155,7 @@ public class Base_atack  {
 
     public void check_mob_hited() {
 
-        if(    Math.abs(posx -mob_x)<=speed_x  && Math.abs(posy -mob_y)<=speed_y) {
+        if(    Math.abs(posx -Main.getGame_logic().getMobs()[mob_index].getPosx())<=speed_x*2+5  && Math.abs(posy -Main.getGame_logic().getMobs()[mob_index].getPosy())<=speed_y*4+5) {
             mob_hited = true;
             ani_atack.stop();
             posx=0;
