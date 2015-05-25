@@ -208,7 +208,7 @@ public class Base_enemy {
         if(this.life <= 0) {
 
             is_dead = true;
-            Main.getLoja().change_coin((-1)*coin_value);
+            Main.getLoja().change_coin( (-1)*coin_value );
             return true; //mob morreu
         }
         else {

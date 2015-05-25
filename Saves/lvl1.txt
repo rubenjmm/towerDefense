@@ -8,7 +8,7 @@ gggggggggggggggggggNNNNNNNNN
 gggggggggggggggggggggNNNNNNN
 gggggggggggggggggggggggNffff
 ggggggggggggggggggggggNccccc
-gggggggggggggggggggggNccccNN
+gggggggggggggggggggggNccccNg
 ggggggggggggggggggggNccccNgg
 NNgggggggggggggggggNccccNggg
 rrNgggggggggggggggNccccNgggg

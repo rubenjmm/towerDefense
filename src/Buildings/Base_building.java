@@ -121,7 +121,7 @@ public class Base_building {
         for(int i=0;i<Main.getGame_logic().getMobs().length;i++ ) {
 
             if (Main.getGame_logic().getMobs()[i].isInGame() && !Main.getGame_logic().getMobs()[i].is_dead) {
-                if(verify_target_range()) {
+                if( !verify_target_range()) {
 
                     continue;
                 }
@@ -148,7 +148,9 @@ public class Base_building {
 
         else {
             if ( verify_target_range() ) {//verifica se o inimigo está dentro da distância de ataque
+
                 if (in_position) {  //Orientado para o zombie a atacar!
+
                     if (target_alive) {
                         atack_effect.shot_fired(mob_index);
 
