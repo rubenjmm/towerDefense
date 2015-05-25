@@ -146,7 +146,7 @@ public class Base_atack  {
 
     public void check_mob_hited() {
 
-        if(    Math.abs(posx -Main.getGame_logic().getMobs()[mob_index].getPosx())<=speed_x*2+5  && Math.abs(posy -Main.getGame_logic().getMobs()[mob_index].getPosy())<=speed_y*4+5) {
+        if(    Math.abs(posx -Main.getGame_logic().getMobs()[mob_index].getPosx())<=speed_x*3+5  && Math.abs(posy -Main.getGame_logic().getMobs()[mob_index].getPosy())<=speed_y*4+5) {
             mob_hited = true;
             ani_atack.stop();
             posx=0;
