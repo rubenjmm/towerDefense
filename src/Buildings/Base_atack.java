@@ -81,12 +81,12 @@ public class Base_atack  {
         if( Math.abs(distancia_x) > Math.abs(distancia_y)+bullet_speed) {
             n_iteracoes = distancia_x/bullet_speed;
             speed_x = bullet_speed;
-            speed_y = n_iteracoes*distancia_y/distancia_x;
+            speed_y = (Math.abs(distancia_x)/distancia_y)  *n_iteracoes;
         }
         else if( Math.abs(distancia_x) < Math.abs(distancia_y)+ bullet_speed) {
             n_iteracoes = distancia_y/bullet_speed;
             speed_y = bullet_speed;
-            speed_x = n_iteracoes*distancia_x/distancia_y;
+            speed_x =(Math.abs(distancia_y)/distancia_x)  * n_iteracoes ;
         }
         else {
             speed_x=bullet_speed;

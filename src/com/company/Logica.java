@@ -30,7 +30,7 @@ public class Logica {
     //Depende do lvl, e vai estar num dos ficheiros
 
     private int number_mobs_t1=1;
-    private int number_mobs_t2=1;
+    private int number_mobs_t2=0;
 
     private boolean building_inic=false;
     private ArrayList<Base_building> buildings;
