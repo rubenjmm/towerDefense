@@ -30,6 +30,7 @@ public class Monster_2  extends Base_enemy{
 
     public void inic() {
 
+        ///////Ir buscar às configurações
         life = 150;
         strikes = 1;
         coin_value=2;

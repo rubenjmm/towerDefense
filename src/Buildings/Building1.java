@@ -24,6 +24,7 @@ public class Building1 extends Base_building {
 
     public Building1 (int x,int y , int r) {
 
+        ///////Ir buscar às configurações
         atack_delay = 1500;//ms
         atack = 15; //Damage
 
