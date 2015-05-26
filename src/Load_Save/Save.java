@@ -2,6 +2,8 @@ package Load_Save;
 
 
 
+import com.company.Main;
+
 import java.util.Formatter;
 
 /**
@@ -27,11 +29,38 @@ public class Save {
     }
 
     public void writeFile() {
-/*
+
         int i,j;
-        x.format("Tamanho do labirinto = %d\r\n\r\n", Estrategia.getN_x_n());
+        x.format("lvl = %d\r\n\r\n", Main.getLevel());
+
+        /*
+
+             x.format("lvl = %d\r\n\r\n", Main.getLevel());
 
 
+
+
+
+        x.format("//////////////////////////////////Mobs//////////////////////////////////////\r\n");
+        x.format("//////////////////////////////////Type_one:\r\n");
+        x.format("Number of mobs = %d\r\n", Main.getOptions().);
+        x.format("Life = %d\r\n\r\n",  );
+        x.format("atack = %d\r\n\r\n",  );
+        x.format("Coin value = %d\r\n\r\n", );
+
+
+        x.format("//////////////////////////////////Type_two:\r\n");
+
+
+
+
+        x.format("//////////////////////////////////Buildings//////////////////////////////////////\r\n");
+        x.format("Numero de dardos = %d\r\n\r\n", Main.getLabirinto().getDardos().size());
+         */
+
+
+
+/*
         for(i= 0;i<Opcoes.getN_x_();i++){
             for(j= 0;j<Opcoes.getN_x_n();j++){
                 x.format( "%c",Main.getLabirinto().getMatrizlabirinto()[i][j] );

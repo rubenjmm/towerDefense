@@ -21,9 +21,9 @@ public class Monster_1 extends Base_enemy{
     public void inic() {
 
         ///////Ir buscar às configurações
-        strikes = 3;
-        life = 100;
-        coin_value=1;
+        strikes = Main.getOptions().getAtack_mobs_t1();
+        life = Main.getOptions().getLife_mobs_t1();
+        coin_value=Main.getOptions().getCoin_mobs_t1();
 
         Listwalking   = new ArrayList<BufferedImage>();
         Listatack    = new ArrayList<BufferedImage>();

@@ -1,6 +1,8 @@
 package Buildings;
 
 
+import com.company.Main;
+
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 
@@ -22,17 +24,17 @@ public class Building1 extends Base_building {
        8 -> left/down
      */
 
-    public Building1 (int x,int y , int r) {
+    public Building1 (int x,int y ) {
 
         ///////Ir buscar às configurações
-        atack_delay = 1500;//ms
-        atack = 15; //Damage
+        atack_delay = Main.getOptions().getAtack_speed_b1();//ms
+        atack = Main.getOptions().getAtack_b1(); //Damage
 
         inic();
 
         this.posx_b=x;
         this.posy_b=y;
-        this.raio = r;
+        this.raio = Main.getOptions().getRaio_b1();
 
         posx=posx_b*24;
         posy=posy_b*25;

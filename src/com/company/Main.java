@@ -48,7 +48,6 @@ public class Main {
 
         Inic_Menu n = new Inic_Menu();
         options = new Opcoes();
-        options.default_options();
         map = new Mapa();
         loja = new Loja();
         n.begin();
@@ -59,6 +58,7 @@ public class Main {
 
         state = STATE.GAME;
         level = 1 ;
+        options.default_options();
         Load_level load = new Load_level("lvl1"); //Inicializa a class Mapa com o nível 1, que está no ficheiro lvl1
         frame1 = new Frame();
         game_logic.new_game();

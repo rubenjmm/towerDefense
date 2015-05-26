@@ -1,6 +1,7 @@
 package Enemys;
 
 import Graphic.Jogo.Animator;
+import com.company.Main;
 
 
 import java.awt.*;
@@ -31,9 +32,9 @@ public class Monster_2  extends Base_enemy{
     public void inic() {
 
         ///////Ir buscar às configurações
-        life = 150;
-        strikes = 1;
-        coin_value=2;
+        strikes = Main.getOptions().getAtack_mobs_t2();
+        life = Main.getOptions().getLife_mobs_t2();
+        coin_value=Main.getOptions().getCoin_mobs_t2();
 
         animation_state=2;
         is_walking=false;
