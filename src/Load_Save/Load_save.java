@@ -11,8 +11,10 @@ public class Load_save {
 
     private Mapa map = Main.getMap();
     private Scanner x;
+    private int posy,posx;
 
     public Load_save() {
+
     }
 
     public void openFile(){
@@ -27,17 +29,16 @@ public class Load_save {
 
 
     }
-/*
+
     public void readFile(){
 
 
-        maze_size();
-        dragoes();
-        armas();
-        saida();
-        jogador();
-        mapa();
-        Main.setLabirinto(labirinto);
+        level();
+        gold();
+        player_life();
+        mobs();
+        buildings();
+
     }
 
     public void closeFile(){
@@ -61,7 +62,7 @@ public class Load_save {
         return a;
     }
 
-    public void getposicao(Scanner linescanner,Elementos pos) {
+    public void getposicao(Scanner linescanner) {
 
         int count=0;
 
@@ -69,224 +70,109 @@ public class Load_save {
 
             if(linescanner.hasNextInt()) {
                 if(count==0) {
-                    pos.setPos_x(linescanner.nextInt());
+                    posx = linescanner.nextInt();
                     count++;
                 }
                 else
-                    pos.setPos_y(linescanner.nextInt());
+                    posy = linescanner.nextInt();
             }
             else
                 linescanner.next();
         }
     }
 
-    public void maze_size() {
+    public void level() {
 
-        int maze_size=getint( new Scanner(x.nextLine()) );
-        Estrategia.setN_x_n(maze_size);
-        labirinto.setColunas(maze_size);
-        labirinto.setLinhas(maze_size);
+        int level =getint( new Scanner(x.nextLine()) );
+    }
+
+    public void gold() {
+
+        int gold =getint( new Scanner(x.nextLine()) );
+    }
+
+    public void player_life() {
+
+        int player_life =getint( new Scanner(x.nextLine()) );
         x.nextLine();
     }
 
-    public void dragoes(){
-
-        int n_dragoes=0,modo_dragao=0,estado=0;
+    public void mobs(){
 
         x.nextLine();
+        mobs_type1();
+        mobs_type2();
 
-        n_dragoes = getint( new Scanner(x.nextLine()) );
-        Estrategia.setN_dragoes(n_dragoes);
-        //System.out.println(n_dragoes);
+    }
 
+    public void mobs_type1() {
 
-        modo_dragao = getint( new Scanner(x.nextLine()) ) + 48;
-        Estrategia.setModo_dragao( (char) modo_dragao);
-        //System.out.println((char)modo_dragao);
 
         x.nextLine();
+        int n_mobs= getint( new Scanner(x.nextLine()) );
+        int mobs_spawned =getint( new Scanner(x.nextLine()) );
+        int life =getint( new Scanner(x.nextLine()) );
+        int atack =getint( new Scanner(x.nextLine()) );
+        int coin_value =getint( new Scanner(x.nextLine()) );
 
-        Elementos posicao = new Elementos(0,0);
-        Dragon[] n_dragon = new Dragon[n_dragoes];
-        char img=' ';
 
-        for(int i=0;i<n_dragoes;i++) {
-
-            getposicao(new Scanner(x.nextLine()),posicao);
-            estado = getint( new Scanner(x.nextLine()) );
+        for(int i=0;i<mobs_spawned;i++) {
             x.nextLine();
-            if(estado==0)
-                img=' ';
-            else if(estado==1)
-                img='D';
-            else if(estado==2)
-                img='d';
 
-            n_dragon[i] = new Dragon( posicao.getPos_x(), posicao.getPos_y(),img,estado);
-            labirinto.getDragoes().add(n_dragon[i]);
+            getposicao( new Scanner(x.nextLine() ) );
+            int current_life = getint( new Scanner(x.nextLine()) );
+            int Animation_State= getint( new Scanner(x.nextLine()) );
+            int is_dead = getint( new Scanner(x.nextLine()) );
+
         }
     }
 
-    public void armas() {
-
-        dardos();
-        espada();
-        shield();
-
-    }
-
-    public void saida() {
-
-        int estado=0;
-        Elementos posicao = new Elementos(0,0);
-        char img=' ';
+    public void mobs_type2() {
 
         x.nextLine();
-        x.nextLine();
+        int n_mobs= getint( new Scanner(x.nextLine()) );
+        int mobs_spawned =getint( new Scanner(x.nextLine()) );
+        int life =getint( new Scanner(x.nextLine()) );
+        int atack =getint( new Scanner(x.nextLine()) );
+        int coin_value =getint( new Scanner(x.nextLine()) );
 
-        getposicao(new Scanner(x.nextLine()), posicao);
-        estado = getint(new Scanner(x.nextLine()));
-        x.nextLine();
-        if (estado == 0)
-            img = 'X';
-        else if (estado == 1)
-            img = ' ';
-
-        labirinto.getexit().setPos_x(posicao.getPos_x());
-        labirinto.getexit().setPos_y(posicao.getPos_y());
-        labirinto.getexit().setEstado(estado);
-        labirinto.getexit().setImg(img);
-    }
-
-    public void jogador() {
-
-        int estado=0,temshield=0,n_dardos=0;
-        boolean shield=false;
-        Elementos posicao = new Elementos(0,0);
-        char img=' ';
-
-        x.nextLine();
-        x.nextLine();
-
-        getposicao(new Scanner(x.nextLine()), posicao);
-        estado = getint(new Scanner(x.nextLine()));
-        n_dardos = getint(new Scanner(x.nextLine()));
-        temshield = getint(new Scanner(x.nextLine()));
-        x.nextLine();
-
-        if (estado == 0)
-            img = ' ';
-        else if (estado == 1)
-            img = 'H';
-        else if(estado==2)
-            img='A';
-
-        if(temshield==0)
-            shield=false;
-        else if(temshield==1)
-            shield=true;
-
-        labirinto.getHeroi().setPos_x(posicao.getPos_x());
-        labirinto.getHeroi().setPos_y(posicao.getPos_y());
-        labirinto.getHeroi().setEstado(estado);
-        labirinto.getHeroi().setImg(img);
-        labirinto.getHeroi().setTem_n_dardos(n_dardos);
-        labirinto.getHeroi().setTem_shield(shield);
-
-    }
-
-    public void mapa() {
-
-        char lab[][] = new char[Estrategia.getN_x_n()][Estrategia.getN_x_n()];
-
-        for(int i=0;i<Estrategia.getN_x_n();i++){ //percorre todas as linhas
-
-            String line = x.nextLine();
-            for(int j=0;j<Estrategia.getN_x_n();j++){
-                lab[i][j]=line.charAt(j);
-            }
-        }
-
-        labirinto.setMatrizlabirinto(lab);
-
-    }
-
-    public void dardos() {
-
-
-        int n_dardos=0,estado=0;
-
-        x.nextLine();
-
-        n_dardos = getint( new Scanner(x.nextLine()) );
-        //System.out.println(n_dardos);
-
-        x.nextLine();
-
-        Elementos posicao = new Elementos(0,0);
-        Armas[] dardos = new Armas[n_dardos];
-        char img=' ';
-
-        for(int i=0;i<n_dardos;i++) {
-
-            getposicao(new Scanner(x.nextLine()), posicao);
-            estado = getint(new Scanner(x.nextLine()));
+        for(int i=0;i<mobs_spawned;i++) {
             x.nextLine();
-            if (estado == 0)
-                img = ' ';
-            else if (estado == 1)
-                img = (char) 36;
 
-            dardos[i] = new Armas(posicao.getPos_x(), posicao.getPos_y(), img);
-            labirinto.getDardos().add(dardos[i]);
+            getposicao( new Scanner(x.nextLine() ) );
+            int current_life = getint( new Scanner(x.nextLine()) );
+            int Animation_State= getint( new Scanner(x.nextLine()) );
+            int is_dead = getint( new Scanner(x.nextLine()) );
+        }
+
+    }
+
+    public void buildings() {
+
+        x.nextLine();
+        x.nextLine();
+        building_type1();
+    }
+
+    public void building_type1() {
+
+        int n_buildings= getint( new Scanner(x.nextLine()) );
+        int atack =getint( new Scanner(x.nextLine()) );
+        int atack_delay =getint( new Scanner(x.nextLine()) );
+        int raio = getint(new Scanner(x.nextLine()));
+
+        x.nextLine();
+
+
+        for(int i=0;i<n_buildings;i++) {
+
+            getposicao( new Scanner(x.nextLine() ) );
+            int Animation_State= getint( new Scanner(x.nextLine()) );
+
+
         }
     }
 
-    public void espada() {
 
-        int estado=0;
-        Elementos posicao = new Elementos(0,0);
-        char img=' ';
-
-        x.nextLine();
-        x.nextLine();
-
-        getposicao(new Scanner(x.nextLine()), posicao);
-        estado = getint(new Scanner(x.nextLine()));
-        x.nextLine();
-        if (estado == 0)
-            img = ' ';
-        else if (estado == 1)
-            img = 'E';
-
-        labirinto.getSword().setPos_x(posicao.getPos_x());
-        labirinto.getSword().setPos_y(posicao.getPos_y());
-        labirinto.getSword().setEstado(estado);
-        labirinto.getSword().setImg(img);
-    }
-
-    public void shield() {
-
-        int estado=0;
-        Elementos posicao = new Elementos(0,0);
-        char img=' ';
-
-        x.nextLine();
-        x.nextLine();
-
-        getposicao(new Scanner(x.nextLine()), posicao);
-        estado = getint(new Scanner(x.nextLine()));
-        x.nextLine();
-        if (estado == 0)
-            img = ' ';
-        else if (estado == 1)
-            img = (char) 174;
-
-        labirinto.getShield().setPos_x(posicao.getPos_x());
-        labirinto.getShield().setPos_y(posicao.getPos_y());
-        labirinto.getShield().setEstado(estado);
-        labirinto.getShield().setImg(img);
-    }
-    */
 
 }

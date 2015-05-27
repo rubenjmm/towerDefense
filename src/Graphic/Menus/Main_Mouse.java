@@ -1,5 +1,7 @@
 package Graphic.Menus;
 
+import Load_Save.Load_save;
+import Load_Save.Save;
 import com.company.Main;
 
 import javax.swing.*;
@@ -90,9 +92,22 @@ public class Main_Mouse implements MouseListener,MouseMotionListener {
 
     public void saveButton() {
 
+        Save save_g = new Save();
+
+        save_g.openFile();
+        save_g.writeFile();
+        save_g.closeFile();
     }
 
     public void loadButton() {
+
+        Load_save load_g = new Load_save();
+
+        load_g.openFile();
+        load_g.readFile();
+        load_g.closeFile();
+       // f.dispose();
+        Main.load__old_game();
 
     }
 

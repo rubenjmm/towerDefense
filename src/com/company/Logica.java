@@ -5,6 +5,7 @@ import Buildings.Type_building;
 import Enemys.Base_enemy;
 import Enemys.Monster_2;
 import Enemys.Monster_1;
+import Graphic.Menus.Game_Over;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -48,6 +49,7 @@ public class Logica {
             if(Main.getState()== Main.STATE.GAME){
                 mobSpawner();
                 check_life();
+                check_end_game();//verifica de todos os inimigos já morreram.
             }
         }
     };
@@ -62,9 +64,6 @@ public class Logica {
         total_number_mobs=number_mobs_t1+number_mobs_t2;
 
 
-        System.out.println("delay -> "+delay);
-        System.out.println("number_mobs_t1 -> "+number_mobs_t1);
-
         timer = new Timer(delay, actionListener);
         buildings= new ArrayList<Base_building>();
 
@@ -75,6 +74,22 @@ public class Logica {
         inicializar_mobs(); //lvl1
         eliminar_buildings();
         timer.restart();
+    }
+
+    public void check_end_game() {
+
+        int contador=0;
+
+        for(int i =0; i< total_number_mobs; i++){
+
+            if( mobs[i].is_dead && mobs[i].isInGame()  ) {
+                contador++;
+            }
+        }
+
+        if(contador == total_number_mobs) { //Game over
+            Game_Over end = new Game_Over(1); //tipo 1-> Ganhou o Jogo!
+        }
     }
 
     public void inicializar_mobs(){
@@ -124,7 +139,7 @@ public class Logica {
 
     private void check_life() {
         if( Main.getLoja().getLife()  <= 0){
-            //gameover
+            Game_Over end = new Game_Over(0); //tipo 0-> Perdeu o Jogo
         }
     }
 

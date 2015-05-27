@@ -1,1 +1,45 @@
+lvl = 1
+Gold left in Store = 5
+Life of Player = 10
 
+//////////////////////////////////Mobs//////////////////////////////////////
+//////////////////////////////////Type_one:
+Total Number of mobs  = 3
+Number of mobs spawned = 1
+Life = 100
+atack = 100
+Coin value = 5
+
+Posx = 91         Posy = 341
+Current life = 100
+Animation State = 0
+Is dead = 0
+//////////////////////////////////Type_two:
+Total Number of mobs  = 2
+Number of mobs spawned = 2
+Life = 150
+atack = 150
+Coin value = 10
+
+Posx = 146         Posy = 421
+Current life = 60
+Animation State = 0
+Is dead = 0
+
+Posx = 110         Posy = 385
+Current life = 150
+Animation State = 0
+Is dead = 0
+//////////////////////////////////Buildings//////////////////////////////////////
+//////////////////////////////////Type_one:
+Total Number of buildings  = 3
+atack = 15
+atack_delay = 1500
+Raio = 220
+
+Posx = 240         Posy = 175
+Animation State = 8
+Posx = 480         Posy = 350
+Animation State = 8
+Posx = 432         Posy = 150
+Animation State = 7
