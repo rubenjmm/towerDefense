@@ -26,6 +26,8 @@ public class Building1 extends Base_building {
 
     public Building1 (int x,int y ) {
 
+        type_building = 1;
+
         ///////Ir buscar às configurações
         atack_delay = Main.getOptions().getAtack_speed_b1();//ms
         atack = Main.getOptions().getAtack_b1(); //Damage

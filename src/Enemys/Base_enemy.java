@@ -45,6 +45,8 @@ public class Base_enemy {
 
     public int coin_value=0;
 
+    public int mob_type=0;
+
     public Base_enemy() {
         inic();
     }

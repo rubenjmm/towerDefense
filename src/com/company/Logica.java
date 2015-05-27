@@ -29,11 +29,18 @@ public class Logica {
 
     //Depende do lvl, e vai estar num dos ficheiros
     private int number_mobs_t1;
+    private int mobs_spawned_t1=0;
     private int number_mobs_t2;
+    private int mobs_spawned_t2=0;
+    private int total_number_mobs=0;
+
 
     private boolean building_inic=false;
+
     private ArrayList<Base_building> buildings;
     private Type_building type_b = new Type_building();
+
+
 
 
     ActionListener actionListener = new ActionListener() {
@@ -45,11 +52,15 @@ public class Logica {
         }
     };
 
+
     public Logica() {
 
         number_mobs_t1 = Main.getOptions().getNumber_mobs_t1();
         number_mobs_t2 = Main.getOptions().getNumber_mobs_t2();
         delay = Main.getOptions().getTempo_entre_spawn_mobs();
+
+        total_number_mobs=number_mobs_t1+number_mobs_t2;
+
 
         System.out.println("delay -> "+delay);
         System.out.println("number_mobs_t1 -> "+number_mobs_t1);
@@ -68,8 +79,8 @@ public class Logica {
 
     public void inicializar_mobs(){
 
-        int mobs_criados_t1=0;
-        int mobs_criados_t2=0;
+        mobs_spawned_t1=0;
+        mobs_spawned_t2=0;
 
         Random r = new Random();
 
@@ -77,19 +88,19 @@ public class Logica {
         mobs = new Base_enemy[number_mobs_t1 + number_mobs_t2];
 
 
-        while( (mobs_criados_t1+mobs_criados_t2)!= mobs.length) {
+        while( (mobs_spawned_t1+mobs_spawned_t2)!= mobs.length) {
 
             int num = r.nextInt(2);
 
-            if (num == 0 && mobs_criados_t1<number_mobs_t1) {
-                mobs[mobs_criados_t2+mobs_criados_t1] = new Monster_1();
-                mobs_criados_t1 = mobs_criados_t1+1;
+            if (num == 0 && mobs_spawned_t1<number_mobs_t1) {
+                mobs[mobs_spawned_t2+mobs_spawned_t1] = new Monster_1();
+                mobs_spawned_t1 = mobs_spawned_t1+1;
             }
 
-            if(num==1 && mobs_criados_t2<number_mobs_t2) {
+            if(num==1 && mobs_spawned_t2<number_mobs_t2) {
 
-                mobs[mobs_criados_t2+mobs_criados_t1] = new Monster_2();
-                mobs_criados_t2 = mobs_criados_t2+1;
+                mobs[mobs_spawned_t2+mobs_spawned_t1] = new Monster_2();
+                mobs_spawned_t2 = mobs_spawned_t2+1;
             }
         }
         mobs_inic = true;
@@ -166,6 +177,22 @@ public class Logica {
 
     public Base_enemy[] getMobs() {
         return mobs;
+    }
+
+    public int getMobs_spawned_t1() {
+        return mobs_spawned_t1;
+    }
+
+    public int getMobs_spawned_t2() {
+        return mobs_spawned_t2;
+    }
+
+    public int getTotal_number_mobs() {
+        return total_number_mobs;
+    }
+
+    public ArrayList<Base_building> getBuildings() {
+        return buildings;
     }
 
 }

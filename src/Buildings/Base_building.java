@@ -30,6 +30,8 @@ public class Base_building {
     public int mob_x,mob_y;
     public int mob_index;
 
+    public int type_building=0;
+
     public int animation_actual_state = 7;
     public int animation_next_state   = 7;
     /*

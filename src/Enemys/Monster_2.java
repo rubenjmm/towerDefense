@@ -31,6 +31,8 @@ public class Monster_2  extends Base_enemy{
 
     public void inic() {
 
+        mob_type=2;
+
         ///////Ir buscar às configurações
         strikes = Main.getOptions().getAtack_mobs_t2();
         life = Main.getOptions().getLife_mobs_t2();
