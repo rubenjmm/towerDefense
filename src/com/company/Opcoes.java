@@ -22,9 +22,13 @@ public class Opcoes {
     private int atack_speed_b1;
     private int atack_b1;
 
+
+    private int tempo_entre_spawn_mobs;
+
     public Opcoes(){
 
     }
+
 
 
     public void default_options (){
@@ -47,6 +51,9 @@ public class Opcoes {
             atack_speed_b1=1500;
             atack_b1=15;
 
+            tempo_entre_spawn_mobs=2500;
+
+
         }
     }
 
@@ -57,6 +64,9 @@ public class Opcoes {
 //////////////////////////// GETTER'S ////////////////////////////
 
 
+    public int getTempo_entre_spawn_mobs() {
+        return tempo_entre_spawn_mobs;
+    }
 
 
     public int getNumber_mobs_t1() {

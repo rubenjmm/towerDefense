@@ -39,6 +39,9 @@ public class Main {
         Building1_sprites.inic();
 
 
+        level=1;
+        options = new Opcoes();
+        options.default_options();
         game_logic = new Logica();
         inic_menu();
     }
@@ -47,7 +50,6 @@ public class Main {
         state = STATE.Inic_menu;
 
         Inic_Menu n = new Inic_Menu();
-        options = new Opcoes();
         map = new Mapa();
         loja = new Loja();
         n.begin();

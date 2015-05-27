@@ -22,14 +22,14 @@ import javax.swing.Timer;
 public class Logica {
 
 
-    private int delay = 2500; //milliseconds
+    private int delay;  //milliseconds
     private Timer timer;
     private boolean mobs_inic = false;
     private Base_enemy[] mobs;
 
     //Depende do lvl, e vai estar num dos ficheiros
-    private int number_mobs_t1=1;
-    private int number_mobs_t2=2;
+    private int number_mobs_t1;
+    private int number_mobs_t2;
 
     private boolean building_inic=false;
     private ArrayList<Base_building> buildings;
@@ -46,6 +46,13 @@ public class Logica {
     };
 
     public Logica() {
+
+        number_mobs_t1 = Main.getOptions().getNumber_mobs_t1();
+        number_mobs_t2 = Main.getOptions().getNumber_mobs_t2();
+        delay = Main.getOptions().getTempo_entre_spawn_mobs();
+
+        System.out.println("delay -> "+delay);
+        System.out.println("number_mobs_t1 -> "+number_mobs_t1);
 
         timer = new Timer(delay, actionListener);
         buildings= new ArrayList<Base_building>();
