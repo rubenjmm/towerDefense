@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4e87502-f8fd-496e-af93-0cf0ddcbd433" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\Java_Projetcts\Projeto Final\Saves\Config.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Draw_game.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Draw_game.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/com/company/Logica.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/com/company/Logica.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/com/company/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Enemys/Monster_2.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Enemys/Monster_2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/com/company/Opcoes.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/com/company/Opcoes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Load_Save/Save.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Load_Save/Save.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Logica.java" afterPath="$PROJECT_DIR$/src/com/company/Logica.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Opcoes.java" afterPath="$PROJECT_DIR$/src/com/company/Opcoes.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -53,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/Buildings/Base_building.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1394">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
               <folding>
                 <element signature="method#Base_building#0;class#Base_building#0" expanded="false" />
                 <element signature="method#Base_building#1;class#Base_building#0" expanded="false" />
@@ -69,23 +60,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6062407" vertical-offset="187" max-vertical-offset="2023">
-              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Opcoes.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Opcoes.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Opcoes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1615">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5230312" vertical-offset="345" max-vertical-offset="1326">
+              <caret line="117" column="6" selection-start-line="117" selection-start-column="6" selection-end-line="117" selection-end-column="6" />
               <folding>
                 <element signature="method#Opcoes#0;class#Opcoes#0" expanded="false" />
+                <element signature="method#default_options#0;class#Opcoes#0" expanded="false" />
+                <element signature="method#easy_difficulty#0;class#Opcoes#0" expanded="false" />
+                <element signature="method#normal_difficulty#0;class#Opcoes#0" expanded="false" />
+                <element signature="method#hard_difficulty#0;class#Opcoes#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -166,9 +151,9 @@
         <option value="$PROJECT_DIR$/src/Buildings/Building1.java" />
         <option value="$PROJECT_DIR$/src/Enemys/Monster_1.java" />
         <option value="$PROJECT_DIR$/src/Enemys/Monster_2.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Opcoes.java" />
         <option value="$PROJECT_DIR$/src/com/company/Logica.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Opcoes.java" />
       </list>
     </option>
   </component>
@@ -711,7 +696,13 @@
       <option name="project" value="LOCAL" />
       <updated>1432648815739</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="class de config is working!">
+      <created>1432709240659</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1432709240659</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -794,11 +785,12 @@
     <MESSAGE value="Tentativa de adicioanr efeito de tiro pt2" />
     <MESSAGE value="..." />
     <MESSAGE value="Adicionei class de configurações" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionei class de configurações" />
+    <MESSAGE value="class de config is working!" />
+    <option name="LAST_COMMIT_MESSAGE" value="class de config is working!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="158" />
+      <option name="time" value="159" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1185,34 +1177,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Buildings/Base_building.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1394">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="method#Base_building#0;class#Base_building#0" expanded="false" />
-            <element signature="method#Base_building#1;class#Base_building#0" expanded="false" />
-            <element signature="method#inic#0;class#Base_building#0" expanded="false" />
-            <element signature="method#draw#0;class#Base_building#0" expanded="false" />
-            <element signature="method#find_target#0;class#Base_building#0" expanded="false" />
-            <element signature="method#atack#0;class#Base_building#0" expanded="false" />
-            <element signature="method#verify_target_range#0;class#Base_building#0" expanded="false" />
-            <element signature="method#verify_pos#0;class#Base_building#0" expanded="false" />
-            <element signature="method#change_animation#0;class#Base_building#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Opcoes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1615">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="method#Opcoes#0;class#Opcoes#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Logica.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1904">
@@ -1232,9 +1196,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6062407" vertical-offset="187" max-vertical-offset="2023">
-          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.6820208" vertical-offset="187" max-vertical-offset="2023">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Buildings/Base_building.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1394">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+          <folding>
+            <element signature="method#Base_building#0;class#Base_building#0" expanded="false" />
+            <element signature="method#Base_building#1;class#Base_building#0" expanded="false" />
+            <element signature="method#inic#0;class#Base_building#0" expanded="false" />
+            <element signature="method#draw#0;class#Base_building#0" expanded="false" />
+            <element signature="method#find_target#0;class#Base_building#0" expanded="false" />
+            <element signature="method#atack#0;class#Base_building#0" expanded="false" />
+            <element signature="method#verify_target_range#0;class#Base_building#0" expanded="false" />
+            <element signature="method#verify_pos#0;class#Base_building#0" expanded="false" />
+            <element signature="method#change_animation#0;class#Base_building#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Opcoes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5230312" vertical-offset="345" max-vertical-offset="1326">
+          <caret line="117" column="6" selection-start-line="117" selection-start-column="6" selection-end-line="117" selection-end-column="6" />
+          <folding>
+            <element signature="method#Opcoes#0;class#Opcoes#0" expanded="false" />
+            <element signature="method#default_options#0;class#Opcoes#0" expanded="false" />
+            <element signature="method#easy_difficulty#0;class#Opcoes#0" expanded="false" />
+            <element signature="method#normal_difficulty#0;class#Opcoes#0" expanded="false" />
+            <element signature="method#hard_difficulty#0;class#Opcoes#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
