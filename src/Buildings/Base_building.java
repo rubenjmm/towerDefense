@@ -250,4 +250,9 @@ public class Base_building {
     }
 
 
+
+    public void setAnimation_state(int a) {
+        this.animation_actual_state=a;
+    }
+
 }

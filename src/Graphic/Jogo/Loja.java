@@ -264,4 +264,15 @@ public class Loja extends JPanel{
     public int getCoins() {
         return coins;
     }
+
+
+    //////////////////////////////// SETTER's ////////////////////////////////
+
+    public void setGold(int g) {
+        this.coins = g;
+    }
+
+    public void setLife(int l) {
+        this.life = l;
+    }
 }

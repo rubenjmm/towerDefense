@@ -28,20 +28,20 @@ public class Logica {
     private boolean mobs_inic = false;
     private Base_enemy[] mobs;
 
-    //Depende do lvl, e vai estar num dos ficheiros
     private int number_mobs_t1;
     private int mobs_spawned_t1=0;
     private int number_mobs_t2;
     private int mobs_spawned_t2=0;
     private int total_number_mobs=0;
 
+    private int ingame_mobs_t1=0;
+    private int ingame_mobs_t2=0;
+
 
     private boolean building_inic=false;
 
     private ArrayList<Base_building> buildings;
     private Type_building type_b = new Type_building();
-
-
 
 
     ActionListener actionListener = new ActionListener() {
@@ -148,6 +148,12 @@ public class Logica {
         for (int i = 0; i < mobs.length; i++) {
             if (!mobs[i].isInGame()) {
                 mobs[i].Spawnmob();
+                if(mobs[i].mob_type==1) {
+                    ingame_mobs_t1++;
+                }
+                else if(mobs[i].mob_type==2){
+                    ingame_mobs_t2++;
+                }
                 break;
             }
         }
@@ -194,12 +200,12 @@ public class Logica {
         return mobs;
     }
 
-    public int getMobs_spawned_t1() {
-        return mobs_spawned_t1;
+    public int get_spawned_mobs_t1() {
+        return ingame_mobs_t1;
     }
 
-    public int getMobs_spawned_t2() {
-        return mobs_spawned_t2;
+    public int get_spawned_mobs_t2() {
+        return ingame_mobs_t2;
     }
 
     public int getTotal_number_mobs() {
@@ -208,6 +214,16 @@ public class Logica {
 
     public ArrayList<Base_building> getBuildings() {
         return buildings;
+    }
+
+    //////////////////////////////// SETTER's ////////////////////////////////
+
+    public void set_mobs(Base_enemy[] a) {
+        this.mobs = a;
+    }
+
+    public void set_buildings(ArrayList<Base_building> a) {
+        this.buildings = a;
     }
 
 }

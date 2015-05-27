@@ -146,4 +146,9 @@ public class Main {
         Main.mouse_y = mouse_y;
     }
 
+
+    public static void setLevel(int a) {
+        level = a;
+    }
+
 }

@@ -28,6 +28,8 @@ public class Opcoes {
 
     private int difficulty_type=0;
 
+
+
     public Opcoes(){
 
     }
@@ -194,4 +196,53 @@ public class Opcoes {
     public int getAtack_b1() {
         return atack_b1;
     }
+
+    public void setNumber_mobs_t1(int number_mobs_t1) {
+        this.number_mobs_t1 = number_mobs_t1;
+    }
+
+    public void setNumber_mobs_t2(int number_mobs_t2) {
+        this.number_mobs_t2 = number_mobs_t2;
+    }
+
+    public void setLife_mobs_t1(int life_mobs_t1) {
+        this.life_mobs_t1 = life_mobs_t1;
+    }
+
+    public void setLife_mobs_t2(int life_mobs_t2) {
+        this.life_mobs_t2 = life_mobs_t2;
+    }
+
+    public void setAtack_mobs_t1(int atack_mobs_t1) {
+        this.atack_mobs_t1 = atack_mobs_t1;
+    }
+
+    public void setAtack_mobs_t2(int atack_mobs_t2) {
+        this.atack_mobs_t2 = atack_mobs_t2;
+    }
+
+    public void setCoin_mobs_t1(int coin_mobs_t1) {
+        this.coin_mobs_t1 = coin_mobs_t1;
+    }
+
+    public void setCoin_mobs_t2(int coin_mobs_t2) {
+        this.coin_mobs_t2 = coin_mobs_t2;
+    }
+
+    public void setRaio_b1(int raio_b1) {
+        this.raio_b1 = raio_b1;
+    }
+
+    public void setAtack_speed_b1(int atack_speed_b1) {
+        this.atack_speed_b1 = atack_speed_b1;
+    }
+
+    public void setAtack_b1(int atack_b1) {
+        this.atack_b1 = atack_b1;
+    }
+
+    public void setTempo_entre_spawn_mobs(int tempo_entre_spawn_mobs) {
+        this.tempo_entre_spawn_mobs = tempo_entre_spawn_mobs;
+    }
+
 }
