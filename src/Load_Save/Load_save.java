@@ -105,6 +105,7 @@ public class Load_save {
     public void level() {
 
         level =getint( new Scanner(x.nextLine()) );
+        Load_level load = new Load_level("lvl"+Integer.toString(level));
     }
 
     public void gold() {

@@ -76,7 +76,7 @@ public class Base_enemy {
     public void update_pos() {
 
 
-        if (board[posx_b][posy_b] == 'r') {
+        if (board[posx_b][posy_b] == 'r'   ) {
             if (posx_b == Main.getMap().getlinhas() - 2) { //verificar se a próxima posição de baixo o fim do mapa
                 posx++;
                 //random_pos(1);//x++
@@ -92,7 +92,7 @@ public class Base_enemy {
                     //random_pos(4);//x--
                 }
             }
-        } else if (board[posx_b][posy_b] == 'k') {
+        } else if (    (board[posx_b][posy_b] == 'k') || (board[posx_b][posy_b] == 'w') ) {
             posx++;
             //random_pos(1); //x++
         }

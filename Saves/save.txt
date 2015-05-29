@@ -12,7 +12,7 @@ Life = 100
 atack = 3
 Coin value = 5
 
-Posx = 92         Posy = 392
+Posx = 167         Posy = 346
 Current life = 100
 Animation State = 0
 Is dead = 0
@@ -23,12 +23,12 @@ Life = 150
 atack = 2
 Coin value = 10
 
-Posx = 108         Posy = 346
+Posx = 116         Posy = 425
 Current life = 150
 Animation State = 0
 Is dead = 0
 
-Posx = 77         Posy = 425
+Posx = 82         Posy = 332
 Current life = 150
 Animation State = 0
 Is dead = 0
