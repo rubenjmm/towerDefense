@@ -22,6 +22,7 @@ public class Load_save {
     private ArrayList<Base_building> buildings = new ArrayList<Base_building>();
     private Type_building type_b = new Type_building();
 
+    private int level,gold,player_life;
 
 
     public Load_save() {
@@ -49,6 +50,14 @@ public class Load_save {
         player_life();
         mobs();
         buildings();
+
+        Main.load__old_game(level ,  gold  ,  player_life  ,  mobs  ,   buildings);
+
+        //Main.setLevel(level);
+        //Main.getLoja().setGold(gold);
+        //Main.getLoja().setLife(player_life);
+        //Main.getGame_logic().set_mobs(this.mobs);
+        //Main.getGame_logic().set_buildings(this.buildings);
 
     }
 
@@ -94,20 +103,18 @@ public class Load_save {
 
     public void level() {
 
-        int level =getint( new Scanner(x.nextLine()) );
-        Main.setLevel(level);
+        level =getint( new Scanner(x.nextLine()) );
     }
 
     public void gold() {
 
-        int gold =getint( new Scanner(x.nextLine()) );
-        Main.getLoja().setGold(gold);
+        gold =getint( new Scanner(x.nextLine()) );
     }
 
     public void player_life() {
 
-        int player_life =getint( new Scanner(x.nextLine()) );
-        Main.getLoja().setLife(player_life);
+        player_life =getint( new Scanner(x.nextLine()) );
+
         x.nextLine();
     }
 
@@ -115,17 +122,22 @@ public class Load_save {
 
         x.nextLine();
         get_total_mobs();
+        get_spawn_time();
         mobs = new Base_enemy[total_mobs];
         mobs_type1();
         mobs_type2();
-        Main.getGame_logic().set_mobs(this.mobs);
 
     }
 
     public void get_total_mobs() {
 
         total_mobs = getint( new Scanner(x.nextLine()) );
-        System.out.println("Total mobs -> "+total_mobs);
+    }
+
+    public void get_spawn_time() {
+
+        int Spawn_time = getint( new Scanner(x.nextLine()) );
+        Main.getOptions().setTempo_entre_spawn_mobs(Spawn_time);
     }
 
     public void mobs_type1() {
@@ -144,8 +156,8 @@ public class Load_save {
         Main.getOptions().setAtack_mobs_t1(atack);
         Main.getOptions().setCoin_mobs_t1(coin_value);
 
-
-        for(int i=0;i<mobs_spawned;i++) {
+        int i=0,j=0;
+        for(i=0;i<mobs_spawned;i++) {
             x.nextLine();
 
             getposicao( new Scanner(x.nextLine() ) );
@@ -163,8 +175,12 @@ public class Load_save {
             mobs[i].posy=posy;
             mobs[i].life=current_life;
             mobs[i].animation_state=Animation_State;
-
         }
+
+        for(j=0;j< n_mobs - mobs_spawned;j++) {
+            mobs[i+j] = new Monster_1();
+        }
+
 
     }
 
@@ -184,7 +200,8 @@ public class Load_save {
         Main.getOptions().setAtack_mobs_t2(atack);
         Main.getOptions().setCoin_mobs_t2(coin_value);
 
-        for(int i=0;i<mobs_spawned;i++) {
+        int i=0,j=0;
+        for(i=0;i<mobs_spawned;i++) {
             x.nextLine();
 
             getposicao( new Scanner(x.nextLine() ) );
@@ -205,6 +222,10 @@ public class Load_save {
             mobs[i].animation_state=Animation_State;
         }
 
+        for(j=0;j< n_mobs - mobs_spawned;j++) {
+            mobs[i+j] = new Monster_2();
+        }
+
     }
 
     public void buildings() {
@@ -212,7 +233,6 @@ public class Load_save {
         x.nextLine();
         x.nextLine();
         building_type1();
-        Main.getGame_logic().set_buildings(this.buildings);
     }
 
     public void building_type1() {
@@ -229,8 +249,9 @@ public class Load_save {
         Main.getOptions().setAtack_b1(atack);
         Main.getOptions().setAtack_speed_b1(atack_delay);
         Main.getOptions().setRaio_b1(raio);
-
-        x.nextLine();
+        if(n_buildings>0){
+            x.nextLine();
+        }
         for(int i=0;i<n_buildings;i++) {
 
             getposicao( new Scanner(x.nextLine() ) );

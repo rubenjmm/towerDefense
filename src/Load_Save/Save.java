@@ -36,7 +36,8 @@ public class Save {
         x.format("Life of Player = %d\r\n\r\n",Main.getLoja().getLife());
 
         x.format("//////////////////////////////////Mobs//////////////////////////////////////\r\n");
-        x.format("Total Numver of mobs = %d\r\n",Main.getGame_logic().getTotal_number_mobs());
+        x.format("Total Number of mobs = %d\r\n",Main.getGame_logic().getTotal_number_mobs());
+        x.format("Spawn time between mobs = %d\r\n",Main.getOptions().getTempo_entre_spawn_mobs());
         x.format("//////////////////////////////////Type_one:\r\n");
         x.format("Total Number of mobs  = %d\r\n", Main.getOptions().getNumber_mobs_t1() );
         x.format("Number of mobs spawned = %d\r\n",Main.getGame_logic().get_spawned_mobs_t1() );

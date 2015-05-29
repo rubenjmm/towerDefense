@@ -1,6 +1,8 @@
 package com.company;
 
+import Buildings.Base_building;
 import Buildings.Building1_sprites;
+import Enemys.Base_enemy;
 import Enemys.Monster1_sprites;
 import Enemys.Monster2_sprites;
 import Graphic.Jogo.Frame;
@@ -8,6 +10,7 @@ import Graphic.Jogo.Loja;
 import Graphic.Menus.Inic_Menu;
 import Load_Save.Load_level;
 
+import java.util.ArrayList;
 
 
 public class Main {
@@ -68,7 +71,14 @@ public class Main {
     }
 
 
-    public static void load__old_game() {
+    public static void load__old_game(int lvl ,int gold  ,int player_life  , Base_enemy[]  mobs, ArrayList<Base_building> buildings  ) {
+
+        level = lvl;
+        Load_level load = new Load_level("lvl"+Integer.toString(level));
+        loja.setGold(gold);
+        loja.setLife(player_life);
+        game_logic.load_old_game(mobs,buildings);
+        state = STATE.GAME;
 
     }
 

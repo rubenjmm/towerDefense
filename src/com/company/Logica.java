@@ -76,6 +76,25 @@ public class Logica {
         timer.restart();
     }
 
+
+    public void load_old_game(Base_enemy[]  m, ArrayList<Base_building> b) {
+
+        System.out.println("mobs length-> "+m.length);
+        System.out.println("buildings length-> "+b.size()+"\n\n");
+
+        this.mobs = m;
+        this.buildings = b;
+
+        System.out.println("mobs length-> "+mobs.length);
+        System.out.println("buildings length-> "+buildings.size());
+
+        this.mobs_inic=true;
+        this.building_inic=true;
+        timer = new Timer(delay, actionListener);
+        timer.restart();
+
+    }
+
     public void check_end_game() {
 
         int contador=0;
@@ -93,6 +112,9 @@ public class Logica {
     }
 
     public void inicializar_mobs(){
+
+        ingame_mobs_t1=0;
+        ingame_mobs_t2=0;
 
         mobs_spawned_t1=0;
         mobs_spawned_t2=0;
