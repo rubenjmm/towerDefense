@@ -35,6 +35,8 @@ public class Main {
 
     private static STATE state = STATE.Main_menu;
 
+    private static boolean first_game=false;
+
     public static void main(String[] args) {
         //Inicializar as texturas
         Monster1_sprites.inic();
@@ -61,6 +63,7 @@ public class Main {
 
     public static void new_game() {
 
+        first_game=true;
         state = STATE.GAME;
         level = 1 ;
         options.default_options();
@@ -73,12 +76,17 @@ public class Main {
 
     public static void load__old_game(int lvl ,int gold  ,int player_life  , Base_enemy[]  mobs, ArrayList<Base_building> buildings  ) {
 
-        level = lvl;
-        Load_level load = new Load_level("lvl"+Integer.toString(level));
         loja.setGold(gold);
         loja.setLife(player_life);
+        if ( !first_game) {
+            frame1 = new Frame();
+        }
+        level = lvl;
+        Load_level load = new Load_level("lvl"+Integer.toString(level));
+
         game_logic.load_old_game(mobs,buildings);
         state = STATE.GAME;
+
 
     }
 
@@ -157,8 +165,5 @@ public class Main {
     }
 
 
-    public static void setLevel(int a) {
-        level = a;
-    }
 
 }

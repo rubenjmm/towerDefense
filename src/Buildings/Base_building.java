@@ -88,7 +88,9 @@ public class Base_building {
         timer = new Timer(atack_delay,timer_listener);
         timer.start();
         time2= System.currentTimeMillis();
-        verify_pos();
+            if( Main.getGame_logic().isInicializacao() ) {
+                verify_pos();
+            }
     }
 
     public void draw(Graphics g) {
@@ -248,7 +250,6 @@ public class Base_building {
 
         //altera as imagens consoante a animação
     }
-
 
 
     public void setAnimation_state(int a) {

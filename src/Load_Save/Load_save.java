@@ -24,6 +24,7 @@ public class Load_save {
 
     private int level,gold,player_life;
 
+    private int mobs_created=0;
 
     public Load_save() {
 
@@ -45,6 +46,7 @@ public class Load_save {
     public void readFile(){
 
 
+        //fazer pause ao draw
         level();
         gold();
         player_life();
@@ -165,22 +167,30 @@ public class Load_save {
             int Animation_State= getint( new Scanner(x.nextLine()) );
             int is_dead = getint( new Scanner(x.nextLine()) );
 
-            mobs[i] = new Monster_1();
-            mobs[i].inGame=true;
+            mobs[mobs_created] = new Monster_1();
+            mobs[mobs_created].inGame=true;
             if(is_dead==0)
-                mobs[i].is_dead=false;
+                mobs[mobs_created].is_dead=false;
             else
-                mobs[i].is_dead=true;
-            mobs[i].posx=posx;
-            mobs[i].posy=posy;
-            mobs[i].life=current_life;
-            mobs[i].animation_state=Animation_State;
+                mobs[mobs_created].is_dead=true;
+            mobs[mobs_created].posx=posx;
+            mobs[mobs_created].posy=posy;
+            mobs[mobs_created].life=current_life;
+            mobs[mobs_created].animation_state=Animation_State;
+
+            mobs[mobs_created].posy_b = posx / 24;
+            mobs[mobs_created].posx_b = posy / 24;
+
+            mobs[mobs_created].Spawnmob();
+
+            mobs_created++;
         }
 
         for(j=0;j< n_mobs - mobs_spawned;j++) {
-            mobs[i+j] = new Monster_1();
-        }
+            mobs[mobs_created] = new Monster_1();
 
+            mobs_created++;
+        }
 
     }
 
@@ -210,20 +220,31 @@ public class Load_save {
             int is_dead = getint( new Scanner(x.nextLine()) );
 
 
-            mobs[i] = new Monster_2();
-            mobs[i].inGame=true;
+            mobs[mobs_created] = new Monster_2();
+            mobs[mobs_created].inGame=true;
             if(is_dead==0)
-                mobs[i].is_dead=false;
+                mobs[mobs_created].is_dead=false;
             else
-                mobs[i].is_dead=true;
-            mobs[i].posx=posx;
-            mobs[i].posy=posy;
-            mobs[i].life=current_life;
-            mobs[i].animation_state=Animation_State;
+                mobs[mobs_created].is_dead=true;
+            mobs[mobs_created].posx=posx;
+            mobs[mobs_created].posy=posy;
+            mobs[mobs_created].life=current_life;
+            mobs[mobs_created].animation_state=Animation_State;
+
+            mobs[mobs_created].posy_b = posx / 24;
+            mobs[mobs_created].posx_b = posy / 24;
+
+            mobs[mobs_created].Spawnmob();
+
+
+            mobs_created++;
         }
 
+
         for(j=0;j< n_mobs - mobs_spawned;j++) {
-            mobs[i+j] = new Monster_2();
+            mobs[mobs_created] = new Monster_2();
+
+            mobs_created++;
         }
 
     }

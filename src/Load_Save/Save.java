@@ -90,7 +90,8 @@ public class Save {
         x.format("Raio = %d\r\n",Main.getOptions().getRaio_b1());
         for(int i =0;i<  Main.getGame_logic().getBuildings().size() ;i++) {
             x.format("\r\n");
-            x.format("Posx = %d         Posy = %d\r\n", Main.getGame_logic().getBuildings().get(i).posx, Main.getGame_logic().getBuildings().get(i).posy);
+            x.format("Posx = %d         Posy = %d\r\n", Main.getGame_logic().getBuildings().get(i).posx_b, Main.getGame_logic().getBuildings().get(i).posy_b);
+            //////ALTEREI AQUI PQPQPQPQ
             x.format("Animation State = %d", Main.getGame_logic().getBuildings().get(i).animation_actual_state );
         }
 

@@ -7,25 +7,25 @@ Total Number of mobs = 3
 Spawn time between mobs = 2500
 //////////////////////////////////Type_one:
 Total Number of mobs  = 1
-Number of mobs spawned = 1
+Number of mobs spawned = 0
 Life = 100
 atack = 3
 Coin value = 5
-
-Posx = 54         Posy = 329
-Current life = 100
-Animation State = 0
-Is dead = 0
 //////////////////////////////////Type_two:
 Total Number of mobs  = 2
-Number of mobs spawned = 1
+Number of mobs spawned = 2
 Life = 150
 atack = 2
 Coin value = 10
 
-Posx = 4         Posy = 254
+Posx = 22         Posy = 347
 Current life = 150
 Animation State = 0
+Is dead = 0
+
+Posx = 0         Posy = 250
+Current life = 150
+Animation State = 2
 Is dead = 0
 //////////////////////////////////Buildings//////////////////////////////////////
 //////////////////////////////////Type_one:
@@ -34,5 +34,5 @@ atack = 15
 atack_delay = 1500
 Raio = 220
 
-Posx = 288         Posy = 275
+Posx = 13         Posy = 10
 Animation State = 7
