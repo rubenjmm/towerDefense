@@ -16,8 +16,8 @@ rrrNgggggggggggggNccccNggggg
 rrrrNNNNNNNNNNNNNccccNgggggg
 rrrrkkkkkkkkkkkkccccNggggggg
 rrrrkwwwwwwwwwwcccNggggggggg
-rrrrNNNgggggcccccNgggggggggg
-rrrrrrNNgggcccccNggggggggggg
+rrrrrrrgggggcccccNgggggggggg
+rrrrrrrNgggcccccNggggggggggg
 NNrrrrrrrrrrccccNggggggggggg
 gggNNNNNNNNNNNNNNNNggggggggg
 

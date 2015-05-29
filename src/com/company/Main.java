@@ -66,7 +66,6 @@ public class Main {
         first_game=true;
         state = STATE.GAME;
         level = 1 ;
-        options.default_options();
         Load_level load = new Load_level("lvl1"); //Inicializa a class Mapa com o nível 1, que está no ficheiro lvl1
         frame1 = new Frame();
         game_logic.new_game();

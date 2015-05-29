@@ -3,35 +3,20 @@ Gold left in Store = 50
 Life of Player = 10
 
 //////////////////////////////////Mobs//////////////////////////////////////
-Total Number of mobs = 3
-Spawn time between mobs = 2500
+Total Number of mobs = 102
+Spawn time between mobs = 150
 //////////////////////////////////Type_one:
-Total Number of mobs  = 1
-Number of mobs spawned = 1
+Total Number of mobs  = 100
+Number of mobs spawned = 0
 Life = 100
 atack = 3
 Coin value = 5
-
-Posx = 167         Posy = 346
-Current life = 100
-Animation State = 0
-Is dead = 0
 //////////////////////////////////Type_two:
 Total Number of mobs  = 2
-Number of mobs spawned = 2
+Number of mobs spawned = 0
 Life = 150
 atack = 2
 Coin value = 10
-
-Posx = 116         Posy = 425
-Current life = 150
-Animation State = 0
-Is dead = 0
-
-Posx = 82         Posy = 332
-Current life = 150
-Animation State = 0
-Is dead = 0
 //////////////////////////////////Buildings//////////////////////////////////////
 //////////////////////////////////Type_one:
 Total Number of buildings  = 0

@@ -132,7 +132,9 @@ public class Config {
 
     public void gui_custom() {
 
-
+        Config_custom confg_custom = new Config_custom();
+        frame2.setVisible(false);
+        frame2.dispose();
     }
 
 

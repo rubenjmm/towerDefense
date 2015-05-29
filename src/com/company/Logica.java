@@ -73,6 +73,12 @@ public class Logica {
 
     public void new_game() {
 
+        number_mobs_t1 = Main.getOptions().getNumber_mobs_t1();
+        number_mobs_t2 = Main.getOptions().getNumber_mobs_t2();
+        delay = Main.getOptions().getTempo_entre_spawn_mobs();
+        total_number_mobs=number_mobs_t1+number_mobs_t2;
+        timer = new Timer(delay, actionListener);
+
         inicializar_mobs(); //lvl1
         eliminar_buildings();
         timer.restart();
@@ -91,15 +97,6 @@ public class Logica {
 
         mobs = m;
         buildings = b;
-
-        /*
-        System.out.println("mobs length-> "+mobs.length);
-        System.out.println("buildings length-> "+buildings.size());
-
-        System.out.println("Mob1: posx = "+mobs[0].posx+" posy= "+mobs[0].posy);
-        System.out.println("Mob2: posx = "+mobs[1].posx+" posy= "+mobs[1].posy);
-        System.out.println("Mob3: posx = "+mobs[2].posx+" posy= "+mobs[2].posy);
-        */
 
         mobs_inic=true;
         building_inic=true;

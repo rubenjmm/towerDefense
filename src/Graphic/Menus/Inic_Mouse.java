@@ -1,5 +1,6 @@
 package Graphic.Menus;
 
+import Graphic.Jogo.Config;
 import Load_Save.Load_save;
 import com.company.Main;
 
@@ -82,6 +83,7 @@ public class Inic_Mouse implements MouseListener,MouseMotionListener {
 
     public void optionsButton() {
 
+        Config configurations = new Config();
     }
 
     public void loadButton() {
