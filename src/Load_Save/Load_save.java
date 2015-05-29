@@ -60,7 +60,6 @@ public class Load_save {
         //Main.getLoja().setLife(player_life);
         //Main.getGame_logic().set_mobs(this.mobs);
         //Main.getGame_logic().set_buildings(this.buildings);
-
     }
 
     public void closeFile(){
@@ -153,7 +152,7 @@ public class Load_save {
         int coin_value =getint( new Scanner(x.nextLine()) );
 
         Main.getOptions().setNumber_mobs_t1(n_mobs);
-
+        Main.getGame_logic().set_spawned_mobs_t1(mobs_spawned);
         Main.getOptions().setLife_mobs_t1(life);
         Main.getOptions().setAtack_mobs_t1(atack);
         Main.getOptions().setCoin_mobs_t1(coin_value);
@@ -181,7 +180,7 @@ public class Load_save {
             mobs[mobs_created].posy_b = posx / 24;
             mobs[mobs_created].posx_b = posy / 24;
 
-            mobs[mobs_created].Spawnmob();
+            mobs[mobs_created].start_mob();
 
             mobs_created++;
         }
@@ -205,7 +204,7 @@ public class Load_save {
 
 
         Main.getOptions().setNumber_mobs_t2(n_mobs);
-
+        Main.getGame_logic().set_spawned_mobs_t2(mobs_spawned);
         Main.getOptions().setLife_mobs_t2(life);
         Main.getOptions().setAtack_mobs_t2(atack);
         Main.getOptions().setCoin_mobs_t2(coin_value);
@@ -234,7 +233,7 @@ public class Load_save {
             mobs[mobs_created].posy_b = posx / 24;
             mobs[mobs_created].posx_b = posy / 24;
 
-            mobs[mobs_created].Spawnmob();
+            mobs[mobs_created].start_mob();
 
 
             mobs_created++;
@@ -282,7 +281,5 @@ public class Load_save {
             buildings.get(i).setAnimation_state(Animation_State);
         }
     }
-
-
 
 }

@@ -78,11 +78,13 @@ public class Main {
 
         loja.setGold(gold);
         loja.setLife(player_life);
+        level = lvl;
+        Load_level load = new Load_level("lvl"+Integer.toString(level));
+
         if ( !first_game) {
             frame1 = new Frame();
         }
-        level = lvl;
-        Load_level load = new Load_level("lvl"+Integer.toString(level));
+
 
         game_logic.load_old_game(mobs,buildings);
         state = STATE.GAME;

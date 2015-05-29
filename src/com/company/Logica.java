@@ -259,4 +259,12 @@ public class Logica {
     //////////////////////////////// SETTER's ////////////////////////////////
 
 
+    public void set_spawned_mobs_t1(int a) {
+         ingame_mobs_t1= a;
+    }
+
+    public void set_spawned_mobs_t2(int a) {
+         ingame_mobs_t2=a;
+    }
+
 }

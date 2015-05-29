@@ -156,11 +156,16 @@ public class Base_enemy {
 
         //criar mobs no mapa..
         inic_pos();
+        start_mob();
+
+
+    }
+
+    public void start_mob() {
         inGame =  true;
 
         timer = new Timer(timer_delay, actionListener);
         timer.start();
-
     }
 
     public void inic_pos(){
