@@ -1,5 +1,7 @@
 package Graphic.Menus;
 
+import Graphic.Jogo.Config;
+import Load_Save.Load_save;
 import com.company.Main;
 
 import javax.swing.*;
@@ -81,10 +83,18 @@ public class Inic_Mouse implements MouseListener,MouseMotionListener {
 
     public void optionsButton() {
 
+        Config configurations = new Config();
     }
 
     public void loadButton() {
 
+
+        Load_save load_g = new Load_save();
+
+        load_g.openFile();
+        load_g.readFile();
+        load_g.closeFile();
+        f.dispose();
     }
 
 

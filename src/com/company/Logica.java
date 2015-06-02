@@ -43,6 +43,8 @@ public class Logica {
     private ArrayList<Base_building> buildings;
     private Type_building type_b = new Type_building();
 
+    private boolean inicializacao=false;
+
 
     ActionListener actionListener = new ActionListener() {
         public void actionPerformed(ActionEvent actionEvent) {
@@ -71,9 +73,37 @@ public class Logica {
 
     public void new_game() {
 
+        number_mobs_t1 = Main.getOptions().getNumber_mobs_t1();
+        number_mobs_t2 = Main.getOptions().getNumber_mobs_t2();
+        delay = Main.getOptions().getTempo_entre_spawn_mobs();
+        total_number_mobs=number_mobs_t1+number_mobs_t2;
+        timer = new Timer(delay, actionListener);
+
         inicializar_mobs(); //lvl1
         eliminar_buildings();
         timer.restart();
+        inicializacao=true;
+    }
+
+
+    public void load_old_game(Base_enemy[]  m, ArrayList<Base_building> b) {
+
+
+        number_mobs_t1 = Main.getOptions().getNumber_mobs_t1();
+        number_mobs_t2 = Main.getOptions().getNumber_mobs_t2();
+        delay = Main.getOptions().getTempo_entre_spawn_mobs();
+        timer = new Timer(delay, actionListener);
+        buildings= new ArrayList<Base_building>();
+
+        mobs = m;
+        buildings = b;
+
+        mobs_inic=true;
+        building_inic=true;
+        timer.restart();
+        inicializacao=true;
+
+
     }
 
     public void check_end_game() {
@@ -93,6 +123,9 @@ public class Logica {
     }
 
     public void inicializar_mobs(){
+
+        ingame_mobs_t1=0;
+        ingame_mobs_t2=0;
 
         mobs_spawned_t1=0;
         mobs_spawned_t2=0;
@@ -123,16 +156,18 @@ public class Logica {
 
     public void draw(Graphics g){
 
-        if ( mobs_inic ) {
-            for (int i = 0; i < mobs.length; i++)
-                mobs[i].draw(g);
-        }
-
-        if ( building_inic ) {
-            for(int i = 0;i <buildings.size();i++ ){
-                buildings.get(i).draw(g);
+        if ( inicializacao ) {
+            if (mobs_inic) {
+                for (int i = 0; i < mobs.length; i++)
+                    mobs[i].draw(g);
             }
 
+            if (building_inic) {
+                for (int i = 0; i < buildings.size(); i++) {
+                    buildings.get(i).draw(g);
+                }
+
+            }
         }
 
     }
@@ -216,14 +251,19 @@ public class Logica {
         return buildings;
     }
 
-    //////////////////////////////// SETTER's ////////////////////////////////
-
-    public void set_mobs(Base_enemy[] a) {
-        this.mobs = a;
+    public boolean isInicializacao() {
+        return inicializacao;
     }
 
-    public void set_buildings(ArrayList<Base_building> a) {
-        this.buildings = a;
+    //////////////////////////////// SETTER's ////////////////////////////////
+
+
+    public void set_spawned_mobs_t1(int a) {
+         ingame_mobs_t1= a;
+    }
+
+    public void set_spawned_mobs_t2(int a) {
+         ingame_mobs_t2=a;
     }
 
 }

@@ -36,7 +36,8 @@ public class Save {
         x.format("Life of Player = %d\r\n\r\n",Main.getLoja().getLife());
 
         x.format("//////////////////////////////////Mobs//////////////////////////////////////\r\n");
-        x.format("Total Numver of mobs = %d\r\n",Main.getGame_logic().getTotal_number_mobs());
+        x.format("Total Number of mobs = %d\r\n",Main.getGame_logic().getTotal_number_mobs());
+        x.format("Spawn time between mobs = %d\r\n",Main.getOptions().getTempo_entre_spawn_mobs());
         x.format("//////////////////////////////////Type_one:\r\n");
         x.format("Total Number of mobs  = %d\r\n", Main.getOptions().getNumber_mobs_t1() );
         x.format("Number of mobs spawned = %d\r\n",Main.getGame_logic().get_spawned_mobs_t1() );
@@ -89,7 +90,8 @@ public class Save {
         x.format("Raio = %d\r\n",Main.getOptions().getRaio_b1());
         for(int i =0;i<  Main.getGame_logic().getBuildings().size() ;i++) {
             x.format("\r\n");
-            x.format("Posx = %d         Posy = %d\r\n", Main.getGame_logic().getBuildings().get(i).posx, Main.getGame_logic().getBuildings().get(i).posy);
+            x.format("Posx = %d         Posy = %d\r\n", Main.getGame_logic().getBuildings().get(i).posx_b, Main.getGame_logic().getBuildings().get(i).posy_b);
+            //////ALTEREI AQUI PQPQPQPQ
             x.format("Animation State = %d", Main.getGame_logic().getBuildings().get(i).animation_actual_state );
         }
 

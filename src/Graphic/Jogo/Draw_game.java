@@ -66,6 +66,7 @@ public class Draw_game extends JPanel implements ActionListener {
             if( id == 1) {
                 int r = Main.getOptions().getRaio_b1(); //raio de alcance
                 g.drawImage(Building1,posx-35 , posy-33, 70, 70, null);
+                r=r*2;
                 g.drawOval(posx-r/2, posy -r/2, r, r);
             }
         }

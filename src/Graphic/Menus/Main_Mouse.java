@@ -1,5 +1,6 @@
 package Graphic.Menus;
 
+import Graphic.Jogo.Config;
 import Load_Save.Load_save;
 import Load_Save.Save;
 import com.company.Main;
@@ -88,6 +89,7 @@ public class Main_Mouse implements MouseListener,MouseMotionListener {
 
     public void optionsButton() {
 
+        Config configurations = new Config();
     }
 
     public void saveButton() {
@@ -106,8 +108,7 @@ public class Main_Mouse implements MouseListener,MouseMotionListener {
         load_g.openFile();
         load_g.readFile();
         load_g.closeFile();
-       // f.dispose();
-        Main.load__old_game();
+        f.dispose();
 
     }
 

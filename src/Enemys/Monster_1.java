@@ -27,7 +27,7 @@ public class Monster_1 extends Base_enemy{
         life = Main.getOptions().getLife_mobs_t1();
         coin_value=Main.getOptions().getCoin_mobs_t1();
 
-        Listwalking   = new ArrayList<BufferedImage>();
+        Listwalking  = new ArrayList<BufferedImage>();
         Listatack    = new ArrayList<BufferedImage>();
 
         //Atack
