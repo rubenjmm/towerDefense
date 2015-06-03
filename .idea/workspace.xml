@@ -1,170 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4e87502-f8fd-496e-af93-0cf0ddcbd433" name="Default" comment="novos inimigos">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/Monster2/D_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/die/skelBase.01-00-00_die0_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/die/skelBase.01-00-00_die0_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/die/skelBase.01-00-00_die1_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/die/skelBase.01-00-00_die1_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/die/skelBase.01-00-00_die2_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/die/skelBase.01-00-00_die2_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/die/skelBase.01-00-00_die3_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/die/skelBase.01-00-00_die3_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/attack/skelBase.01-00-00_punch0_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/attack/skelBase.01-00-00_punch0_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/attack/skelBase.01-00-00_punch10_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/attack/skelBase.01-00-00_punch10_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/attack/skelBase.01-00-00_punch11_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/attack/skelBase.01-00-00_punch11_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/attack/skelBase.01-00-00_punch12_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/attack/skelBase.01-00-00_punch12_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/attack/skelBase.01-00-00_punch13_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/attack/skelBase.01-00-00_punch13_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/attack/skelBase.01-00-00_punch14_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/attack/skelBase.01-00-00_punch14_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/attack/skelBase.01-00-00_punch15_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/attack/skelBase.01-00-00_punch15_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/attack/skelBase.01-00-00_punch16_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/attack/skelBase.01-00-00_punch16_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/attack/skelBase.01-00-00_punch17_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/attack/skelBase.01-00-00_punch17_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/attack/skelBase.01-00-00_punch18_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/attack/skelBase.01-00-00_punch18_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/attack/skelBase.01-00-00_punch19_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/attack/skelBase.01-00-00_punch19_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/attack/skelBase.01-00-00_punch1_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/attack/skelBase.01-00-00_punch1_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/attack/skelBase.01-00-00_punch20_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/attack/skelBase.01-00-00_punch20_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/attack/skelBase.01-00-00_punch2_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/attack/skelBase.01-00-00_punch2_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/attack/skelBase.01-00-00_punch3_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/attack/skelBase.01-00-00_punch3_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/attack/skelBase.01-00-00_punch4_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/attack/skelBase.01-00-00_punch4_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/attack/skelBase.01-00-00_punch5_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/attack/skelBase.01-00-00_punch5_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/attack/skelBase.01-00-00_punch6_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/attack/skelBase.01-00-00_punch6_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/attack/skelBase.01-00-00_punch7_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/attack/skelBase.01-00-00_punch7_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/attack/skelBase.01-00-00_punch8_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/attack/skelBase.01-00-00_punch8_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/attack/skelBase.01-00-00_punch9_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/attack/skelBase.01-00-00_punch9_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/walk/skelBase.01-00-00_walk0_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/walk/skelBase.01-00-00_walk0_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/walk/skelBase.01-00-00_walk1_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/walk/skelBase.01-00-00_walk1_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/walk/skelBase.01-00-00_walk2_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/walk/skelBase.01-00-00_walk2_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/walk/skelBase.01-00-00_walk3_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/walk/skelBase.01-00-00_walk3_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/walk/skelBase.01-00-00_walk4_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/walk/skelBase.01-00-00_walk4_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/walk/skelBase.01-00-00_walk5_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/walk/skelBase.01-00-00_walk5_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/walk/skelBase.01-00-00_walk6_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/walk/skelBase.01-00-00_walk6_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Enemys/GoblinSprites.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Enemys/GunaSprites.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Enemys/MonsterBlue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Enemys/MonsterBlueSprites.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Enemys/MonsterRed.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Enemys/MonsterRedSprites.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Enemys/RedSkeleton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Enemys/RedSkeletonSprites.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Enemys/WhiteSkeleton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Enemys/WhiteSkeletonSprites.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Enemys/ZombieSprites.java" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\Monster2\D_0.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_die1_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_die2_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_die3_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_punch10_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_punch11_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_punch12_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_punch13_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_punch14_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_punch15_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_punch16_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_punch17_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_punch18_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_punch19_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_punch1_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_punch20_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_punch2_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_punch3_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_punch4_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_punch5_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_punch6_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_punch7_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_punch8_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_punch9_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_stand_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_walk1_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_walk2_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_walk3_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_walk4_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_walk5_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\skelBase.01-00-00_walk6_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_die1_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_die2_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_die3_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_punch10_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_punch11_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_punch12_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_punch13_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_punch14_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_punch15_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_punch16_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_punch17_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_punch18_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_punch19_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_punch1_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_punch20_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_punch2_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_punch3_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_punch4_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_punch5_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_punch6_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_punch7_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_punch8_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_punch9_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_stand_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_walk1_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_walk2_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_walk3_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_walk4_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_walk5_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\skelBase.01-00-00_walk6_w.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\out\production\Projeto Final\Enemys\Monster1_sprites.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\out\production\Projeto Final\Enemys\Monster2_sprites.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\out\production\Projeto Final\Enemys\Monster_2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\src\Enemys\Goblin_sprites.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\src\Enemys\Guna_sprites.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\src\Enemys\Monster1_sprites.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\src\Enemys\Monster2_sprites.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\src\Enemys\Monster_1.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\src\Enemys\Monster_2.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\src\Enemys\Zombie_sprites.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\src\Enemys\Base_enemy.java" afterPath="$PROJECT_DIR$/src/Enemys/BaseEnemy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Textures/Mobs/Monster2/D_1.png" afterPath="$PROJECT_DIR$/Textures/Mobs/Monster2/D_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Textures/Mobs/Monster2/D_2.png" afterPath="$PROJECT_DIR$/Textures/Mobs/Monster2/D_2.png" />
+    <list default="true" id="e4e87502-f8fd-496e-af93-0cf0ddcbd433" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Load_Save/Load_save.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Load_Save/Load_save.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/com/company/Logica.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/com/company/Logica.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/com/company/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Load_Save/Save.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Load_Save/Save.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buildings/Base_atack.java" afterPath="$PROJECT_DIR$/src/Buildings/Base_atack.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buildings/Base_building.java" afterPath="$PROJECT_DIR$/src/Buildings/Base_building.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/Goblin.java" afterPath="$PROJECT_DIR$/src/Enemys/Goblin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/Guna.java" afterPath="$PROJECT_DIR$/src/Enemys/Guna.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Load_Save/Load_save.java" afterPath="$PROJECT_DIR$/src/Load_Save/Load_save.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Logica.java" afterPath="$PROJECT_DIR$/src/com/company/Logica.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Load_Save/Save.java" afterPath="$PROJECT_DIR$/src/Load_Save/Save.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/Zombie.java" afterPath="$PROJECT_DIR$/src/Enemys/Zombie.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projeto Final.iws" />
@@ -744,7 +585,7 @@
       <created>1429380318095</created>
       <option name="number" value="Default" />
       <updated>1429380318095</updated>
-      <workItem from="1433239649806" duration="30993000" />
+      <workItem from="1433239649806" duration="31029000" />
     </task>
     <task id="LOCAL-00001" summary="zfsdfsfs">
       <created>1431359254455</created>
@@ -956,11 +797,17 @@
       <option name="project" value="LOCAL" />
       <updated>1432898354041</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="novos inimigos">
+      <created>1433345673925</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1433345673925</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30993000" />
+    <option name="totallyTimeSpent" value="31029000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
