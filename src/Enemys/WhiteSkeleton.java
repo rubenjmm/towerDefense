@@ -3,7 +3,6 @@ package Enemys;
 import Graphic.Jogo.Animator;
 import com.company.Main;
 
-
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
@@ -12,7 +11,7 @@ import java.util.ArrayList;
 /**
  * Created by Ricardo on 03/05/2015.
  */
-public class Zombie extends BaseEnemy
+public class WhiteSkeleton extends BaseEnemy
 {
     public boolean died = false;
 
@@ -37,19 +36,19 @@ public class Zombie extends BaseEnemy
 
 
         //Death
-        listDeath = new ArrayList<BufferedImage>(ZombieSprites.getSpriteDeath());
+        listDeath = new ArrayList<BufferedImage>(WhiteSkeletonSprites.getSpriteDeath());
         animDeath = new Animator(listDeath);
         animDeath.setSpeed(150);
         animDeath.play();
 
         //Walking
-        listWalking = new ArrayList<BufferedImage>(ZombieSprites.getSpriteWalking());
+        listWalking = new ArrayList<BufferedImage>(WhiteSkeletonSprites.getSpriteWalking());
         animWalking = new Animator(listWalking);
         animWalking.setSpeed(180);
         animWalking.play();
 
         //Attack
-        listAttack = new ArrayList<BufferedImage>(ZombieSprites.getSpriteAttack());
+        listAttack = new ArrayList<BufferedImage>(WhiteSkeletonSprites.getSpriteAttack());
         animAttack = new Animator(listAttack);
         animAttack.setSpeed(180);
         animAttack.play();

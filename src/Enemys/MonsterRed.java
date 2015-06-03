@@ -8,11 +8,10 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 
-
 /**
- * Created by Ricardo on 03/05/2015.
+ * Created by Ricardo on 10/05/2015.
  */
-public class Zombie extends BaseEnemy
+public class MonsterRed extends BaseEnemy
 {
     public boolean died = false;
 
@@ -36,20 +35,26 @@ public class Zombie extends BaseEnemy
         isWalking =false;
 
 
+        //Reborn
+        listReborn = new ArrayList<BufferedImage>(MonsterRedSprites.getSpriteReborn());
+        animReborn = new Animator(listReborn);
+        animReborn.setSpeed(150);
+        animReborn.play();
+
         //Death
-        listDeath = new ArrayList<BufferedImage>(ZombieSprites.getSpriteDeath());
+        listDeath = new ArrayList<BufferedImage>(MonsterRedSprites.getSpriteDeath());
         animDeath = new Animator(listDeath);
         animDeath.setSpeed(150);
         animDeath.play();
 
         //Walking
-        listWalking = new ArrayList<BufferedImage>(ZombieSprites.getSpriteWalking());
+        listWalking = new ArrayList<BufferedImage>(MonsterRedSprites.getSpriteWalking());
         animWalking = new Animator(listWalking);
         animWalking.setSpeed(180);
         animWalking.play();
 
         //Attack
-        listAttack = new ArrayList<BufferedImage>(ZombieSprites.getSpriteAttack());
+        listAttack = new ArrayList<BufferedImage>(MonsterRedSprites.getSpriteAttack());
         animAttack = new Animator(listAttack);
         animAttack.setSpeed(180);
         animAttack.play();
@@ -81,13 +86,15 @@ public class Zombie extends BaseEnemy
         }
         else if( inGame && isDead && !died ) {
 
-            isWalking = false;
-            g.drawImage(animDeath.getSprite(), posx, posy-15, 43, 43, null);
-            animDeath.update(System.currentTimeMillis());
-            if (animDeath.isdeu_reset()) {
-                animDeath.stop();
-                died = true;
-            }
+                isWalking = false;
+                g.drawImage(animDeath.getSprite(), posx, posy-15, 43, 43, null);
+                animDeath.update(System.currentTimeMillis());
+                if (animDeath.isdeu_reset()) {
+                    animDeath.stop();
+                    died = true;
+                }
         }
     }
+
 }
+

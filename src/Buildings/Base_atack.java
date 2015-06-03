@@ -1,6 +1,5 @@
 package Buildings;
 
-import Enemys.Monster1_sprites;
 import Graphic.Jogo.Animator;
 import com.company.Main;
 

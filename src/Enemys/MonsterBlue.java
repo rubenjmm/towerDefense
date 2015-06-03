@@ -12,44 +12,38 @@ import java.util.ArrayList;
 /**
  * Created by Ricardo on 03/05/2015.
  */
-public class Goblin extends BaseEnemy
-{
 
+public class MonsterBlue extends BaseEnemy
+{
     /*
        1 -> Walking
        2 -> Atack
      */
     public void inic() {
 
-        mobType =1;
+        this.mobType =1;
 
         ///////Ir buscar às configurações
-        strikes = Main.getOptions().getAtack_mobs_t1();
-        life = Main.getOptions().getLife_mobs_t1();
-        coinValue =Main.getOptions().getCoin_mobs_t1();
+        this.strikes = Main.getOptions().getAtack_mobs_t1();
+        this.life = Main.getOptions().getLife_mobs_t1();
+        this.coinValue =Main.getOptions().getCoin_mobs_t1();
 
-        listWalking = new ArrayList<BufferedImage>();
-        listAttack = new ArrayList<BufferedImage>();
+        //listWalking  = new ArrayList<BufferedImage>();
+        //listAttack = new ArrayList<BufferedImage>();
 
-        //Atack
-        //listAttack.add(MonsterBlueSprites.getZa1());
+        //Attack
+        this.listAttack = new ArrayList<BufferedImage>(MonsterBlueSprites.getSpriteAttack());
 
-
-        //Walking
-        //listWalking.add(MonsterBlueSprites.getZ1());
-
-
-        //Atack
-        animAttack = new Animator(listAttack);
-        animAttack.setSpeed(150);
-        animAttack.play();
+        this.animAttack = new Animator(this.listAttack);
+        this.animAttack.setSpeed(150);
+        this.animAttack.play();
 
         //walking
-        animWalking = new Animator(listWalking);
-        animWalking.setSpeed(180);
-        animWalking.play();
+        this.listWalking = new ArrayList<BufferedImage>(MonsterBlueSprites.getSpriteWalking());
 
-
+        this.animWalking = new Animator(this.listWalking);
+        this.animWalking.setSpeed(180);
+        this.animWalking.play();
     }
 
     public void draw (Graphics g){
@@ -67,9 +61,5 @@ public class Goblin extends BaseEnemy
             }
         }
     }
-
-
-
-
 
 }

@@ -124,7 +124,7 @@ public class Base_building {
 
         for(int i=0;i<Main.getGame_logic().getMobs().length;i++ ) {
 
-            if (Main.getGame_logic().getMobs()[i].isInGame() && !Main.getGame_logic().getMobs()[i].is_dead) {
+            if (Main.getGame_logic().getMobs()[i].isInGame() && !Main.getGame_logic().getMobs()[i].isDead) {
                 if( !verify_target_range()) {
 
                     continue;
@@ -161,7 +161,7 @@ public class Base_building {
                         atacking = true;
                         time = System.currentTimeMillis();
                         //Animaçao de ataque para o mob em questão
-                        if (Main.getGame_logic().getMobs()[mob_index].change_life(atack)) { //mob morreu
+                        if (Main.getGame_logic().getMobs()[mob_index].changeLife(atack)) { //mob morreu
                             target_alive = false;
                             in_position = false;
                             last_hit = true;
@@ -183,12 +183,7 @@ public class Base_building {
         mob_x = Main.getGame_logic().getMobs()[mob_index].getPosx();
         mob_y = Main.getGame_logic().getMobs()[mob_index].getPosy();
 
-        if( Math.abs(posx - mob_x) <= raio   &&  Math.abs(posy-mob_y) <= raio) {
-            return true;
-        }
-        else{
-            return false;
-        }
+        return Math.abs(posx - mob_x) <= raio && Math.abs(posy - mob_y) <= raio;
     }
 
     public void verify_pos() {

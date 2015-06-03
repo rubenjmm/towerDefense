@@ -2,9 +2,7 @@ package com.company;
 
 import Buildings.Base_building;
 import Buildings.Building1_sprites;
-import Enemys.Base_enemy;
-import Enemys.Monster1_sprites;
-import Enemys.Monster2_sprites;
+import Enemys.BaseEnemy;
 import Graphic.Jogo.Frame;
 import Graphic.Jogo.Loja;
 import Graphic.Menus.Inic_Menu;
@@ -26,7 +24,7 @@ public class Main {
         Main_menu,
         Inic_menu,
         GAME
-    };
+    }
 
 
     private static boolean helditem = false;
@@ -39,8 +37,8 @@ public class Main {
 
     public static void main(String[] args) {
         //Inicializar as texturas
-        Monster1_sprites.inic();
-        Monster2_sprites.inic();
+        //MonsterBlueSprites.inic();
+        //MonsterRedSprites.inic();
         Building1_sprites.inic();
 
 
@@ -73,7 +71,7 @@ public class Main {
     }
 
 
-    public static void load__old_game(int lvl ,int gold  ,int player_life  , Base_enemy[]  mobs, ArrayList<Base_building> buildings  ) {
+    public static void load__old_game(int lvl ,int gold  ,int player_life  , BaseEnemy[]  mobs, ArrayList<Base_building> buildings  ) {
 
         loja.setGold(gold);
         loja.setLife(player_life);

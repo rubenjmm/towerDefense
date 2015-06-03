@@ -14,50 +14,48 @@ import java.util.Random;
 /**
  * Created by Ricardo on 12/05/2015.
  */
-public class Base_enemy {
-
+public class BaseEnemy
+{
     public char[][] board = Main.getMap().getMapa();
     public boolean inGame = false;
     public int posx_b,posy_b;
     public int posx,posy;
 
     public Timer timer;
-    public int timer_delay=70;
-
+    public int timerDelay = 70;
 
     //ANIMACOES
-    public boolean is_walking=true;
-    public int animation_state = 0;
-    public int cnt=0,atack_cnt=0;
-    public int strikes=3;
+    public boolean isWalking =true;
+    public int animationState = 0;
+    public int cnt = 0, attackCnt = 0;
+    public int strikes = 3;
     /*
-       0 -> walking
-       1 -> Atacking
+       0 -> Walking
+       1 -> Attacking
      */
 
     public int life = 100;
-    public boolean is_dead = false;
+    public boolean isDead = false;
 
-    public ArrayList<BufferedImage> Listwalking;
-    Animator ani_walking;
-    public ArrayList<BufferedImage> Listatack;
-    Animator ani_atack;
+    protected ArrayList<BufferedImage> listWalking;
+    protected Animator animWalking;
+    protected ArrayList<BufferedImage> listAttack;
+    protected Animator animAttack;
+    protected ArrayList<BufferedImage> listDeath;
+    protected Animator animDeath;
+    protected ArrayList<BufferedImage> listReborn;
+    protected Animator animReborn;
 
-    public int coin_value=0;
 
-    public int mob_type;
+    public int coinValue = 0;
 
+    public int mobType;
 
-    public Base_enemy() {
+    public BaseEnemy() {
         inic();
     }
 
     public void inic() {
-
-        /*
-        Inicializar ArrayList de imagens
-        Inicializar class de animação
-         */
 
     }
 
@@ -67,58 +65,57 @@ public class Base_enemy {
 
     ActionListener actionListener = new ActionListener() {
         public void actionPerformed(ActionEvent actionEvent) {
-            if(Main.getState()== Main.STATE.GAME && is_walking && !is_dead){
-                update_pos();
+            if(Main.getState()== Main.STATE.GAME && isWalking && !isDead){
+                updatePos();
             }
         }
     };
 
-    public void update_pos() {
-
-
+    public void updatePos() 
+    {
         if (board[posx_b][posy_b] == 'r'   ) {
             if (posx_b == Main.getMap().getlinhas() - 2) { //verificar se a próxima posição de baixo o fim do mapa
                 posx++;
-                //random_pos(1);//x++
+                //randomPos(1);//x++
             } else {
                 if (board[posx_b + 1][posy_b] != 'g') {//verificar se posso andar para a direita
                     posx++;
                     posy++;
-                    //random_pos(1);//x++
-                    //random_pos(3);//y++
+                    //randomPos(1);//x++
+                    //randomPos(3);//y++
                 } else {
                     posy++;
-                    //random_pos(3);//y--
-                    //random_pos(4);//x--
+                    //randomPos(3);//y--
+                    //randomPos(4);//x--
                 }
             }
         } else if (    (board[posx_b][posy_b] == 'k') || (board[posx_b][posy_b] == 'w') ) {
             posx++;
-            //random_pos(1); //x++
+            //randomPos(1); //x++
         }
 
         else if( board[posx_b][posy_b]=='c' ) {
             if(board[posx_b][posy_b+1]!='g') {//verificar se posso andar para a direita
                 posx++;
                 posy--;
-                //random_pos(1);//x++
-                //random_pos(3);//y--
+                //randomPos(1);//x++
+                //randomPos(3);//y--
             }
             else {
                 posx--;
                 posy++;
-                //random_pos(3);//y--
-                //random_pos(4);//x--
+                //randomPos(3);//y--
+                //randomPos(4);//x--
             }
         }
 
         else if (board[posx_b][posy_b] == 'f') { //zombies chegaram à porta
-            animation_state=1;
+            animationState =1;
         }
-        update_boardpos();
+        updateBoardPos();
     }
 
-    public void random_pos(int dir) {
+    public void randomPos(int dir) {
 
         Random r = new Random();
         int num = r.nextInt(2);
@@ -140,7 +137,7 @@ public class Base_enemy {
         }
     }
 
-    public void update_boardpos() {
+    public void updateBoardPos() {
 
         if(posx%24==0){
             posy_b = posx / 24;
@@ -152,23 +149,20 @@ public class Base_enemy {
 
     }
 
-    public void Spawnmob(){
-
+    public void spawnMob(){
         //criar mobs no mapa..
-        inic_pos();
-        start_mob();
-
-
+        inicPos();
+        startMob();
     }
 
-    public void start_mob() {
+    public void startMob() {
         inGame =  true;
 
-        timer = new Timer(timer_delay, actionListener);
+        timer = new Timer(timerDelay, actionListener);
         timer.start();
     }
 
-    public void inic_pos(){
+    public void inicPos(){
 
         Random r = new Random();
         int num = r.nextInt(6);
@@ -193,30 +187,28 @@ public class Base_enemy {
         posy = posx_b * 25;
     }
 
-    public void atack() {
-
-
-        if(ani_atack.isdeu_reset())
+    public void attack() {
+        if(animAttack.isdeu_reset())
             cnt++;
 
         if(cnt>4){
-            atack_cnt++;
+            attackCnt++;
             cnt=0;
         }
         //a cada 3 ataques, player perde 10% da hp
-        if(atack_cnt== strikes ){
-            atack_cnt=0;
+        if(attackCnt == strikes ){
+            attackCnt =0;
             Main.getLoja().change_life();
         }
     }
 
-    public boolean change_life(int hit) {
+    public boolean changeLife(int hit) {
 
         this.life = this.life - hit;
         if(this.life <= 0) {
 
-            is_dead = true;
-            Main.getLoja().change_coin( (-1)*coin_value );
+            isDead = true;
+            Main.getLoja().change_coin( (-1)* coinValue);
             return true; //mob morreu
         }
         else {

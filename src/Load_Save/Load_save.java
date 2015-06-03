@@ -3,9 +3,9 @@ package Load_Save;
 
 import Buildings.Base_building;
 import Buildings.Type_building;
-import Enemys.Base_enemy;
-import Enemys.Monster_1;
-import Enemys.Monster_2;
+import Enemys.BaseEnemy;
+import Enemys.MonsterBlue;
+import Enemys.MonsterRed;
 import com.company.Main;
 
 import java.io.File;
@@ -17,7 +17,7 @@ public class Load_save {
     private Scanner x;
     private int posy,posx;
 
-    private Base_enemy[] mobs;
+    private BaseEnemy[] mobs;
     private int total_mobs=0;
     private ArrayList<Base_building> buildings = new ArrayList<Base_building>();
     private Type_building type_b = new Type_building();
@@ -125,7 +125,7 @@ public class Load_save {
         x.nextLine();
         get_total_mobs();
         get_spawn_time();
-        mobs = new Base_enemy[total_mobs];
+        mobs = new BaseEnemy[total_mobs];
         mobs_type1();
         mobs_type2();
 
@@ -158,7 +158,8 @@ public class Load_save {
         Main.getOptions().setAtack_mobs_t1(atack);
         Main.getOptions().setCoin_mobs_t1(coin_value);
 
-        int i=0,j=0;
+        int i;
+        int j = 0;
         for(i=0;i<mobs_spawned;i++) {
             x.nextLine();
 
@@ -167,27 +168,27 @@ public class Load_save {
             int Animation_State= getint( new Scanner(x.nextLine()) );
             int is_dead = getint( new Scanner(x.nextLine()) );
 
-            mobs[mobs_created] = new Monster_1();
+            mobs[mobs_created] = new MonsterBlue();
             mobs[mobs_created].inGame=true;
             if(is_dead==0)
-                mobs[mobs_created].is_dead=false;
+                mobs[mobs_created].isDead =false;
             else
-                mobs[mobs_created].is_dead=true;
+                mobs[mobs_created].isDead =true;
             mobs[mobs_created].posx=posx;
             mobs[mobs_created].posy=posy;
             mobs[mobs_created].life=current_life;
-            mobs[mobs_created].animation_state=Animation_State;
+            mobs[mobs_created].animationState =Animation_State;
 
             mobs[mobs_created].posy_b = posx / 24;
             mobs[mobs_created].posx_b = posy / 24;
 
-            mobs[mobs_created].start_mob();
+            mobs[mobs_created].startMob();
 
             mobs_created++;
         }
 
         for(j=0;j< n_mobs - mobs_spawned;j++) {
-            mobs[mobs_created] = new Monster_1();
+            mobs[mobs_created] = new MonsterBlue();
 
             mobs_created++;
         }
@@ -220,21 +221,21 @@ public class Load_save {
             int is_dead = getint( new Scanner(x.nextLine()) );
 
 
-            mobs[mobs_created] = new Monster_2();
+            mobs[mobs_created] = new MonsterRed();
             mobs[mobs_created].inGame=true;
             if(is_dead==0)
-                mobs[mobs_created].is_dead=false;
+                mobs[mobs_created].isDead =false;
             else
-                mobs[mobs_created].is_dead=true;
+                mobs[mobs_created].isDead =true;
             mobs[mobs_created].posx=posx;
             mobs[mobs_created].posy=posy;
             mobs[mobs_created].life=current_life;
-            mobs[mobs_created].animation_state=Animation_State;
+            mobs[mobs_created].animationState =Animation_State;
 
             mobs[mobs_created].posy_b = posx / 24;
             mobs[mobs_created].posx_b = posy / 24;
 
-            mobs[mobs_created].start_mob();
+            mobs[mobs_created].startMob();
 
 
             mobs_created++;
@@ -242,7 +243,7 @@ public class Load_save {
 
 
         for(j=0;j< n_mobs - mobs_spawned;j++) {
-            mobs[mobs_created] = new Monster_2();
+            mobs[mobs_created] = new MonsterRed();
 
             mobs_created++;
         }

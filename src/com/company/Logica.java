@@ -2,9 +2,9 @@ package com.company;
 
 import Buildings.Base_building;
 import Buildings.Type_building;
-import Enemys.Base_enemy;
-import Enemys.Monster_2;
-import Enemys.Monster_1;
+import Enemys.BaseEnemy;
+import Enemys.MonsterRed;
+import Enemys.MonsterBlue;
 import Graphic.Menus.Game_Over;
 
 import java.awt.*;
@@ -26,7 +26,7 @@ public class Logica {
     private int delay;  //milliseconds
     private Timer timer;
     private boolean mobs_inic = false;
-    private Base_enemy[] mobs;
+    private BaseEnemy[] mobs;
 
     private int number_mobs_t1;
     private int mobs_spawned_t1=0;
@@ -86,7 +86,7 @@ public class Logica {
     }
 
 
-    public void load_old_game(Base_enemy[]  m, ArrayList<Base_building> b) {
+    public void load_old_game(BaseEnemy[]  m, ArrayList<Base_building> b) {
 
 
         number_mobs_t1 = Main.getOptions().getNumber_mobs_t1();
@@ -112,7 +112,7 @@ public class Logica {
 
         for(int i =0; i< total_number_mobs; i++){
 
-            if( mobs[i].is_dead && mobs[i].isInGame()  ) {
+            if( mobs[i].isDead && mobs[i].isInGame()  ) {
                 contador++;
             }
         }
@@ -133,7 +133,7 @@ public class Logica {
         Random r = new Random();
 
 
-        mobs = new Base_enemy[number_mobs_t1 + number_mobs_t2];
+        mobs = new BaseEnemy[number_mobs_t1 + number_mobs_t2];
 
 
         while( (mobs_spawned_t1+mobs_spawned_t2)!= mobs.length) {
@@ -141,13 +141,13 @@ public class Logica {
             int num = r.nextInt(2);
 
             if (num == 0 && mobs_spawned_t1<number_mobs_t1) {
-                mobs[mobs_spawned_t2+mobs_spawned_t1] = new Monster_1();
+                mobs[mobs_spawned_t2+mobs_spawned_t1] = new MonsterBlue();
                 mobs_spawned_t1 = mobs_spawned_t1+1;
             }
 
             if(num==1 && mobs_spawned_t2<number_mobs_t2) {
 
-                mobs[mobs_spawned_t2+mobs_spawned_t1] = new Monster_2();
+                mobs[mobs_spawned_t2+mobs_spawned_t1] = new MonsterRed();
                 mobs_spawned_t2 = mobs_spawned_t2+1;
             }
         }
@@ -182,11 +182,11 @@ public class Logica {
 
         for (int i = 0; i < mobs.length; i++) {
             if (!mobs[i].isInGame()) {
-                mobs[i].Spawnmob();
-                if(mobs[i].mob_type==1) {
+                mobs[i].spawnMob();
+                if(mobs[i].mobType ==1) {
                     ingame_mobs_t1++;
                 }
-                else if(mobs[i].mob_type==2){
+                else if(mobs[i].mobType ==2){
                     ingame_mobs_t2++;
                 }
                 break;
@@ -231,7 +231,7 @@ public class Logica {
 
     //////////////////////////////// GETTER's ////////////////////////////////
 
-    public Base_enemy[] getMobs() {
+    public BaseEnemy[] getMobs() {
         return mobs;
     }
 
