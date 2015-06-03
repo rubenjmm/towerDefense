@@ -19,8 +19,6 @@ public abstract class GoblinSprites
 
     }
 
-
-
     static {
         String temp;
 
