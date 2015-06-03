@@ -6,7 +6,7 @@ import Buildings.Type_building;
 import Enemys.BaseEnemy;
 import Enemys.MonsterBlue;
 import Enemys.MonsterRed;
-import com.company.Main;
+import com.Main;
 
 import java.io.File;
 import java.util.ArrayList;

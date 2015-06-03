@@ -2,7 +2,7 @@ package Graphic.Jogo;
 
 import Buildings.Building1_sprites;
 import Graphic.Menus.Main_Menu;
-import com.company.Main;
+import com.Main;
 
 import javax.swing.*;
 import java.awt.*;

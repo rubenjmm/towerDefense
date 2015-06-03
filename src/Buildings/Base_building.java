@@ -1,6 +1,6 @@
 package Buildings;
 
-import com.company.Main;
+import com.Main;
 
 import javax.swing.*;
 import java.awt.*;

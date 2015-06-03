@@ -1,4 +1,4 @@
-package com.company;
+package com;
 
 /**
  * Created by Ricardo on 26/04/2015.

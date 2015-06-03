@@ -1,7 +1,7 @@
 package Buildings;
 
 
-import com.company.Main;
+import com.Main;
 
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;

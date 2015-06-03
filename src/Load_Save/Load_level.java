@@ -4,8 +4,8 @@ package Load_Save;
  * Created by Ricardo on 26/04/2015.
  */
 
-import com.company.Main;
-import com.company.Mapa;
+import com.Main;
+import com.Mapa;
 
 import java.io.File;
 import java.util.Scanner;

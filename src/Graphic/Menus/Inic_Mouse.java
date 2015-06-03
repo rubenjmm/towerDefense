@@ -2,7 +2,7 @@ package Graphic.Menus;
 
 import Graphic.Jogo.Config;
 import Load_Save.Load_save;
-import com.company.Main;
+import com.Main;
 
 import javax.swing.*;
 import java.awt.event.MouseEvent;

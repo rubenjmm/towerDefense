@@ -1,7 +1,7 @@
 package Buildings;
 
 import Graphic.Jogo.Animator;
-import com.company.Main;
+import com.Main;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;

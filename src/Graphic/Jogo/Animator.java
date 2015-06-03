@@ -1,7 +1,7 @@
 package Graphic.Jogo;
 
 
-import com.company.Main;
+import com.Main;
 
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;

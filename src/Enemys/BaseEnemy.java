@@ -1,7 +1,7 @@
 package Enemys;
 
 import Graphic.Jogo.Animator;
-import com.company.Main;
+import com.Main;
 
 import javax.swing.*;
 import java.awt.*;

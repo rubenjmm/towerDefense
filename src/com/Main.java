@@ -1,4 +1,4 @@
-package com.company;
+package com;
 
 import Buildings.Base_building;
 import Buildings.Building1_sprites;

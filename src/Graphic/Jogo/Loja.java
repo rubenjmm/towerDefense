@@ -1,7 +1,7 @@
 package Graphic.Jogo;
 
 import Buildings.Building1_sprites;
-import com.company.Main;
+import com.Main;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
