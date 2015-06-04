@@ -1,6 +1,6 @@
 package Graphic.Jogo;
 
-import Buildings.BuildingOneSprites;
+import Buildings.*;
 import Graphic.Menus.Main_Menu;
 import com.Main;
 
@@ -21,8 +21,6 @@ public class Draw_game extends JPanel implements ActionListener {
 
     private int WIDTH = Main.getMap().getcolunas() * 24 -10;
     private int HEIGHT = Main.getMap().getlinhas()*25   - 30;
-
-    private BufferedImage Building1 = BuildingOneSprites.getA11();
 
     public Draw_game(){
 
@@ -65,7 +63,25 @@ public class Draw_game extends JPanel implements ActionListener {
 
             if( id == 1) {
                 int r = Main.getOptions().getRaio_b1(); //raio de alcance
-                g.drawImage(Building1,posx-35 , posy-33, 70, 70, null);
+                g.drawImage(BuildingOneSprites.getA11(),posx-35 , posy-33, 70, 70, null);
+                r=r*2;
+                g.drawOval(posx-r/2, posy -r/2, r, r);
+            }
+            else if( id == 2) {
+                int r = Main.getOptions().getRaio_b1(); //raio de alcance
+                g.drawImage(StormTrooperSprites.getSpriteAttack().get(0),posx-35 , posy-33, 70, 70, null);
+                r=r*2;
+                g.drawOval(posx-r/2, posy -r/2, r, r);
+            }
+            else if( id == 3) {
+                int r = Main.getOptions().getRaio_b1(); //raio de alcance
+                g.drawImage(TurretSprites.getSpriteAttack().get(0),posx-35 , posy-33, 70, 70, null);
+                r=r*2;
+                g.drawOval(posx-r/2, posy -r/2, r, r);
+            }
+            else if( id == 4) {
+                int r = Main.getOptions().getRaio_b1(); //raio de alcance
+                g.drawImage(CannonSprites.getSpriteAttack().get(0),posx-35 , posy-33, 70, 70, null);
                 r=r*2;
                 g.drawOval(posx-r/2, posy -r/2, r, r);
             }

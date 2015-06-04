@@ -57,7 +57,7 @@ Preço = 15
 //////////////////////////////////Type_two:
 Total Number of buildings  = 0
 atack = 1
-atack_delay = 50
+atack_delay = 5
 Raio = 220
 Preço = 1
 //////////////////////////////////Type_three:
