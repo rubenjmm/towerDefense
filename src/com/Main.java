@@ -10,7 +10,6 @@ import Load_Save.Load_level;
 
 import java.util.ArrayList;
 
-
 public class Main {
 
     private static Mapa map;
@@ -26,9 +25,8 @@ public class Main {
         GAME
     }
 
-
     private static boolean helditem = false;
-    private static int     held_id = 0;
+    private static int held_id = 0;
     private static int mouse_x,mouse_y;
 
     private static STATE state = STATE.Main_menu;
@@ -57,7 +55,6 @@ public class Main {
         n.begin();
     }
 
-
     public static void new_game() {
 
         first_game=true;
@@ -68,7 +65,6 @@ public class Main {
         game_logic.new_game();
         loja.newgame();
     }
-
 
     public static void load__old_game(int lvl ,int gold  ,int player_life  , BaseEnemy[]  mobs, ArrayList<BaseBuilding> buildings  ) {
 
@@ -81,10 +77,8 @@ public class Main {
             frame1 = new Frame();
         }
 
-
         game_logic.load_old_game(mobs,buildings);
         state = STATE.GAME;
-
 
     }
 
@@ -160,7 +154,5 @@ public class Main {
     public static void setMouse_y(int mouse_y) {
         Main.mouse_y = mouse_y;
     }
-
-
 
 }

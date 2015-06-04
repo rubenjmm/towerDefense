@@ -2,6 +2,7 @@ package Enemys;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
+import java.io.Console;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -23,7 +24,7 @@ public abstract class GunaSprites
 
         try
         {
-            for (int i = 55; i <= 86; i++)
+            for (int i = 55; i <= 86; i = i +4)
             {
                 temp = "Textures/Mobs/_guna/run/jared00" + (i) + ".png";
                 listWalking.add(ImageIO.read(new File(temp)));
@@ -35,9 +36,9 @@ public abstract class GunaSprites
 
         try
         {
-            for (int i = 0; i <= 15; i++)
+            for (int i = 0; i <= 15; i = i +2)
             {
-                temp = "Textures/Mobs/_guna/run/jared00" + (String.format("%02d", i)) + ".png";
+                temp = "Textures/Mobs/_guna/Attack/jared02" + (String.format("%02d", i)) + ".png";
                 listAttack.add(ImageIO.read(new File(temp)));
             }
         } catch (IOException e)

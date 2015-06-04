@@ -2,9 +2,7 @@ package Load_Save;
 
 import Buildings.BaseBuilding;
 import Buildings.TypeBuilding;
-import Enemys.BaseEnemy;
-import Enemys.MonsterBlue;
-import Enemys.MonsterRed;
+import Enemys.*;
 import com.Main;
 
 import java.io.File;
@@ -193,229 +191,6 @@ public class Load_save {
         }
     }
 
-    public void mobs_type3()
-    {
-        x.nextLine();
-        int n_mobs = getint(new Scanner(x.nextLine()));
-        int mobs_spawned = getint(new Scanner(x.nextLine()));
-        int life = getint(new Scanner(x.nextLine()));
-        int atack = getint(new Scanner(x.nextLine()));
-        int coin_value = getint(new Scanner(x.nextLine()));
-
-        Main.getOptions().setNumber_mobs_t3(n_mobs);
-        Main.getGame_logic().setIngame_mobs_t3(mobs_spawned);
-        Main.getOptions().setLife_mobs_t3(life);
-        Main.getOptions().setAttack_mobs_t3(atack);
-        Main.getOptions().setCoin_mobs_t3(coin_value);
-
-        int i = 0, j = 0;
-        for (i = 0; i < mobs_spawned; i++)
-        {
-            x.nextLine();
-
-            getposicao(new Scanner(x.nextLine()));
-            int current_life = getint(new Scanner(x.nextLine()));
-            int Animation_State = getint(new Scanner(x.nextLine()));
-            int is_dead = getint(new Scanner(x.nextLine()));
-
-            mobs[mobs_created] = new MonsterRed();
-            mobs[mobs_created].inGame = true;
-            if (is_dead == 0) mobs[mobs_created].isDead = false;
-            else mobs[mobs_created].isDead = true;
-            mobs[mobs_created].posx = posx;
-            mobs[mobs_created].posy = posy;
-            mobs[mobs_created].life = current_life;
-            mobs[mobs_created].animationState = Animation_State;
-
-            mobs[mobs_created].posy_b = posx / 24;
-            mobs[mobs_created].posx_b = posy / 24;
-
-            mobs[mobs_created].startMob();
-
-            mobs_created++;
-        }
-    }
-
-    public void mobs_type4()
-    {
-        x.nextLine();
-        int n_mobs = getint(new Scanner(x.nextLine()));
-        int mobs_spawned = getint(new Scanner(x.nextLine()));
-        int life = getint(new Scanner(x.nextLine()));
-        int atack = getint(new Scanner(x.nextLine()));
-        int coin_value = getint(new Scanner(x.nextLine()));
-
-
-        Main.getOptions().setNumber_mobs_t4(n_mobs);
-        Main.getGame_logic().setIngame_mobs_t4(mobs_spawned);
-        Main.getOptions().setLife_mobs_t4(life);
-        Main.getOptions().setAttack_mobs_t4(atack);
-        Main.getOptions().setCoin_mobs_t4(coin_value);
-
-        int i = 0, j = 0;
-        for (i = 0; i < mobs_spawned; i++)
-        {
-            x.nextLine();
-
-            getposicao(new Scanner(x.nextLine()));
-            int current_life = getint(new Scanner(x.nextLine()));
-            int Animation_State = getint(new Scanner(x.nextLine()));
-            int is_dead = getint(new Scanner(x.nextLine()));
-
-            mobs[mobs_created] = new MonsterRed();
-            mobs[mobs_created].inGame = true;
-            if (is_dead == 0) mobs[mobs_created].isDead = false;
-            else mobs[mobs_created].isDead = true;
-            mobs[mobs_created].posx = posx;
-            mobs[mobs_created].posy = posy;
-            mobs[mobs_created].life = current_life;
-            mobs[mobs_created].animationState = Animation_State;
-
-            mobs[mobs_created].posy_b = posx / 24;
-            mobs[mobs_created].posx_b = posy / 24;
-
-            mobs[mobs_created].startMob();
-
-            mobs_created++;
-        }
-    }
-
-    public void mobs_type5()
-    {
-
-        x.nextLine();
-        int n_mobs = getint(new Scanner(x.nextLine()));
-        int mobs_spawned = getint(new Scanner(x.nextLine()));
-        int life = getint(new Scanner(x.nextLine()));
-        int atack = getint(new Scanner(x.nextLine()));
-        int coin_value = getint(new Scanner(x.nextLine()));
-
-
-        Main.getOptions().setNumber_mobs_t5(n_mobs);
-        Main.getGame_logic().setIngame_mobs_t5(mobs_spawned);
-        Main.getOptions().setLife_mobs_t5(life);
-        Main.getOptions().setAttack_mobs_t5(atack);
-        Main.getOptions().setCoin_mobs_t5(coin_value);
-
-        int i = 0, j = 0;
-        for (i = 0; i < mobs_spawned; i++)
-        {
-            x.nextLine();
-
-            getposicao(new Scanner(x.nextLine()));
-            int current_life = getint(new Scanner(x.nextLine()));
-            int Animation_State = getint(new Scanner(x.nextLine()));
-            int is_dead = getint(new Scanner(x.nextLine()));
-
-
-            mobs[mobs_created] = new MonsterRed();
-            mobs[mobs_created].inGame = true;
-            if (is_dead == 0) mobs[mobs_created].isDead = false;
-            else mobs[mobs_created].isDead = true;
-            mobs[mobs_created].posx = posx;
-            mobs[mobs_created].posy = posy;
-            mobs[mobs_created].life = current_life;
-            mobs[mobs_created].animationState = Animation_State;
-
-            mobs[mobs_created].posy_b = posx / 24;
-            mobs[mobs_created].posx_b = posy / 24;
-
-            mobs[mobs_created].startMob();
-
-
-            mobs_created++;
-        }
-    }
-
-    public void mobs_type6()
-    {
-
-        x.nextLine();
-        int n_mobs = getint(new Scanner(x.nextLine()));
-        int mobs_spawned = getint(new Scanner(x.nextLine()));
-        int life = getint(new Scanner(x.nextLine()));
-        int atack = getint(new Scanner(x.nextLine()));
-        int coin_value = getint(new Scanner(x.nextLine()));
-
-
-        Main.getOptions().setNumber_mobs_t6(n_mobs);
-        Main.getGame_logic().setIngame_mobs_t6(mobs_spawned);
-        Main.getOptions().setLife_mobs_t6(life);
-        Main.getOptions().setAttack_mobs_t6(atack);
-        Main.getOptions().setCoin_mobs_t6(coin_value);
-
-        int i = 0, j = 0;
-        for (i = 0; i < mobs_spawned; i++)
-        {
-            x.nextLine();
-
-            getposicao(new Scanner(x.nextLine()));
-            int current_life = getint(new Scanner(x.nextLine()));
-            int Animation_State = getint(new Scanner(x.nextLine()));
-            int is_dead = getint(new Scanner(x.nextLine()));
-
-            mobs[mobs_created] = new MonsterRed();
-            mobs[mobs_created].inGame = true;
-            if (is_dead == 0) mobs[mobs_created].isDead = false;
-            else mobs[mobs_created].isDead = true;
-            mobs[mobs_created].posx = posx;
-            mobs[mobs_created].posy = posy;
-            mobs[mobs_created].life = current_life;
-            mobs[mobs_created].animationState = Animation_State;
-
-            mobs[mobs_created].posy_b = posx / 24;
-            mobs[mobs_created].posx_b = posy / 24;
-
-            mobs[mobs_created].startMob();
-
-            mobs_created++;
-        }
-    }
-
-    public void mobs_type7()
-    {
-        x.nextLine();
-        int n_mobs = getint(new Scanner(x.nextLine()));
-        int mobs_spawned = getint(new Scanner(x.nextLine()));
-        int life = getint(new Scanner(x.nextLine()));
-        int atack = getint(new Scanner(x.nextLine()));
-        int coin_value = getint(new Scanner(x.nextLine()));
-
-
-        Main.getOptions().setNumber_mobs_t7(n_mobs);
-        Main.getGame_logic().setIngame_mobs_t7(mobs_spawned);
-        Main.getOptions().setLife_mobs_t7(life);
-        Main.getOptions().setAttack_mobs_t7(atack);
-        Main.getOptions().setCoin_mobs_t7(coin_value);
-
-        int i = 0, j = 0;
-        for (i = 0; i < mobs_spawned; i++)
-        {
-            x.nextLine();
-
-            getposicao(new Scanner(x.nextLine()));
-            int current_life = getint(new Scanner(x.nextLine()));
-            int Animation_State = getint(new Scanner(x.nextLine()));
-            int is_dead = getint(new Scanner(x.nextLine()));
-
-            mobs[mobs_created] = new MonsterRed();
-            mobs[mobs_created].inGame = true;
-            if (is_dead == 0) mobs[mobs_created].isDead = false;
-            else mobs[mobs_created].isDead = true;
-            mobs[mobs_created].posx = posx;
-            mobs[mobs_created].posy = posy;
-            mobs[mobs_created].life = current_life;
-            mobs[mobs_created].animationState = Animation_State;
-
-            mobs[mobs_created].posy_b = posx / 24;
-            mobs[mobs_created].posx_b = posy / 24;
-
-            mobs[mobs_created].startMob();
-
-            mobs_created++;
-        }
-    }
-
     public void mobs_type2() {
 
         x.nextLine();
@@ -469,6 +244,222 @@ public class Load_save {
             mobs_created++;
         }
 
+    }
+
+    public void mobs_type3()
+    {
+        x.nextLine();
+        int n_mobs = getint(new Scanner(x.nextLine()));
+        int mobs_spawned = getint(new Scanner(x.nextLine()));
+        int life = getint(new Scanner(x.nextLine()));
+        int atack = getint(new Scanner(x.nextLine()));
+        int coin_value = getint(new Scanner(x.nextLine()));
+
+        Main.getOptions().setNumber_mobs_t3(n_mobs);
+        Main.getGame_logic().setIngame_mobs_t3(mobs_spawned);
+        Main.getOptions().setLife_mobs_t3(life);
+        Main.getOptions().setAttack_mobs_t3(atack);
+        Main.getOptions().setCoin_mobs_t3(coin_value);
+
+        int i = 0, j = 0;
+        for (i = 0; i < mobs_spawned; i++)
+        {
+            x.nextLine();
+
+            getposicao(new Scanner(x.nextLine()));
+            int current_life = getint(new Scanner(x.nextLine()));
+            int Animation_State = getint(new Scanner(x.nextLine()));
+            int is_dead = getint(new Scanner(x.nextLine()));
+
+            mobs[mobs_created] = new Guna();
+            mobs[mobs_created].inGame = true;
+            if (is_dead == 0) mobs[mobs_created].isDead = false;
+            else mobs[mobs_created].isDead = true;
+            mobs[mobs_created].posx = posx;
+            mobs[mobs_created].posy = posy;
+            mobs[mobs_created].life = current_life;
+            mobs[mobs_created].animationState = Animation_State;
+
+            mobs[mobs_created].posy_b = posx / 24;
+            mobs[mobs_created].posx_b = posy / 24;
+
+            mobs[mobs_created].startMob();
+
+            mobs_created++;
+        }
+    }
+
+    public void mobs_type4()
+    {
+        x.nextLine();
+        int n_mobs = getint(new Scanner(x.nextLine()));
+        int mobs_spawned = getint(new Scanner(x.nextLine()));
+        int life = getint(new Scanner(x.nextLine()));
+        int atack = getint(new Scanner(x.nextLine()));
+        int coin_value = getint(new Scanner(x.nextLine()));
+
+        Main.getOptions().setNumber_mobs_t4(n_mobs);
+        Main.getGame_logic().setIngame_mobs_t4(mobs_spawned);
+        Main.getOptions().setLife_mobs_t4(life);
+        Main.getOptions().setAttack_mobs_t4(atack);
+        Main.getOptions().setCoin_mobs_t4(coin_value);
+
+        int i = 0, j = 0;
+        for (i = 0; i < mobs_spawned; i++)
+        {
+            x.nextLine();
+
+            getposicao(new Scanner(x.nextLine()));
+            int current_life = getint(new Scanner(x.nextLine()));
+            int Animation_State = getint(new Scanner(x.nextLine()));
+            int is_dead = getint(new Scanner(x.nextLine()));
+
+            mobs[mobs_created] = new Goblin();
+            mobs[mobs_created].inGame = true;
+            if (is_dead == 0) mobs[mobs_created].isDead = false;
+            else mobs[mobs_created].isDead = true;
+            mobs[mobs_created].posx = posx;
+            mobs[mobs_created].posy = posy;
+            mobs[mobs_created].life = current_life;
+            mobs[mobs_created].animationState = Animation_State;
+
+            mobs[mobs_created].posy_b = posx / 24;
+            mobs[mobs_created].posx_b = posy / 24;
+
+            mobs[mobs_created].startMob();
+
+            mobs_created++;
+        }
+    }
+
+    public void mobs_type5()
+    {
+        x.nextLine();
+        int n_mobs = getint(new Scanner(x.nextLine()));
+        int mobs_spawned = getint(new Scanner(x.nextLine()));
+        int life = getint(new Scanner(x.nextLine()));
+        int atack = getint(new Scanner(x.nextLine()));
+        int coin_value = getint(new Scanner(x.nextLine()));
+
+        Main.getOptions().setNumber_mobs_t5(n_mobs);
+        Main.getGame_logic().setIngame_mobs_t5(mobs_spawned);
+        Main.getOptions().setLife_mobs_t5(life);
+        Main.getOptions().setAttack_mobs_t5(atack);
+        Main.getOptions().setCoin_mobs_t5(coin_value);
+
+        int i = 0, j = 0;
+        for (i = 0; i < mobs_spawned; i++)
+        {
+            x.nextLine();
+
+            getposicao(new Scanner(x.nextLine()));
+            int current_life = getint(new Scanner(x.nextLine()));
+            int Animation_State = getint(new Scanner(x.nextLine()));
+            int is_dead = getint(new Scanner(x.nextLine()));
+
+            mobs[mobs_created] = new WhiteSkeleton();
+            mobs[mobs_created].inGame = true;
+            if (is_dead == 0) mobs[mobs_created].isDead = false;
+            else mobs[mobs_created].isDead = true;
+            mobs[mobs_created].posx = posx;
+            mobs[mobs_created].posy = posy;
+            mobs[mobs_created].life = current_life;
+            mobs[mobs_created].animationState = Animation_State;
+
+            mobs[mobs_created].posy_b = posx / 24;
+            mobs[mobs_created].posx_b = posy / 24;
+
+            mobs[mobs_created].startMob();
+
+            mobs_created++;
+        }
+    }
+
+    public void mobs_type6()
+    {
+        x.nextLine();
+        int n_mobs = getint(new Scanner(x.nextLine()));
+        int mobs_spawned = getint(new Scanner(x.nextLine()));
+        int life = getint(new Scanner(x.nextLine()));
+        int atack = getint(new Scanner(x.nextLine()));
+        int coin_value = getint(new Scanner(x.nextLine()));
+
+        Main.getOptions().setNumber_mobs_t6(n_mobs);
+        Main.getGame_logic().setIngame_mobs_t6(mobs_spawned);
+        Main.getOptions().setLife_mobs_t6(life);
+        Main.getOptions().setAttack_mobs_t6(atack);
+        Main.getOptions().setCoin_mobs_t6(coin_value);
+
+        int i = 0, j = 0;
+        for (i = 0; i < mobs_spawned; i++)
+        {
+            x.nextLine();
+
+            getposicao(new Scanner(x.nextLine()));
+            int current_life = getint(new Scanner(x.nextLine()));
+            int Animation_State = getint(new Scanner(x.nextLine()));
+            int is_dead = getint(new Scanner(x.nextLine()));
+
+            mobs[mobs_created] = new RedSkeleton();
+            mobs[mobs_created].inGame = true;
+            if (is_dead == 0) mobs[mobs_created].isDead = false;
+            else mobs[mobs_created].isDead = true;
+            mobs[mobs_created].posx = posx;
+            mobs[mobs_created].posy = posy;
+            mobs[mobs_created].life = current_life;
+            mobs[mobs_created].animationState = Animation_State;
+
+            mobs[mobs_created].posy_b = posx / 24;
+            mobs[mobs_created].posx_b = posy / 24;
+
+            mobs[mobs_created].startMob();
+
+            mobs_created++;
+        }
+    }
+
+    public void mobs_type7()
+    {
+        x.nextLine();
+        int n_mobs = getint(new Scanner(x.nextLine()));
+        int mobs_spawned = getint(new Scanner(x.nextLine()));
+        int life = getint(new Scanner(x.nextLine()));
+        int atack = getint(new Scanner(x.nextLine()));
+        int coin_value = getint(new Scanner(x.nextLine()));
+
+
+        Main.getOptions().setNumber_mobs_t7(n_mobs);
+        Main.getGame_logic().setIngame_mobs_t7(mobs_spawned);
+        Main.getOptions().setLife_mobs_t7(life);
+        Main.getOptions().setAttack_mobs_t7(atack);
+        Main.getOptions().setCoin_mobs_t7(coin_value);
+
+        int i = 0, j = 0;
+        for (i = 0; i < mobs_spawned; i++)
+        {
+            x.nextLine();
+
+            getposicao(new Scanner(x.nextLine()));
+            int current_life = getint(new Scanner(x.nextLine()));
+            int Animation_State = getint(new Scanner(x.nextLine()));
+            int is_dead = getint(new Scanner(x.nextLine()));
+
+            mobs[mobs_created] = new Zombie();
+            mobs[mobs_created].inGame = true;
+            if (is_dead == 0) mobs[mobs_created].isDead = false;
+            else mobs[mobs_created].isDead = true;
+            mobs[mobs_created].posx = posx;
+            mobs[mobs_created].posy = posy;
+            mobs[mobs_created].life = current_life;
+            mobs[mobs_created].animationState = Animation_State;
+
+            mobs[mobs_created].posy_b = posx / 24;
+            mobs[mobs_created].posx_b = posy / 24;
+
+            mobs[mobs_created].startMob();
+
+            mobs_created++;
+        }
     }
 
     public void buildings() {

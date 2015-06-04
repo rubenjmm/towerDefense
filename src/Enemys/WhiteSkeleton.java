@@ -31,9 +31,6 @@ public class WhiteSkeleton extends BaseEnemy
         life = Main.getOptions().getLife_mobs_t5();
         coinValue =Main.getOptions().getCoin_mobs_t5();
 
-        animationState =2;
-        isWalking =false;
-
         //Death
         listDeath = new ArrayList<BufferedImage>(WhiteSkeletonSprites.getSpriteDeath());
         animDeath = new Animator(listDeath);
@@ -68,13 +65,6 @@ public class WhiteSkeleton extends BaseEnemy
                 g.drawImage(animAttack.getSprite(), posx, posy-15,  43, 43, null);
                 animAttack.update(System.currentTimeMillis());
                 attack();
-            }
-            else if(animationState ==2) {
-                isWalking =false;
-                g.drawImage(animReborn.getSprite(), posx, posy-5, 43,43, null);
-                animReborn.update(System.currentTimeMillis());
-                if(animReborn.isdeu_reset())
-                    animationState =0;//começa andar
             }
         }
         else if( inGame && isDead && !died ) {

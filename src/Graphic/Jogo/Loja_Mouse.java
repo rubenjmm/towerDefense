@@ -28,9 +28,9 @@ public class Loja_Mouse implements MouseListener,MouseMotionListener{
                 Main.getLoja().setFlag(3);
             } else if (my >= 230 && my <= 280) {
                 Main.getLoja().setFlag(4);
-            } else if (my >= 290 && my <= 340) {
-                Main.getLoja().setFlag(5);
-            }
+            } //else if (my >= 290 && my <= 340) {
+              //  Main.getLoja().setFlag(5);
+            //}
             else {
                 Main.getLoja().setFlag(0);
             }
@@ -63,10 +63,10 @@ public class Loja_Mouse implements MouseListener,MouseMotionListener{
             } else if (my >= 230 && my <= 280) {
                 Main.setHelditem(true);
                 Main.setHeld_id(4);
-            } else if (my >= 290 && my <= 340) {
-                Main.setHelditem(true);
-                Main.setHeld_id(5);
-            }
+            } //else if (my >= 290 && my <= 340) {
+                //Main.setHelditem(true);
+                //Main.setHeld_id(5);
+            //}
             else {
                 Main.setHelditem(false);
                 Main.setHeld_id(0);
@@ -79,20 +79,14 @@ public class Loja_Mouse implements MouseListener,MouseMotionListener{
 
     }
 
-
-
-
-
     @Override
     public void mousePressed(MouseEvent e) {
 
 
     }
 
-
     @Override
     public void mouseReleased(MouseEvent e) {
-
 
     }
 
@@ -105,7 +99,6 @@ public class Loja_Mouse implements MouseListener,MouseMotionListener{
     public void mouseExited(MouseEvent e) {
 
     }
-
 
     @Override
     public void mouseDragged(MouseEvent e) {
@@ -127,6 +120,5 @@ public class Loja_Mouse implements MouseListener,MouseMotionListener{
     public String toString() {
         return super.toString();
     }
-
 
 }

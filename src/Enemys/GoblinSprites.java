@@ -39,7 +39,7 @@ public abstract class GoblinSprites
         {
             for (int i = 18; i <= 22; i++)
             {
-                temp = "Textures/Mobs/_guna/run/jared00" + (String.format("%02d", i)) + ".png";
+                temp = "Textures/Mobs/_goblin/goblin" + (String.format("%02d", i)) + ".png";
                 listAttack.add(ImageIO.read(new File(temp)));
             }
         } catch (IOException e)

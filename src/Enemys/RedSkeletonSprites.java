@@ -25,7 +25,7 @@ public abstract class RedSkeletonSprites
 
         try
         {
-            for (int i = 0; i <= 6; i++)
+            for (int i = 1; i <= 6; i++)
             {
                 temp = "Textures/Mobs/_skeleton/red/walk/skelBase.01-00-00_walk" + (i) + "_r.png";
                 listWalking.add(ImageIO.read(new File(temp)));

@@ -10,7 +10,6 @@ public class Opcoes {
     private int number_mobs_t2;
     private int number_mobs_t3;
     private int number_mobs_t4;
-
     private int number_mobs_t5;
     private int number_mobs_t6;
     private int number_mobs_t7;
@@ -44,10 +43,6 @@ public class Opcoes {
     private int attack_speed_b1;
     private int attack_b1;
 
-    private int raio_b4;
-    private int attack_speed_b4;
-    private int attack_b4;
-
     private int raio_b2;
     private int attack_speed_b2;
     private int attack_b2;
@@ -56,6 +51,9 @@ public class Opcoes {
     private int attack_speed_b3;
     private int attack_b3;
 
+    private int raio_b4;
+    private int attack_speed_b4;
+    private int attack_b4;
 
     private int tempo_entre_spawn_mobs;
 
@@ -99,10 +97,6 @@ public class Opcoes {
             coin_mobs_t5 = 10;
             coin_mobs_t6 = 10;
             coin_mobs_t7 = 10;
-
-            raio_b1 = 220;
-            attack_speed_b1 = 1500;
-            attack_b1 = 15;
 
             raio_b1 = 220;
             attack_speed_b1 = 1500;
@@ -164,10 +158,6 @@ public class Opcoes {
             attack_speed_b1 = 1500;
             attack_b1 = 15;
 
-            raio_b1 = 220;
-            attack_speed_b1 = 1500;
-            attack_b1 = 15;
-
             raio_b2 = 220;
             attack_speed_b2 = 1500;
             attack_b2 = 15;
@@ -224,10 +214,6 @@ public class Opcoes {
             attack_speed_b1 = 1500;
             attack_b1 = 15;
 
-            raio_b1 = 220;
-            attack_speed_b1 = 1500;
-            attack_b1 = 15;
-
             raio_b2 = 220;
             attack_speed_b2 = 1500;
             attack_b2 = 15;
@@ -278,10 +264,6 @@ public class Opcoes {
             coin_mobs_t5 = 10;
             coin_mobs_t6 = 10;
             coin_mobs_t7 = 10;
-
-            raio_b1 = 220;
-            attack_speed_b1 = 1500;
-            attack_b1 = 15;
 
             raio_b1 = 220;
             attack_speed_b1 = 1500;

@@ -12,7 +12,6 @@ import java.util.Scanner;
 
 public class Load_level {
 
-
     private Mapa map = Main.getMap();
     private Scanner x;
     private char[][] board;

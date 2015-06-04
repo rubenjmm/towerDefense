@@ -17,9 +17,7 @@ import javax.swing.Timer;
  * Created by Ricardo on 04/05/2015.
  */
 
-
 public class Logica {
-
 
     private int delay;  //milliseconds
     private Timer timer;
@@ -69,7 +67,6 @@ public class Logica {
     };
 
     public Logica() {
-
         number_mobs_t1 = Main.getOptions().getNumber_mobs_t1();
         number_mobs_t2 = Main.getOptions().getNumber_mobs_t2();
         number_mobs_t3 = Main.getOptions().getNumber_mobs_t3();
@@ -80,7 +77,7 @@ public class Logica {
 
         delay = Main.getOptions().getTempo_entre_spawn_mobs();
 
-        total_number_mobs=number_mobs_t1 + number_mobs_t2 + number_mobs_t3 + number_mobs_t4 + number_mobs_t5 + number_mobs_t6 + number_mobs_t7;
+        total_number_mobs = number_mobs_t1 + number_mobs_t2 + number_mobs_t3 + number_mobs_t4 + number_mobs_t5 + number_mobs_t6 + number_mobs_t7;
 
         timer = new Timer(delay, actionListener);
         buildings= new ArrayList<BaseBuilding>();
@@ -88,7 +85,6 @@ public class Logica {
     }
 
     public void new_game() {
-
         number_mobs_t1 = Main.getOptions().getNumber_mobs_t1();
         number_mobs_t2 = Main.getOptions().getNumber_mobs_t2();
         number_mobs_t3 = Main.getOptions().getNumber_mobs_t3();
@@ -131,6 +127,7 @@ public class Logica {
         timer.restart();
         inicializacao=true;
     }
+
     public void check_end_game() {
 
         int contador=0;
@@ -171,7 +168,7 @@ public class Logica {
 
         while( (mobs_spawned_t1 + mobs_spawned_t2 + mobs_spawned_t3 + mobs_spawned_t4 + mobs_spawned_t5 + mobs_spawned_t6 + mobs_spawned_t7)!= mobs.length) {
 
-            int num = r.nextInt(2);
+            int num = r.nextInt(7);
 
             if (num == 0 && mobs_spawned_t1<number_mobs_t1) {
                 mobs[mobs_spawned_t1 + mobs_spawned_t2 + mobs_spawned_t3 + mobs_spawned_t4 + mobs_spawned_t5 + mobs_spawned_t6 + mobs_spawned_t7] = new MonsterBlue();
@@ -201,7 +198,6 @@ public class Logica {
                 mobs[mobs_spawned_t1 + mobs_spawned_t2 + mobs_spawned_t3 + mobs_spawned_t4 + mobs_spawned_t5 + mobs_spawned_t6 + mobs_spawned_t7] = new Zombie();
                 mobs_spawned_t7 = mobs_spawned_t7+1;
             }
-
         }
         mobs_inic = true;
     }
@@ -218,10 +214,8 @@ public class Logica {
                 for (int i = 0; i < buildings.size(); i++) {
                     buildings.get(i).draw(g);
                 }
-
             }
         }
-
     }
 
     private void check_life() {
@@ -238,8 +232,28 @@ public class Logica {
                 if(mobs[i].mobType ==1) {
                     ingame_mobs_t1++;
                 }
-                else if(mobs[i].mobType ==2){
+                else if(mobs[i].mobType == 2){
                     ingame_mobs_t2++;
+                }
+                else if(mobs[i].mobType == 3)
+                {
+                    ingame_mobs_t3++;
+                }
+                else if(mobs[i].mobType == 4)
+                {
+                    ingame_mobs_t4++;
+                }
+                else if(mobs[i].mobType == 5)
+                {
+                    ingame_mobs_t5++;
+                }
+                else if(mobs[i].mobType == 6)
+                {
+                    ingame_mobs_t6++;
+                }
+                else if(mobs[i].mobType == 7)
+                {
+                    ingame_mobs_t7++;
                 }
                 break;
             }
@@ -263,25 +277,23 @@ public class Logica {
     }
 
     public void eliminar_buildings() {
-
-
         buildings.clear();
         building_inic=false;
     }
 
     public void atualizar_gold(int id) {
 
-        if (id==1) {
+        if (id == 1) {
             //15g
             Main.getLoja().change_coin(15);
         }
-        else if( id== 3 ) {
+        else if(id == 3) {
             Main.getLoja().change_coin(25);
         }
-        else if( id== 2 ) {
-            Main.getLoja().change_coin(5);
+        else if(id == 2) {
+            Main.getLoja().change_coin(1);
         }
-        else if( id== 4 ) {
+        else if(id == 4) {
             Main.getLoja().change_coin(50);
         }
     }

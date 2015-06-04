@@ -32,9 +32,6 @@ public class Zombie extends BaseEnemy
         life = Main.getOptions().getLife_mobs_t7();
         coinValue =Main.getOptions().getCoin_mobs_t7();
 
-        animationState =2;
-        isWalking =false;
-
 
         //Death
         listDeath = new ArrayList<BufferedImage>(ZombieSprites.getSpriteDeath());
@@ -59,7 +56,6 @@ public class Zombie extends BaseEnemy
     public void draw (Graphics g)
     {
         if(inGame && !isDead){
-
             if(animationState ==0){
                 isWalking =true;
                 g.drawImage(animWalking.getSprite(), posx, posy-15, 43, 43, null);
@@ -71,16 +67,8 @@ public class Zombie extends BaseEnemy
                 animAttack.update(System.currentTimeMillis());
                 attack();
             }
-            else if(animationState ==2) {
-                isWalking =false;
-                g.drawImage(animReborn.getSprite(), posx, posy-5, 43,43, null);
-                animReborn.update(System.currentTimeMillis());
-                if(animReborn.isdeu_reset())
-                    animationState =0;//começa andar
-            }
         }
         else if( inGame && isDead && !died ) {
-
             isWalking = false;
             g.drawImage(animDeath.getSprite(), posx, posy-15, 43, 43, null);
             animDeath.update(System.currentTimeMillis());
