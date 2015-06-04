@@ -51,16 +51,16 @@ public class Loja_Mouse implements MouseListener,MouseMotionListener{
 
         if(mx>= 25&& mx<= 75) {
 
-            if (my >= 50 && my <= 100 && coins>=15) {
+            if (my >= 50 && my <= 100 && coins>= Main.getOptions().getBuilding1Price()) {
                 Main.setHelditem(true);
                 Main.setHeld_id(1);
-            } else if (my >= 110 && my <= 160) {
+            } else if (my >= 110 && my <= 160 && coins>= Main.getOptions().getBuilding2Price()) {
                 Main.setHelditem(true);
                 Main.setHeld_id(2);
-            } else if (my >= 170 && my <= 220) {
+            } else if (my >= 170 && my <= 220 && coins>= Main.getOptions().getBuilding3Price()) {
                 Main.setHelditem(true);
                 Main.setHeld_id(3);
-            } else if (my >= 230 && my <= 280) {
+            } else if (my >= 230 && my <= 280 && coins>= Main.getOptions().getBuilding4Price()){
                 Main.setHelditem(true);
                 Main.setHeld_id(4);
             } //else if (my >= 290 && my <= 340) {
