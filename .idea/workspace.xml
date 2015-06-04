@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4e87502-f8fd-496e-af93-0cf0ddcbd433" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Draw_game.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Draw_game.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Loja$1.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Loja$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Loja.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Loja.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Textures/Buildings/_storm/storm6.png" afterPath="$PROJECT_DIR$/Textures/Buildings/_storm/storm6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Textures/Buildings/_storm/storm7.png" afterPath="$PROJECT_DIR$/Textures/Buildings/_storm/storm7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buildings/Cannon.java" afterPath="$PROJECT_DIR$/src/Buildings/Cannon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Load_Save/Load_save.java" afterPath="$PROJECT_DIR$/src/Load_Save/Load_save.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Logica.java" afterPath="$PROJECT_DIR$/src/com/Logica.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Graphic/Jogo/Loja.java" afterPath="$PROJECT_DIR$/src/Graphic/Jogo/Loja.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Opcoes.java" afterPath="$PROJECT_DIR$/src/com/Opcoes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Load_Save/Save.java" afterPath="$PROJECT_DIR$/src/Load_Save/Save.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buildings/StormTrooper.java" afterPath="$PROJECT_DIR$/src/Buildings/StormTrooper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Saves/save.txt" afterPath="$PROJECT_DIR$/Saves/save.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Load_Save/Load_save.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Load_Save/Load_save.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Load_Save/Save.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Load_Save/Save.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projeto Final.iws" />
@@ -53,24 +42,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StormTrooper.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StormTrooper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Buildings/StormTrooper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="1020">
+            <state vertical-scroll-proportion="1.0463215" vertical-offset="381" max-vertical-offset="1020">
               <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="save.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Saves/save.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6757493" vertical-offset="789" max-vertical-offset="1360">
-              <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -647,7 +626,7 @@
       <workItem from="1433345888585" duration="23000" />
       <workItem from="1433345972336" duration="1142000" />
       <workItem from="1433347132601" duration="28875000" />
-      <workItem from="1433424091318" duration="4220000" />
+      <workItem from="1433424091318" duration="4325000" />
     </task>
     <task id="LOCAL-00001" summary="zfsdfsfs">
       <created>1431359254455</created>
@@ -913,11 +892,17 @@
       <option name="project" value="LOCAL" />
       <updated>1433424895562</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="building 1 sprites">
+      <created>1433428329526</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1433428329526</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65425000" />
+    <option name="totallyTimeSpent" value="65530000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -941,7 +926,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -954,7 +939,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22838499" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35562807" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35562807" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32626426" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22919819" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1516,21 +1501,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Buildings/StormTrooper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="1020">
-          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Saves/save.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6757493" vertical-offset="789" max-vertical-offset="1360">
           <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Buildings/StormTrooper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0463215" vertical-offset="381" max-vertical-offset="1020">
+          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
