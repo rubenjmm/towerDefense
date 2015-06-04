@@ -53,18 +53,22 @@ Total Number of buildings  = 0
 atack = 15
 atack_delay = 1500
 Raio = 220
+Preço = 15
 //////////////////////////////////Type_two:
 Total Number of buildings  = 0
-atack = 0
-atack_delay = 15
+atack = 1
+atack_delay = 50
 Raio = 220
+Preço = 1
 //////////////////////////////////Type_three:
 Total Number of buildings  = 0
-atack = 15
-atack_delay = 1500
+atack = 30
+atack_delay = 1000
 Raio = 220
+Preço = 40
 //////////////////////////////////Type_four:
 Total Number of buildings  = 0
-atack = 15
-atack_delay = 1500
+atack = 45
+atack_delay = 1000
 Raio = 220
+Preço = 100

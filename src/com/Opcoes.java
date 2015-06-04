@@ -59,6 +59,11 @@ public class Opcoes {
 
     private int difficulty_type=0;
 
+    private int building1Price = 15;
+    private int building2Price = 1;
+    private int building3Price = 50;
+    private int building4Price = 100;
+
     public Opcoes(){
 
     }
@@ -115,6 +120,11 @@ public class Opcoes {
             attack_b4 = 15;
 
             tempo_entre_spawn_mobs = 2500;
+
+            building1Price = 15;
+            building2Price = 1;
+            building3Price = 50;
+            building4Price = 100;
         }
     }
 
@@ -171,6 +181,11 @@ public class Opcoes {
             attack_b4 = 15;
 
             tempo_entre_spawn_mobs = 2500;
+
+            building1Price = 15;
+            building2Price = 1;
+            building3Price = 50;
+            building4Price = 100;
         }
     }
 
@@ -227,6 +242,11 @@ public class Opcoes {
             attack_b4 = 15;
 
             tempo_entre_spawn_mobs = 2500;
+
+            building1Price = 15;
+            building2Price = 1;
+            building3Price = 50;
+            building4Price = 100;
         }
     }
 
@@ -282,6 +302,11 @@ public class Opcoes {
             attack_b4 = 15;
 
             tempo_entre_spawn_mobs = 2500;
+
+            building1Price = 15;
+            building2Price = 1;
+            building3Price = 50;
+            building4Price = 100;
         }
     }
 
@@ -668,5 +693,45 @@ public class Opcoes {
 
     public void setTempo_entre_spawn_mobs(int tempo_entre_spawn_mobs) {
         this.tempo_entre_spawn_mobs = tempo_entre_spawn_mobs;
+    }
+
+    public int getBuilding1Price()
+    {
+        return building1Price;
+    }
+
+    public int getBuilding2Price()
+    {
+        return building2Price;
+    }
+
+    public int getBuilding3Price()
+    {
+        return building3Price;
+    }
+
+    public int getBuilding4Price()
+    {
+        return building4Price;
+    }
+
+    public void setBuilding1Price(int building1Price)
+    {
+        this.building1Price = building1Price;
+    }
+
+    public void setBuilding2Price(int building2Price)
+    {
+        this.building2Price = building2Price;
+    }
+
+    public void setBuilding3Price(int building3Price)
+    {
+        this.building3Price = building3Price;
+    }
+
+    public void setBuilding4Price(int building4Price)
+    {
+        this.building4Price = building4Price;
     }
 }

@@ -38,8 +38,8 @@ public class StormTrooper extends BaseBuilding
         posy = posy_b * 25;
 
         // Default image
-        img1 = StormTrooperSprites.getSpriteAttack().get(1);
-        img2 = StormTrooperSprites.getSpriteAttack().get(2);
+        img1 = StormTrooperSprites.getSpriteAttack().get(0);
+        img2 = StormTrooperSprites.getSpriteAttack().get(1);
 
         ////////////////////////////////////////////////////////////////////////
         ArrayList<BufferedImage> listAttack = new ArrayList<BufferedImage>();

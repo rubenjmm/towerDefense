@@ -480,10 +480,12 @@ public class Load_save {
         int atack =getint( new Scanner(x.nextLine()) );
         int atack_delay =getint( new Scanner(x.nextLine()) );
         int raio = getint(new Scanner(x.nextLine()));
+        int preco = getint(new Scanner(x.nextLine()));
 
         Main.getOptions().setAttack_b1(atack);
         Main.getOptions().setAttack_speed_b1(atack_delay);
         Main.getOptions().setRaio_b1(raio);
+        Main.getOptions().setBuilding1Price(preco);
         if(n_buildings>0){
             x.nextLine();
         }
@@ -505,10 +507,12 @@ public class Load_save {
         int atack =getint( new Scanner(x.nextLine()) );
         int atack_delay =getint( new Scanner(x.nextLine()) );
         int raio = getint(new Scanner(x.nextLine()));
+        int preco = getint(new Scanner(x.nextLine()));
 
         Main.getOptions().setAttack_b2(atack);
         Main.getOptions().setAttack_speed_b2(atack_delay);
         Main.getOptions().setRaio_b2(raio);
+        Main.getOptions().setBuilding2Price(preco);
         if(n_buildings>0){
             x.nextLine();
         }
@@ -530,10 +534,12 @@ public class Load_save {
         int atack =getint( new Scanner(x.nextLine()) );
         int atack_delay =getint( new Scanner(x.nextLine()) );
         int raio = getint(new Scanner(x.nextLine()));
+        int preco = getint(new Scanner(x.nextLine()));
 
         Main.getOptions().setAttack_b3(atack);
         Main.getOptions().setAttack_speed_b3(atack_delay);
         Main.getOptions().setRaio_b3(raio);
+        Main.getOptions().setBuilding3Price(preco);
         if(n_buildings>0){
             x.nextLine();
         }
@@ -555,10 +561,12 @@ public class Load_save {
         int atack =getint( new Scanner(x.nextLine()) );
         int atack_delay =getint( new Scanner(x.nextLine()) );
         int raio = getint(new Scanner(x.nextLine()));
+        int preco = getint(new Scanner(x.nextLine()));
 
         Main.getOptions().setAttack_b4(atack);
         Main.getOptions().setAttack_speed_b4(atack_delay);
         Main.getOptions().setRaio_b4(raio);
+        Main.getOptions().setBuilding4Price(preco);
         if(n_buildings>0){
             x.nextLine();
         }

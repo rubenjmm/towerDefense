@@ -1,6 +1,9 @@
 package Graphic.Jogo;
 
 import Buildings.BuildingOneSprites;
+import Buildings.CannonSprites;
+import Buildings.StormTrooperSprites;
+import Buildings.TurretSprites;
 import com.Main;
 
 import javax.imageio.ImageIO;
@@ -62,7 +65,10 @@ public class Loja extends JPanel{
     private ArrayList<BufferedImage> Listcoins;
     Animator ani_coin;
 
-    private BufferedImage Building1 = BuildingOneSprites.getA11();
+    private BufferedImage buildingOne = BuildingOneSprites.getA11();
+    private BufferedImage stormTrooper = StormTrooperSprites.getSpriteAttack().get(0);
+    private BufferedImage turret = TurretSprites.getSpriteAttack().get(0);
+    private BufferedImage cannon = CannonSprites.getSpriteAttack().get(0);
 
     private Timer timer;
 
@@ -141,6 +147,9 @@ public class Loja extends JPanel{
         draw_gold(g);
         draw_rectangles(g);
         draw_build1(g);
+        draw_build2(g);
+        draw_build3(g);
+        draw_build4(g);
     }
 
     private void draw_life(Graphics g){
@@ -233,15 +242,62 @@ public class Loja extends JPanel{
     private void draw_build1(Graphics g) {
 
         //Building icon
-        g.drawImage(Building1, 17, 45, 70, 70, null);
+        g.drawImage(buildingOne, 17, 45, 70, 70, null);
 
         //cost
         Font fnt1 = new Font("arial",Font.BOLD,15);
         g.setFont(fnt1);
         g.setColor(Color.YELLOW);
-        g.drawString("15",60,61);
+
+        Integer price = Main.getOptions().getBuilding1Price();
+
+        g.drawString(price.toString() ,60,61);
     }
 
+    private void draw_build2(Graphics g) {
+
+        //Building icon
+        g.drawImage(stormTrooper, 20, 110, 50, 50, null);
+
+        //cost
+        Font fnt1 = new Font("arial",Font.BOLD,15);
+        g.setFont(fnt1);
+        g.setColor(Color.YELLOW);
+
+        Integer price = Main.getOptions().getBuilding2Price();
+
+        g.drawString(price.toString(), 67, 121);
+    }
+
+    private void draw_build3(Graphics g) {
+
+        //Building icon
+        g.drawImage(turret, 20, 170, 50, 50, null);
+
+        //cost
+        Font fnt1 = new Font("arial",Font.BOLD,15);
+        g.setFont(fnt1);
+        g.setColor(Color.YELLOW);
+
+        Integer price = Main.getOptions().getBuilding3Price();
+
+        g.drawString(price.toString(),60,181);
+    }
+
+    private void draw_build4(Graphics g) {
+
+        //Building icon
+        g.drawImage(cannon, 20, 220, 70, 70, null);
+
+        //cost
+        Font fnt1 = new Font("arial",Font.BOLD,15);
+        g.setFont(fnt1);
+        g.setColor(Color.YELLOW);
+
+        Integer price = Main.getOptions().getBuilding4Price();
+
+        g.drawString(price.toString() ,52,241);
+    }
 
     public void change_coin(int amount) {
         coins = coins - amount ;

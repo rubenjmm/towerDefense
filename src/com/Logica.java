@@ -285,16 +285,16 @@ public class Logica {
 
         if (id == 1) {
             //15g
-            Main.getLoja().change_coin(15);
+            Main.getLoja().change_coin(Main.getOptions().getBuilding1Price());
         }
         else if(id == 3) {
-            Main.getLoja().change_coin(25);
+            Main.getLoja().change_coin(Main.getOptions().getBuilding3Price());
         }
         else if(id == 2) {
-            Main.getLoja().change_coin(1);
+            Main.getLoja().change_coin(Main.getOptions().getBuilding2Price());
         }
         else if(id == 4) {
-            Main.getLoja().change_coin(50);
+            Main.getLoja().change_coin(Main.getOptions().getBuilding4Price());
         }
     }
 

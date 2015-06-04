@@ -37,8 +37,8 @@ public class Cannon extends BaseBuilding
         posy=posy_b*25;
 
         // Default image
+        img1 = CannonSprites.getSpriteAttack().get(0);
         img1 = CannonSprites.getSpriteAttack().get(1);
-        img1 = CannonSprites.getSpriteAttack().get(2);
 
         ////////////////////////////////////////////////////////////////////////
         ArrayList<BufferedImage> listAttack = new ArrayList<BufferedImage>();
@@ -52,42 +52,42 @@ public class Cannon extends BaseBuilding
     {
         if(animation_actual_state==1)
         {
-            img1 = CannonSprites.getSpriteAttack().get(1);
-            img2 = CannonSprites.getSpriteAttack().get(2);
+            img1 = CannonSprites.getSpriteAttack().get(0);
+            img2 = CannonSprites.getSpriteAttack().get(1);
         }
         else if(animation_actual_state==2)
         {
-            img1 = CannonSprites.getSpriteAttack().get(3);
-            img2 = CannonSprites.getSpriteAttack().get(4);
+            img1 = CannonSprites.getSpriteAttack().get(2);
+            img2 = CannonSprites.getSpriteAttack().get(3);
         }
         else if(animation_actual_state==3)
         {
-            img1 = CannonSprites.getSpriteAttack().get(5);
-            img2 = CannonSprites.getSpriteAttack().get(6);
+            img1 = CannonSprites.getSpriteAttack().get(4);
+            img2 = CannonSprites.getSpriteAttack().get(5);
         }
         else if(animation_actual_state==4)
         {
-            img1 = CannonSprites.getSpriteAttack().get(7);
-            img2 = CannonSprites.getSpriteAttack().get(8);
+            img1 = CannonSprites.getSpriteAttack().get(6);
+            img2 = CannonSprites.getSpriteAttack().get(7);
         }
         else if(animation_actual_state==5)
         {
-            img1 = CannonSprites.getSpriteAttack().get(9);
-            img2 = CannonSprites.getSpriteAttack().get(10);
+            img1 = CannonSprites.getSpriteAttack().get(8);
+            img2 = CannonSprites.getSpriteAttack().get(9);
         }
         else if(animation_actual_state==6)
         {
-            img1 = CannonSprites.getSpriteAttack().get(11);
-            img2 = CannonSprites.getSpriteAttack().get(12);
+            img1 = CannonSprites.getSpriteAttack().get(10);
+            img2 = CannonSprites.getSpriteAttack().get(11);
         }
         else if(animation_actual_state==7) {
-            img1 = CannonSprites.getSpriteAttack().get(13);
-            img2 = CannonSprites.getSpriteAttack().get(14);
+            img1 = CannonSprites.getSpriteAttack().get(12);
+            img2 = CannonSprites.getSpriteAttack().get(13);
         }
         else if(animation_actual_state==8)
         {
-            img1 = CannonSprites.getSpriteAttack().get(15);
-            img2 = CannonSprites.getSpriteAttack().get(16);
+            img1 = CannonSprites.getSpriteAttack().get(14);
+            img2 = CannonSprites.getSpriteAttack().get(15);
         }
     }
 }

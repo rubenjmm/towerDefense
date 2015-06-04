@@ -191,6 +191,7 @@ public class Save
         x.format("attack = %d\r\n", Main.getOptions().getAttack_b1());
         x.format("atack_delay = %d\r\n", Main.getOptions().getAttack_speed_b1());
         x.format("Raio = %d\r\n", Main.getOptions().getRaio_b1());
+        x.format("Preço = %d\r\n", Main.getOptions().getBuilding1Price());
         for (int i = 0; i < Main.getGame_logic().getBuildings().size(); i++)
         {
             x.format("\r\n");
@@ -204,6 +205,7 @@ public class Save
         x.format("attack = %d\r\n", Main.getOptions().getAttack_b2());
         x.format("atack_delay = %d\r\n", Main.getOptions().getAttack_speed_b2());
         x.format("Raio = %d\r\n", Main.getOptions().getRaio_b2());
+        x.format("Preço = %d\r\n", Main.getOptions().getBuilding2Price());
         for (int i = 0; i < Main.getGame_logic().getBuildings().size(); i++)
         {
             x.format("\r\n");
@@ -217,6 +219,7 @@ public class Save
         x.format("attack = %d\r\n", Main.getOptions().getAttack_b3());
         x.format("atack_delay = %d\r\n", Main.getOptions().getAttack_speed_b3());
         x.format("Raio = %d\r\n", Main.getOptions().getRaio_b3());
+        x.format("Preço = %d\r\n", Main.getOptions().getBuilding3Price());
         for (int i = 0; i < Main.getGame_logic().getBuildings().size(); i++)
         {
             x.format("\r\n");
@@ -230,6 +233,7 @@ public class Save
         x.format("attack = %d\r\n", Main.getOptions().getAttack_b4());
         x.format("atack_delay = %d\r\n", Main.getOptions().getAttack_speed_b4());
         x.format("Raio = %d\r\n", Main.getOptions().getRaio_b4());
+        x.format("Preço = %d\r\n", Main.getOptions().getBuilding4Price());
         for (int i = 0; i < Main.getGame_logic().getBuildings().size(); i++)
         {
             x.format("\r\n");
