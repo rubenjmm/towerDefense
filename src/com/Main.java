@@ -1,7 +1,6 @@
 package com;
 
 import Buildings.BaseBuilding;
-import Buildings.Building1Sprites;
 import Enemys.BaseEnemy;
 import Graphic.Jogo.Frame;
 import Graphic.Jogo.Loja;
@@ -37,7 +36,7 @@ public class Main {
         //Inicializar as texturas
         //MonsterBlueSprites.inic();
         //MonsterRedSprites.inic();
-        //Building1Sprites.inic();
+        //BuildingOneSprites.inic();
 
         level=1;
         options = new Opcoes();

@@ -1,7 +1,6 @@
 package Graphic.Jogo;
 
-import Buildings.Building1Sprites;
-import Buildings.StormTrooper;
+import Buildings.BuildingOneSprites;
 import com.Main;
 
 import javax.imageio.ImageIO;
@@ -63,7 +62,7 @@ public class Loja extends JPanel{
     private ArrayList<BufferedImage> Listcoins;
     Animator ani_coin;
 
-    private BufferedImage Building1 = Building1Sprites.getA11();
+    private BufferedImage Building1 = BuildingOneSprites.getA11();
 
     private Timer timer;
 

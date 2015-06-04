@@ -2,126 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4e87502-f8fd-496e-af93-0cf0ddcbd433" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0090.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0091.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0092.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0093.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0094.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0095.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0096.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0097.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0098.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0099.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0101.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0102.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0103.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0104.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0105.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0106.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0107.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0108.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0109.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0110.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0111.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0112.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0113.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0114.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0115.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0116.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0117.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0118.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0119.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0120.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Dead_hFlip/jared0121.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0133.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0134.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0135.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0136.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0137.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0138.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0139.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0140.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0141.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0142.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0143.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0145.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0146.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0147.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0148.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0149.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0150.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0151.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0152.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0153.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0154.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0155.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0156.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0157.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0158.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0159.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0160.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0161.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0162.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0163.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0164.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0165.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0166.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0167.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0168.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0169.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0170.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0171.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0172.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/walk_hFlip/jared0173.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0174.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0175.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0176.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0177.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0178.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0179.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0180.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0181.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0182.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0183.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0184.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0185.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0186.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0187.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0188.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0189.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0190.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0191.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0192.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0193.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0194.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0195.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0196.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0197.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_realZombie/Attack_hFlip/jared0198.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/red/skelBase.01-00-00_walk0_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Textures/Mobs/_skeleton/white/skelBase.01-00-00_walk0_w.png" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\red\walk\skelBase.01-00-00_walk0_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Mobs\_skeleton\white\walk\skelBase.01-00-00_walk0_w.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Load_Save/Load_level.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Load_Save/Load_level.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Load_Save/Load_save.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Load_Save/Load_save.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Loja_Mouse.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Loja_Mouse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buildings/Cannon.java" afterPath="$PROJECT_DIR$/src/Buildings/Cannon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/GoblinSprites.java" afterPath="$PROJECT_DIR$/src/Enemys/GoblinSprites.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/GunaSprites.java" afterPath="$PROJECT_DIR$/src/Enemys/GunaSprites.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Load_Save/Load_level.java" afterPath="$PROJECT_DIR$/src/Load_Save/Load_level.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Load_Save/Load_save.java" afterPath="$PROJECT_DIR$/src/Load_Save/Load_save.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Logica.java" afterPath="$PROJECT_DIR$/src/com/Logica.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Graphic/Jogo/Loja_Mouse.java" afterPath="$PROJECT_DIR$/src/Graphic/Jogo/Loja_Mouse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Buildings/BuildingOneSprites.java" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Buildings\Building1\1\A1_1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Buildings\Building1\1\A2_1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Buildings\Building1\2\A1_2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Buildings\Building1\2\A2_2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Buildings\Building1\3\A1_3.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Buildings\Building1\3\A2_3.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Buildings\Building1\4\A1_4.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Buildings\Building1\4\A2_4.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Buildings\Building1\5\A1_5.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Buildings\Building1\5\A2_5.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Buildings\Building1\6\A1_6.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Buildings\Building1\6\A2_6.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Buildings\Building1\7\A1_7.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Buildings\Building1\7\A2_7.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Buildings\Building1\8\A1_8.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Buildings\Building1\8\A2_8.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Buildings\Building1\Artilery1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Buildings\Building1\Artilery2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\Textures\Buildings\Building1\Bullets\1.png" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\src\Buildings\Building1.java" afterPath="$PROJECT_DIR$/src/Buildings/BuildingOne.java" />
+      <change type="MOVED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\src\Testes\Building1Test.java" afterPath="$PROJECT_DIR$/src/Testes/BuildingOneTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buildings/CannonSprites.java" afterPath="$PROJECT_DIR$/src/Buildings/CannonSprites.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Graphic/Jogo/Draw_game.java" afterPath="$PROJECT_DIR$/src/Graphic/Jogo/Draw_game.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Graphic/Jogo/Loja.java" afterPath="$PROJECT_DIR$/src/Graphic/Jogo/Loja.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Main.java" afterPath="$PROJECT_DIR$/src/com/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Opcoes.java" afterPath="$PROJECT_DIR$/src/com/Opcoes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/RedSkeleton.java" afterPath="$PROJECT_DIR$/src/Enemys/RedSkeleton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/RedSkeletonSprites.java" afterPath="$PROJECT_DIR$/src/Enemys/RedSkeletonSprites.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/WhiteSkeleton.java" afterPath="$PROJECT_DIR$/src/Enemys/WhiteSkeleton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/WhiteSkeletonSprites.java" afterPath="$PROJECT_DIR$/src/Enemys/WhiteSkeletonSprites.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/Zombie.java" afterPath="$PROJECT_DIR$/src/Enemys/Zombie.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/ZombieSprites.java" afterPath="$PROJECT_DIR$/src/Enemys/ZombieSprites.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buildings/StormTrooperSprites.java" afterPath="$PROJECT_DIR$/src/Buildings/StormTrooperSprites.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buildings/TurretSprites.java" afterPath="$PROJECT_DIR$/src/Buildings/TurretSprites.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buildings/TypeBuilding.java" afterPath="$PROJECT_DIR$/src/Buildings/TypeBuilding.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projeto Final.iws" />
@@ -205,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Building1Sprites.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Buildings/Building1Sprites.java">
+      <file leaf-file-name="BuildingOneSprites.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Buildings/BuildingOneSprites.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35324675" vertical-offset="102" max-vertical-offset="1802">
-              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.14529915" vertical-offset="102" max-vertical-offset="1802">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -243,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Enemys/Monster_2.java" />
         <option value="$PROJECT_DIR$/src/Enemys/Monster2.java" />
         <option value="$PROJECT_DIR$/src/Enemys/Monster2_sprites.java" />
         <option value="$PROJECT_DIR$/src/Enemys/MonsterBlue.java" />
@@ -294,6 +202,7 @@
         <option value="$PROJECT_DIR$/src/Enemys/ZombieSprites.java" />
         <option value="$PROJECT_DIR$/src/Buildings/Building1Sprites2.java" />
         <option value="$PROJECT_DIR$/src/Buildings/Building1Sprites.java" />
+        <option value="$PROJECT_DIR$/src/Buildings/BuildingOneSprites.java" />
       </list>
     </option>
   </component>
@@ -731,7 +640,7 @@
       <workItem from="1433345888585" duration="23000" />
       <workItem from="1433345972336" duration="1142000" />
       <workItem from="1433347132601" duration="28875000" />
-      <workItem from="1433424091318" duration="250000" />
+      <workItem from="1433424091318" duration="763000" />
     </task>
     <task id="LOCAL-00001" summary="zfsdfsfs">
       <created>1431359254455</created>
@@ -979,11 +888,17 @@
       <option name="project" value="LOCAL" />
       <updated>1433411384648</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="mobs aos montes">
+      <created>1433424592353</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1433424592353</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61455000" />
+    <option name="totallyTimeSpent" value="61968000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1007,12 +922,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32626426" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32626426" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1022,9 +937,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22838499" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32626426" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22919819" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22919819" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36215335" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1035,7 +951,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39915523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35562807" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36215335" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1082,7 +997,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="adding buildings part1" />
     <MESSAGE value="adding buildings part2&#10;" />
     <MESSAGE value="almost done^^" />
     <MESSAGE value="Game is semi Working" />
@@ -1107,7 +1021,8 @@
     <MESSAGE value="(...)" />
     <MESSAGE value="mobs and buildings" />
     <MESSAGE value="mobs aos montes" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobs aos montes" />
+    <MESSAGE value="building 1 sprites" />
+    <option name="LAST_COMMIT_MESSAGE" value="building 1 sprites" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1181,19 +1096,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Buildings/CannonSprites.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0696629" vertical-offset="0" max-vertical-offset="799">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-          <folding>
-            <element signature="e#863#864#0" expanded="false" />
-            <element signature="e#892#893#0" expanded="false" />
-            <element signature="e#960#961#0" expanded="false" />
-            <element signature="e#993#994#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Buildings/StormTrooperSprites.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6247191" vertical-offset="283" max-vertical-offset="816">
@@ -1201,10 +1103,10 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#StormTrooperSprites#0;class#StormTrooperSprites#0" expanded="false" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1221,10 +1123,10 @@
         <state vertical-scroll-proportion="0.008988764" vertical-offset="268" max-vertical-offset="799">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1253,7 +1155,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Buildings/Building1.java">
+    <entry file="file://$PROJECT_DIR$/src/Buildings/BuildingOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6561798" vertical-offset="524" max-vertical-offset="1785">
           <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
@@ -1366,8 +1268,8 @@
           <caret line="246" column="39" selection-start-line="246" selection-start-column="39" selection-end-line="246" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7390#7391#0" expanded="true" />
-            <element signature="e#7429#7430#0" expanded="true" />
+            <element signature="e#7363#7364#0" expanded="true" />
+            <element signature="e#7402#7403#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1597,10 +1499,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Buildings/Building1Sprites.java">
+    <entry file="file://$PROJECT_DIR$/src/Buildings/CannonSprites.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35324675" vertical-offset="102" max-vertical-offset="1802">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.63931626" vertical-offset="102" max-vertical-offset="714">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Buildings/BuildingOneSprites.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14529915" vertical-offset="102" max-vertical-offset="1802">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
           <folding />
         </state>
       </provider>

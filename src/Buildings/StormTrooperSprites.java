@@ -25,7 +25,7 @@ public abstract class StormTrooperSprites
             listAttack.add(ImageIO.read(new File("Textures/Buildings/_storm/storm6.png")));
             listAttack.add(ImageIO.read(new File("Textures/Buildings/_storm/storm7.png")));
 
-            bullet = ImageIO.read( new File("Textures/Buildings/Building1/Bullets/1.png"));
+            bullet = ImageIO.read( new File("Textures/Buildings/BuildingOne/Bullets/1.png"));
 
         } catch (IOException e)
         {

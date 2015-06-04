@@ -26,7 +26,7 @@ public abstract class CannonSprites
                 temp = "Textures/Buildings/_cannon/can" + (i) + ".png";
                 listAttack.add(ImageIO.read(new File(temp)));
             }
-            bullet = ImageIO.read( new File("Textures/Buildings/Building1/Bullets/1.png"));
+            bullet = ImageIO.read( new File("Textures/Buildings/BuildingOne/Bullets/1.png"));
 
         } catch (IOException e)
         {
