@@ -25,12 +25,12 @@ public class Zombie extends BaseEnemy
 
     public void inic() {
 
-        mobType =2;
+        mobType =7;
 
         ///////Ir buscar às configurações
-        strikes = Main.getOptions().getAtack_mobs_t2();
-        life = Main.getOptions().getLife_mobs_t2();
-        coinValue =Main.getOptions().getCoin_mobs_t2();
+        strikes = Main.getOptions().getAttack_mobs_t7();
+        life = Main.getOptions().getLife_mobs_t7();
+        coinValue =Main.getOptions().getCoin_mobs_t7();
 
         animationState =2;
         isWalking =false;

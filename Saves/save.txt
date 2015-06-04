@@ -17,8 +17,53 @@ Number of mobs spawned = 0
 Life = 150
 atack = 2
 Coin value = 10
+//////////////////////////////////Type_three:
+Total Number of mobs  = 2
+Number of mobs spawned = 0
+Life = 150
+atack = 2
+Coin value = 10
+//////////////////////////////////Type_four:
+Total Number of mobs  = 2
+Number of mobs spawned = 0
+Life = 150
+atack = 2
+Coin value = 10
+//////////////////////////////////Type_five:
+Total Number of mobs  = 2
+Number of mobs spawned = 0
+Life = 150
+atack = 2
+Coin value = 10
+//////////////////////////////////Type_six:
+Total Number of mobs  = 2
+Number of mobs spawned = 0
+Life = 150
+atack = 2
+Coin value = 10
+//////////////////////////////////Type_seven:
+Total Number of mobs  = 2
+Number of mobs spawned = 0
+Life = 150
+atack = 2
+Coin value = 10
 //////////////////////////////////Buildings//////////////////////////////////////
 //////////////////////////////////Type_one:
+Total Number of buildings  = 0
+atack = 15
+atack_delay = 1500
+Raio = 220
+//////////////////////////////////Type_two:
+Total Number of buildings  = 0
+atack = 0
+atack_delay = 15
+Raio = 220
+//////////////////////////////////Type_three:
+Total Number of buildings  = 0
+atack = 15
+atack_delay = 1500
+Raio = 220
+//////////////////////////////////Type_four:
 Total Number of buildings  = 0
 atack = 15
 atack_delay = 1500

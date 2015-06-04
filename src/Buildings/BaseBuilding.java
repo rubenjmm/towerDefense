@@ -11,7 +11,8 @@ import java.awt.image.BufferedImage;
 /**
  * Created by Ricardo on 12/05/2015.
  */
-public class Base_building {
+public class BaseBuilding
+{
 
     public int atack=0;
     public int posx_b,posy_b;
@@ -64,12 +65,12 @@ public class Base_building {
     public Base_atack atack_effect;
 
 
-    public Base_building () {
+    public BaseBuilding() {
         atack_effect =  new Base_atack();
         inic();
     }
 
-    public Base_building(int x,int y,int r) {
+    public BaseBuilding(int x, int y, int r) {
 
         atack_effect =  new Base_atack();
 

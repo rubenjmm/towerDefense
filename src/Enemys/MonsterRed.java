@@ -27,7 +27,7 @@ public class MonsterRed extends BaseEnemy
         mobType =2;
 
         ///////Ir buscar às configurações
-        strikes = Main.getOptions().getAtack_mobs_t2();
+        strikes = Main.getOptions().getAttack_mobs_t2();
         life = Main.getOptions().getLife_mobs_t2();
         coinValue =Main.getOptions().getCoin_mobs_t2();
 

@@ -121,7 +121,7 @@ public class Config_custom {
 
         s = JOptionPane.showInputDialog("Introduza o dano de ataque dos mobs do tipo 1 ?:\nDefault = 3");
         int atack_mobs_t1 = Integer.parseInt(s);
-        Main.getOptions().setAtack_mobs_t1(atack_mobs_t1);
+        Main.getOptions().setAttack_mobs_t1(atack_mobs_t1);
 
         s = JOptionPane.showInputDialog("Introduza o valor em gold de cada mob do tipo 1 ?:\nDefault = 5");
         int coin_mobs_t1 = Integer.parseInt(s);
@@ -143,7 +143,7 @@ public class Config_custom {
 
         s = JOptionPane.showInputDialog("Introduza o dano de ataque dos mobs do tipo 2 ?:\nDefault = 2");
         int atack_mobs_t2 = Integer.parseInt(s);
-        Main.getOptions().setAtack_mobs_t2(atack_mobs_t2);
+        Main.getOptions().setAttack_mobs_t2(atack_mobs_t2);
 
         s = JOptionPane.showInputDialog("Introduza o valor em gold de cada mob do tipo 2 ?:\nDefault = 10");
         int coin_mobs_t2 = Integer.parseInt(s);

@@ -4,6 +4,8 @@ import Graphic.Jogo.Animator;
 import com.Main;
 
 import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.util.ArrayList;
 
 
 /**
@@ -21,9 +23,9 @@ public class Guna extends BaseEnemy
         mobType =3;
 
         ///////Ir buscar às configurações
-        strikes = Main.getOptions().getAtack_mobs_t1();
-        life = Main.getOptions().getLife_mobs_t1();
-        coinValue =Main.getOptions().getCoin_mobs_t1();
+        strikes = Main.getOptions().getAttack_mobs_t3();
+        life = Main.getOptions().getLife_mobs_t3();
+        coinValue =Main.getOptions().getCoin_mobs_t3();
 
         //Atack
         listAttack = GunaSprites.getSpriteAttack();

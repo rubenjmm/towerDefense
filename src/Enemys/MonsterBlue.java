@@ -24,7 +24,7 @@ public class MonsterBlue extends BaseEnemy
         this.mobType =1;
 
         ///////Ir buscar às configurações
-        this.strikes = Main.getOptions().getAtack_mobs_t1();
+        this.strikes = Main.getOptions().getAttack_mobs_t1();
         this.life = Main.getOptions().getLife_mobs_t1();
         this.coinValue =Main.getOptions().getCoin_mobs_t1();
 

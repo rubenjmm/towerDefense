@@ -24,16 +24,15 @@ public class RedSkeleton extends BaseEnemy
 
     public void inic() {
 
-        mobType =2;
+        mobType =6;
 
         ///////Ir buscar às configurações
-        strikes = Main.getOptions().getAtack_mobs_t2();
-        life = Main.getOptions().getLife_mobs_t2();
-        coinValue =Main.getOptions().getCoin_mobs_t2();
+        strikes = Main.getOptions().getAttack_mobs_t6();
+        life = Main.getOptions().getLife_mobs_t6();
+        coinValue =Main.getOptions().getCoin_mobs_t6();
 
         animationState =2;
         isWalking =false;
-
 
         //Death
         listDeath = new ArrayList<BufferedImage>(RedSkeletonSprites.getSpriteDeath());
@@ -52,7 +51,6 @@ public class RedSkeleton extends BaseEnemy
         animAttack = new Animator(listAttack);
         animAttack.setSpeed(180);
         animAttack.play();
-
     }
 
     public void draw (Graphics g)

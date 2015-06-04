@@ -1,6 +1,6 @@
 package Graphic.Jogo;
 
-import Buildings.Building1_sprites;
+import Buildings.Building1Sprites;
 import Graphic.Menus.Main_Menu;
 import com.Main;
 
@@ -22,7 +22,7 @@ public class Draw_game extends JPanel implements ActionListener {
     private int WIDTH = Main.getMap().getcolunas() * 24 -10;
     private int HEIGHT = Main.getMap().getlinhas()*25   - 30;
 
-    private BufferedImage Building1 = Building1_sprites.getA11();
+    private BufferedImage Building1 = Building1Sprites.getA11();
 
     public Draw_game(){
 

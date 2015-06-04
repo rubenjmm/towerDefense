@@ -9,9 +9,8 @@ import java.util.ArrayList;
 /**
  * Created by Ricardo on 17/05/2015.
  */
-public class Building1 extends Base_building {
-
-
+public class Building1 extends BaseBuilding
+{
     //ANIMACOES
     /*
        1 -> left
@@ -29,8 +28,8 @@ public class Building1 extends Base_building {
         type_building = 1;
 
         ///////Ir buscar às configurações
-        atack_delay = Main.getOptions().getAtack_speed_b1();//ms
-        atack = Main.getOptions().getAtack_b1(); //Damage
+        atack_delay = Main.getOptions().getAttack_speed_b1();//ms
+        atack = Main.getOptions().getAttack_b1(); //Damage
 
         inic();
 
@@ -42,13 +41,13 @@ public class Building1 extends Base_building {
         posy=posy_b*25;
 
         // Default image
-        img1 = Building1_sprites.getA11();
-        img2 = Building1_sprites.getA21();
+        img1 = Building1Sprites.getA11();
+        img2 = Building1Sprites.getA21();
 
         ////////////////////////////////////////////////////////////////////////
-        ArrayList<BufferedImage> Listatack = new ArrayList<BufferedImage>();
-        Listatack.add( Building1_sprites.getBullet()  );
-        atack_effect =  new Base_atack(Listatack,posx,posy,150,20);
+        ArrayList<BufferedImage> listAttack = new ArrayList<BufferedImage>();
+        listAttack.add(Building1Sprites.getBullet());
+        atack_effect =  new Base_atack(listAttack,posx,posy,150,20);
 
     }
 
@@ -56,46 +55,46 @@ public class Building1 extends Base_building {
     public void change_animation() {
 
         if(animation_actual_state==1){
-            img1=Building1_sprites.getA15();
-            img2=Building1_sprites.getA25();
+            img1= Building1Sprites.getA15();
+            img2= Building1Sprites.getA25();
 
         }
         else if(animation_actual_state==2) {
 
-            img1=Building1_sprites.getA13();
-            img2=Building1_sprites.getA23();
+            img1= Building1Sprites.getA13();
+            img2= Building1Sprites.getA23();
 
         }
         else if(animation_actual_state==3) {
 
-            img1=Building1_sprites.getA12();
-            img2=Building1_sprites.getA22();
+            img1= Building1Sprites.getA12();
+            img2= Building1Sprites.getA22();
         }
         else if(animation_actual_state==4) {
 
-            img1=Building1_sprites.getA14();
-            img2=Building1_sprites.getA24();
+            img1= Building1Sprites.getA14();
+            img2= Building1Sprites.getA24();
         }
         else if(animation_actual_state==5) {
 
-            img1=Building1_sprites.getA16();
-            img2=Building1_sprites.getA26();
+            img1= Building1Sprites.getA16();
+            img2= Building1Sprites.getA26();
         }
         else if(animation_actual_state==6) {
 
-            img1=Building1_sprites.getA18();
-            img2=Building1_sprites.getA28();
+            img1= Building1Sprites.getA18();
+            img2= Building1Sprites.getA28();
 
         }
         else if(animation_actual_state==7) {
 
-            img1=Building1_sprites.getA11();
-            img2=Building1_sprites.getA21();
+            img1= Building1Sprites.getA11();
+            img2= Building1Sprites.getA21();
         }
         else  {
 
-            img1=Building1_sprites.getA17();
-            img2=Building1_sprites.getA27();
+            img1= Building1Sprites.getA17();
+            img2= Building1Sprites.getA27();
         }
 
     }

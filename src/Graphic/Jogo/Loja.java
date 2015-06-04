@@ -1,6 +1,7 @@
 package Graphic.Jogo;
 
-import Buildings.Building1_sprites;
+import Buildings.Building1Sprites;
+import Buildings.StormTrooper;
 import com.Main;
 
 import javax.imageio.ImageIO;
@@ -31,7 +32,7 @@ public class Loja extends JPanel{
     private Rectangle button2 = new Rectangle(  25  , 110 , 50 , 50);
     private Rectangle button3 = new Rectangle(  25  , 170 , 50 , 50);
     private Rectangle button4 = new Rectangle(  25 , 230 , 50 , 50);
-    private Rectangle button5 = new Rectangle(  25 , 290 , 50 , 50);
+    //private Rectangle button5 = new Rectangle(  25 , 290 , 50 , 50);
 
     private int life=10;
 
@@ -62,7 +63,7 @@ public class Loja extends JPanel{
     private ArrayList<BufferedImage> Listcoins;
     Animator ani_coin;
 
-    private BufferedImage Building1 = Building1_sprites.getA11();
+    private BufferedImage Building1 = Building1Sprites.getA11();
 
     private Timer timer;
 
@@ -89,7 +90,6 @@ public class Loja extends JPanel{
             life_90  = ImageIO.read(new File("Textures/Loja/life_bar_90.png"));
             life_100  = ImageIO.read(new File("Textures/Loja/life_bar_100.png"));
             heart =     ImageIO.read(new File("Textures/Loja/heartif.png"));
-
 
             coin1 =     ImageIO.read(new File("Textures/Loja/Coin1.png"));
             coin2 =     ImageIO.read(new File("Textures/Loja/Coin2.png"));
@@ -130,7 +130,6 @@ public class Loja extends JPanel{
         }
     };
 
-
     public void paint(Graphics g){
 
             super.paint(g);
@@ -146,7 +145,6 @@ public class Loja extends JPanel{
     }
 
     private void draw_life(Graphics g){
-
         g.drawImage(heart, 10, 400, 18, 18, null);//WIDTH->18    HEIGHT->18
         switch (life) {
             case 1:
@@ -197,28 +195,24 @@ public class Loja extends JPanel{
 
         Graphics2D g2d = (Graphics2D) g;
 
-
         g2d.setColor(Color.BLACK);
         g2d.draw(button1);
         g2d.draw(button2);
         g2d.draw(button3);
         g2d.draw(button4);
-        g2d.draw(button5);
-
+        //g2d.draw(button5);
 
         g2d.setColor(Color.LIGHT_GRAY);
         g.fillRect(25, 50, 50, 50);
         g.fillRect(25, 110, 50, 50);
         g.fillRect(25, 170, 50, 50);
         g.fillRect(25, 230, 50, 50);
-        g.fillRect(25  , 290 , 50 , 50);
-
+        //g.fillRect(25  , 290 , 50 , 50);
 
         if (flag>0)
             g.setColor(Color.GRAY);
         else if(flag==0)
             g.setColor(Color.LIGHT_GRAY);
-
 
         if(flag == 1) {
             g.fillRect(25  , 50 , 50 , 50);
@@ -232,11 +226,9 @@ public class Loja extends JPanel{
         else if(flag == 4) {
             g.fillRect(25 , 230 , 50 , 50);
         }
-        else if(flag == 5) {
-            g.fillRect(25 , 290 , 50 , 50);
-        }
-
-
+        //else if(flag == 5) {
+        //    g.fillRect(25 , 290 , 50 , 50);
+        //}
     }
 
     private void draw_build1(Graphics g) {
@@ -250,6 +242,7 @@ public class Loja extends JPanel{
         g.setColor(Color.YELLOW);
         g.drawString("15",60,61);
     }
+
 
     public void change_coin(int amount) {
         coins = coins - amount ;

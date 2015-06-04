@@ -1,7 +1,7 @@
 package com;
 
-import Buildings.Base_building;
-import Buildings.Building1_sprites;
+import Buildings.BaseBuilding;
+import Buildings.Building1Sprites;
 import Enemys.BaseEnemy;
 import Graphic.Jogo.Frame;
 import Graphic.Jogo.Loja;
@@ -39,8 +39,7 @@ public class Main {
         //Inicializar as texturas
         //MonsterBlueSprites.inic();
         //MonsterRedSprites.inic();
-        Building1_sprites.inic();
-
+        //Building1Sprites.inic();
 
         level=1;
         options = new Opcoes();
@@ -71,7 +70,7 @@ public class Main {
     }
 
 
-    public static void load__old_game(int lvl ,int gold  ,int player_life  , BaseEnemy[]  mobs, ArrayList<Base_building> buildings  ) {
+    public static void load__old_game(int lvl ,int gold  ,int player_life  , BaseEnemy[]  mobs, ArrayList<BaseBuilding> buildings  ) {
 
         loja.setGold(gold);
         loja.setLife(player_life);
@@ -127,7 +126,6 @@ public class Main {
     public static Frame getFrame1() {
         return frame1;
     }
-
 
 
     public static void setHelditem(boolean held) {

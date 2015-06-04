@@ -21,35 +21,29 @@ public class Goblin extends BaseEnemy
      */
     public void inic() {
 
-        mobType =1;
+        mobType =4;
 
         ///////Ir buscar às configurações
-        strikes = Main.getOptions().getAtack_mobs_t1();
-        life = Main.getOptions().getLife_mobs_t1();
-        coinValue =Main.getOptions().getCoin_mobs_t1();
+        strikes = Main.getOptions().getAttack_mobs_t4();
+        life = Main.getOptions().getLife_mobs_t4();
+        coinValue =Main.getOptions().getCoin_mobs_t4();
 
         listWalking = new ArrayList<BufferedImage>();
         listAttack = new ArrayList<BufferedImage>();
 
         //Atack
-        //listAttack.add(MonsterBlueSprites.getZa1());
+        listAttack = GoblinSprites.getSpriteAttack();
 
-
-        //Walking
-        //listWalking.add(MonsterBlueSprites.getZ1());
-
-
-        //Atack
         animAttack = new Animator(listAttack);
         animAttack.setSpeed(150);
         animAttack.play();
 
         //walking
+        listWalking = GoblinSprites.getSpriteWalking();
+
         animWalking = new Animator(listWalking);
         animWalking.setSpeed(180);
         animWalking.play();
-
-
     }
 
     public void draw (Graphics g){
