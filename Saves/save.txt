@@ -1,74 +1,143 @@
 lvl = 1
-Gold left in Store = 50
+Gold left in Store = 45
 Life of Player = 10
 
 //////////////////////////////////Mobs//////////////////////////////////////
-Total Number of mobs = 102
-Spawn time between mobs = 150
+Total Number of mobs = 28
+Spawn time between mobs = 2500
 //////////////////////////////////Type_one:
-Total Number of mobs  = 100
+Total Number of mobs  = 1
 Number of mobs spawned = 0
 Life = 100
-atack = 3
+attack = 3
 Coin value = 5
 //////////////////////////////////Type_two:
 Total Number of mobs  = 2
-Number of mobs spawned = 0
+Number of mobs spawned = 2
 Life = 150
-atack = 2
+attack = 2
 Coin value = 10
+
+Posx = 166         Posy = 371
+Current life = 90
+Animation State = 0
+Is dead = 0
+
+Posx = 131         Posy = 346
+Current life = 150
+Animation State = 0
+Is dead = 0
 //////////////////////////////////Type_three:
-Total Number of mobs  = 2
-Number of mobs spawned = 0
-Life = 150
-atack = 2
+Total Number of mobs  = 3
+Number of mobs spawned = 2
+Life = 100
+attack = 2
 Coin value = 10
+
+Posx = 110         Posy = 425
+Current life = 100
+Animation State = 0
+Is dead = 0
+
+Posx = 75         Posy = 325
+Current life = 100
+Animation State = 0
+Is dead = 0
 //////////////////////////////////Type_four:
-Total Number of mobs  = 2
-Number of mobs spawned = 0
-Life = 150
-atack = 2
+Total Number of mobs  = 4
+Number of mobs spawned = 4
+Life = 100
+attack = 2
 Coin value = 10
+
+Posx = 138         Posy = 425
+Current life = -5
+Animation State = 0
+Is dead = 1
+
+Posx = 157         Posy = 346
+Current life = 100
+Animation State = 0
+Is dead = 0
+
+Posx = 121         Posy = 346
+Current life = 100
+Animation State = 0
+Is dead = 0
+
+Posx = 51         Posy = 326
+Current life = 100
+Animation State = 0
+Is dead = 0
 //////////////////////////////////Type_five:
-Total Number of mobs  = 2
-Number of mobs spawned = 0
-Life = 150
-atack = 2
+Total Number of mobs  = 5
+Number of mobs spawned = 1
+Life = 100
+attack = 2
 Coin value = 10
+
+Posx = 4         Posy = 279
+Current life = 100
+Animation State = 0
+Is dead = 0
 //////////////////////////////////Type_six:
-Total Number of mobs  = 2
-Number of mobs spawned = 0
-Life = 150
-atack = 2
+Total Number of mobs  = 6
+Number of mobs spawned = 1
+Life = 100
+attack = 2
 Coin value = 10
+
+Posx = 40         Posy = 290
+Current life = 100
+Animation State = 0
+Is dead = 0
 //////////////////////////////////Type_seven:
-Total Number of mobs  = 2
-Number of mobs spawned = 0
-Life = 150
-atack = 2
+Total Number of mobs  = 7
+Number of mobs spawned = 2
+Life = 100
+attack = 2
 Coin value = 10
+
+Posx = 86         Posy = 425
+Current life = 100
+Animation State = 0
+Is dead = 0
+
+Posx = 15         Posy = 340
+Current life = 100
+Animation State = 0
+Is dead = 0
 //////////////////////////////////Buildings//////////////////////////////////////
 //////////////////////////////////Type_one:
-Total Number of buildings  = 0
-atack = 15
+Total Number of buildings  = 1
+attack = 15
 atack_delay = 1500
 Raio = 220
 Preço = 15
-//////////////////////////////////Type_two:
-Total Number of buildings  = 0
-atack = 1
-atack_delay = 5
+
+Posx = 11         Posy = 10
+Animation State = 8//////////////////////////////////Type_two:
+Total Number of buildings  = 1
+attack = 15
+atack_delay = 1500
 Raio = 220
 Preço = 1
-//////////////////////////////////Type_three:
-Total Number of buildings  = 0
-atack = 30
-atack_delay = 1000
+
+Posx = 11         Posy = 10
+Animation State = 8//////////////////////////////////Type_three:
+Total Number of buildings  = 1
+attack = 15
+atack_delay = 1500
 Raio = 220
-Preço = 40
-//////////////////////////////////Type_four:
-Total Number of buildings  = 0
-atack = 45
-atack_delay = 1000
+Preço = 50
+
+Posx = 11         Posy = 10
+Animation State = 8//////////////////////////////////Type_four:
+Total Number of buildings  = 1
+attack = 15
+atack_delay = 1500
 Raio = 220
 Preço = 100
+
+Posx = 11         Posy = 10
+Animation State = 8

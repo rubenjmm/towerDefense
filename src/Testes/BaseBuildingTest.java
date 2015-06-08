@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Base_buildingTest
+public class BaseBuildingTest
 {
 
     @Before
@@ -17,12 +17,6 @@ public class Base_buildingTest
 
     @After
     public void tearDown() throws Exception
-    {
-
-    }
-
-    @Test
-    public void testDraw() throws Exception
     {
 
     }
@@ -40,6 +34,12 @@ public class Base_buildingTest
     }
 
     @Test
+    public void testVerify_target_range() throws Exception
+    {
+
+    }
+
+    @Test
     public void testVerify_pos() throws Exception
     {
 
@@ -47,6 +47,12 @@ public class Base_buildingTest
 
     @Test
     public void testChange_animation() throws Exception
+    {
+
+    }
+
+    @Test
+    public void testSetAnimation_state() throws Exception
     {
 
     }

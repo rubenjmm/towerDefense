@@ -1,6 +1,7 @@
 package Graphic.Menus;
 
 import Graphic.Jogo.Config;
+import Graphic.Jogo.Help;
 import Load_Save.Load_save;
 import Load_Save.Save;
 import com.Main;
@@ -80,7 +81,7 @@ public class Main_Mouse implements MouseListener,MouseMotionListener {
     }
 
     public void helpButton() {
-
+        Help help = new Help();
     }
 
     public void closebutton() {

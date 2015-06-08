@@ -1,5 +1,7 @@
 package Testes;
 
+import Enemys.BaseEnemy;
+import Load_Save.Load_level;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -8,7 +10,6 @@ import static org.junit.Assert.*;
 
 public class Base_enemyTest
 {
-
     @Before
     public void setUp() throws Exception
     {
@@ -17,18 +18,6 @@ public class Base_enemyTest
 
     @After
     public void tearDown() throws Exception
-    {
-
-    }
-
-    @Test
-    public void testInic() throws Exception
-    {
-
-    }
-
-    @Test
-    public void testDraw() throws Exception
     {
 
     }

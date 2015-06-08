@@ -92,4 +92,8 @@ public class Animator {
         return sprite;
     }
 
+    public int getCurrentFrame()
+    {
+        return currentFrame;
+    }
 }

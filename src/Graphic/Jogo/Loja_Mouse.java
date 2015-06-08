@@ -81,12 +81,12 @@ public class Loja_Mouse implements MouseListener,MouseMotionListener{
 
     @Override
     public void mousePressed(MouseEvent e) {
-        mouseClicked(e);
+        //mouseClicked(e);
     }
 
     @Override
     public void mouseReleased(MouseEvent e) {
-        mouseClicked(e);
+        //mouseClicked(e);
     }
 
     @Override
