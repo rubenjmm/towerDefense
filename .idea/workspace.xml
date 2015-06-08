@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4e87502-f8fd-496e-af93-0cf0ddcbd433" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Graphic/Menus/Inic_Menu.java" afterPath="$PROJECT_DIR$/src/Graphic/Menus/Inic_Menu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Graphic/Menus/Inic_Mouse.java" afterPath="$PROJECT_DIR$/src/Graphic/Menus/Inic_Mouse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Load_Save/Load_level.java" afterPath="$PROJECT_DIR$/src/Load_Save/Load_level.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Load_Save/Load_save.java" afterPath="$PROJECT_DIR$/src/Load_Save/Load_save.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Graphic/Menus/Main_Menu.java" afterPath="$PROJECT_DIR$/src/Graphic/Menus/Main_Menu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Graphic/Menus/Main_Mouse.java" afterPath="$PROJECT_DIR$/src/Graphic/Menus/Main_Mouse.java" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\out\production\Projeto Final\Graphic\Menus\Configurations$close.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\out\production\Projeto Final\Graphic\Menus\Configurations$dragoes.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\out\production\Projeto Final\Graphic\Menus\Configurations$maze.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\out\production\Projeto Final\Graphic\Menus\Configurations$movimentacao.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\out\production\Projeto Final\Graphic\Menus\Configurations$teclas.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ruben\Desktop\LPOO\projecto\towerDefense\out\production\Projeto Final\Graphic\Menus\Configurations.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Animator.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Animator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Draw_game$Action_listener.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Draw_game$Action_listener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Draw_game.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Draw_game.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Frame.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Frame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Menus/Inic_Mouse.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Menus/Inic_Mouse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Load_Save/Load_level.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Load_Save/Load_level.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Load_Save/Load_save.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Load_Save/Load_save.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Loja$1.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Loja$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Loja.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Loja.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Menus/Main_Menu$Action_listener.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Menus/Main_Menu$Action_listener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Menus/Main_Menu$Draw_menu.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Menus/Main_Menu$Draw_menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Menus/Main_Menu.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Menus/Main_Menu.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projeto Final.iws" />
@@ -83,7 +95,7 @@
       <file leaf-file-name="Load_save.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Load_Save/Load_save.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9116883" vertical-offset="3219" max-vertical-offset="9962">
+            <state vertical-scroll-proportion="0.95640326" vertical-offset="3219" max-vertical-offset="9962">
               <caret line="217" column="53" selection-start-line="217" selection-start-column="53" selection-end-line="217" selection-end-column="53" />
               <folding />
             </state>
@@ -651,13 +663,7 @@
       <workItem from="1433345972336" duration="1142000" />
       <workItem from="1433347132601" duration="28875000" />
       <workItem from="1433424091318" duration="8457000" />
-      <workItem from="1433732941584" duration="18909000" />
-    </task>
-    <task id="LOCAL-00009" summary="almost done^^">
-      <created>1431902951032</created>
-      <option name="number" value="00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1431902951032</updated>
+      <workItem from="1433732941584" duration="19084000" />
     </task>
     <task id="LOCAL-00010" summary="Game is semi Working">
       <created>1431906815464</created>
@@ -947,11 +953,17 @@
       <option name="project" value="LOCAL" />
       <updated>1433789968674</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="docs">
+      <created>1433790813437</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1433790813437</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88571000" />
+    <option name="totallyTimeSpent" value="88746000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -980,7 +992,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32626426" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32626426" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -988,7 +1000,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22838499" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35562807" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35562807" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32626426" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22919819" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1615,7 +1627,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Load_Save/Load_save.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9116883" vertical-offset="3219" max-vertical-offset="9962">
+        <state vertical-scroll-proportion="0.95640326" vertical-offset="3219" max-vertical-offset="9962">
           <caret line="217" column="53" selection-start-line="217" selection-start-column="53" selection-end-line="217" selection-end-column="53" />
           <folding />
         </state>
