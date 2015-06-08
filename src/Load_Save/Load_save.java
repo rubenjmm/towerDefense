@@ -132,8 +132,6 @@ public class Load_save {
         mobs_type6();
         mobs_type7();
 
-
-        System.out.println("mobs_created ->"+mobs_created);
     }
 
     public void get_total_mobs() {
@@ -164,9 +162,7 @@ public class Load_save {
 
         int i;
         int j = 0;
-
-        System.out.println("mobs_spawned1 -> "+mobs_spawned);
-
+        //System.out.println("mobs_spawned1 -> "+mobs_spawned);
         for(i=0;i<mobs_spawned;i++) {
             x.nextLine();
 
@@ -218,7 +214,7 @@ public class Load_save {
         Main.getOptions().setCoin_mobs_t2(coin_value);
 
         int i=0,j=0;
-        System.out.println("mobs_spawned2 -> "+mobs_spawned);
+        //System.out.println("mobs_spawned2 -> "+mobs_spawned);
         for(i=0;i<mobs_spawned;i++) {
             x.nextLine();
 
@@ -273,7 +269,7 @@ public class Load_save {
         Main.getOptions().setCoin_mobs_t3(coin_value);
 
         int i = 0, j = 0;
-        System.out.println("mobs_spawned3 -> "+mobs_spawned);
+        //System.out.println("mobs_spawned3 -> "+mobs_spawned);
         for (i = 0; i < mobs_spawned; i++)
         {
             x.nextLine();
@@ -299,6 +295,13 @@ public class Load_save {
 
             mobs_created++;
         }
+
+
+        for(j=0;j< n_mobs - mobs_spawned;j++) {
+            mobs[mobs_created] = new MonsterRed();
+
+            mobs_created++;
+        }
     }
 
     public void mobs_type4()
@@ -317,7 +320,7 @@ public class Load_save {
         Main.getOptions().setCoin_mobs_t4(coin_value);
 
         int i = 0, j = 0;
-        System.out.println("mobs_spawned4 -> "+mobs_spawned);
+        //System.out.println("mobs_spawned4 -> "+mobs_spawned);
         for (i = 0; i < mobs_spawned; i++)
         {
             x.nextLine();
@@ -343,6 +346,13 @@ public class Load_save {
 
             mobs_created++;
         }
+
+
+        for(j=0;j< n_mobs - mobs_spawned;j++) {
+            mobs[mobs_created] = new MonsterRed();
+
+            mobs_created++;
+        }
     }
 
     public void mobs_type5()
@@ -361,7 +371,7 @@ public class Load_save {
         Main.getOptions().setCoin_mobs_t5(coin_value);
 
         int i = 0, j = 0;
-        System.out.println("mobs_spawned5 -> "+mobs_spawned);
+        //System.out.println("mobs_spawned5 -> "+mobs_spawned);
         for (i = 0; i < mobs_spawned; i++)
         {
             x.nextLine();
@@ -387,6 +397,13 @@ public class Load_save {
 
             mobs_created++;
         }
+
+
+        for(j=0;j< n_mobs - mobs_spawned;j++) {
+            mobs[mobs_created] = new MonsterRed();
+
+            mobs_created++;
+        }
     }
 
     public void mobs_type6()
@@ -405,7 +422,7 @@ public class Load_save {
         Main.getOptions().setCoin_mobs_t6(coin_value);
 
         int i = 0, j = 0;
-        System.out.println("mobs_spawned6 -> "+mobs_spawned);
+        //System.out.println("mobs_spawned6 -> "+mobs_spawned);
         for (i = 0; i < mobs_spawned; i++)
         {
             x.nextLine();
@@ -431,6 +448,15 @@ public class Load_save {
 
             mobs_created++;
         }
+
+
+
+        for(j=0;j< n_mobs - mobs_spawned;j++) {
+            mobs[mobs_created] = new MonsterRed();
+
+            mobs_created++;
+        }
+
     }
 
     public void mobs_type7()
@@ -450,7 +476,7 @@ public class Load_save {
         Main.getOptions().setCoin_mobs_t7(coin_value);
 
         int i = 0, j = 0;
-        System.out.println("mobs_spawned7-> "+mobs_spawned);
+        //System.out.println("mobs_spawned7-> "+mobs_spawned);
         for (i = 0; i < mobs_spawned; i++)
         {
             x.nextLine();
@@ -473,6 +499,14 @@ public class Load_save {
             mobs[mobs_created].posx_b = posy / 24;
 
             mobs[mobs_created].startMob();
+
+            mobs_created++;
+        }
+
+
+
+        for(j=0;j< n_mobs - mobs_spawned;j++) {
+            mobs[mobs_created] = new MonsterRed();
 
             mobs_created++;
         }

@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4e87502-f8fd-496e-af93-0cf0ddcbd433" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\Java_Projetcts\Projeto Final\out\production\Projeto Final\Graphic\Jogo\Loja_Mouse.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Java_Projetcts\Projeto Final\out\production\Projeto Final\Graphic\Menus\Configurations$close.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Java_Projetcts\Projeto Final\out\production\Projeto Final\Graphic\Menus\Configurations$dragoes.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Java_Projetcts\Projeto Final\out\production\Projeto Final\Graphic\Menus\Configurations$maze.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Java_Projetcts\Projeto Final\out\production\Projeto Final\Graphic\Menus\Configurations$movimentacao.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Java_Projetcts\Projeto Final\out\production\Projeto Final\Graphic\Menus\Configurations$teclas.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Java_Projetcts\Projeto Final\out\production\Projeto Final\Graphic\Menus\Configurations.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Java_Projetcts\Projeto Final\out\production\Projeto Final\Graphic\Menus\Inic_Menu$Draw_Inic_Menu.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Java_Projetcts\Projeto Final\out\production\Projeto Final\Graphic\Menus\Inic_Menu.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Java_Projetcts\Projeto Final\out\production\Projeto Final\Graphic\Menus\Inic_Mouse.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Java_Projetcts\Projeto Final\out\production\Projeto Final\Graphic\Menus\Main_Mouse.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Java_Projetcts\Projeto Final\out\production\Projeto Final\Load_Save\Load_level.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Java_Projetcts\Projeto Final\out\production\Projeto Final\Load_Save\Load_save.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Java_Projetcts\Projeto Final\out\production\Projeto Final\Load_Save\Save.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Animator.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Animator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Draw_game$Action_listener.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Draw_game$Action_listener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Draw_game.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Draw_game.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Frame.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Frame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Loja$1.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Loja$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Loja.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Jogo/Loja.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Menus/Main_Menu$Action_listener.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Menus/Main_Menu$Action_listener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Menus/Main_Menu$Draw_menu.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Menus/Main_Menu$Draw_menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Menus/Main_Menu.class" afterPath="$PROJECT_DIR$/out/production/Projeto Final/Graphic/Menus/Main_Menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buildings/StormTrooper.java" afterPath="$PROJECT_DIR$/src/Buildings/StormTrooper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Load_Save/Load_save.java" afterPath="$PROJECT_DIR$/src/Load_Save/Load_save.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Logica.java" afterPath="$PROJECT_DIR$/src/com/Logica.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Saves/save.txt" afterPath="$PROJECT_DIR$/Saves/save.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projeto Final.iws" />
@@ -52,66 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Save.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Load_Save/Save.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3145" max-vertical-offset="4335">
-              <caret line="193" column="20" selection-start-line="193" selection-start-column="20" selection-end-line="193" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StormTrooper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Buildings/StormTrooper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7816092" vertical-offset="102" max-vertical-offset="1020">
-              <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CannonSprites.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Buildings/CannonSprites.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="901">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StormTrooperSprites.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Buildings/StormTrooperSprites.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
-              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#StormTrooperSprites#0;class#StormTrooperSprites#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Turret.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Buildings/Turret.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="1802">
-              <caret line="52" column="38" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Load_save.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Load_save.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Load_Save/Load_save.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1323" max-vertical-offset="2550">
-              <caret line="474" column="0" selection-start-line="474" selection-start-column="0" selection-end-line="474" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7356322" vertical-offset="959" max-vertical-offset="7140">
+              <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
               <folding>
                 <element signature="method#Load_save#0;class#Load_save#0" expanded="false" />
                 <element signature="method#closeFile#0;class#Load_save#0" expanded="false" />
@@ -120,20 +44,30 @@
                 <element signature="method#level#0;class#Load_save#0" expanded="false" />
                 <element signature="method#gold#0;class#Load_save#0" expanded="false" />
                 <element signature="method#player_life#0;class#Load_save#0" expanded="false" />
-                <element signature="method#mobs#0;class#Load_save#0" expanded="false" />
                 <element signature="method#get_total_mobs#0;class#Load_save#0" expanded="false" />
                 <element signature="method#get_spawn_time#0;class#Load_save#0" expanded="false" />
                 <element signature="method#mobs_type1#0;class#Load_save#0" expanded="false" />
-                <element signature="method#mobs_type2#0;class#Load_save#0" expanded="false" />
-                <element signature="method#mobs_type3#0;class#Load_save#0" expanded="false" />
-                <element signature="method#mobs_type4#0;class#Load_save#0" expanded="false" />
-                <element signature="method#mobs_type5#0;class#Load_save#0" expanded="false" />
-                <element signature="method#mobs_type6#0;class#Load_save#0" expanded="false" />
                 <element signature="method#buildings#0;class#Load_save#0" expanded="false" />
                 <element signature="method#building_type1#0;class#Load_save#0" expanded="false" />
                 <element signature="method#building_type2#0;class#Load_save#0" expanded="false" />
                 <element signature="method#building_type3#0;class#Load_save#0" expanded="false" />
                 <element signature="method#building_type4#0;class#Load_save#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Logica.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Logica.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.7586207" vertical-offset="2560" max-vertical-offset="6239">
+              <caret line="229" column="0" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#check_end_game#0;class#Logica#0" expanded="false" />
+                <element signature="method#inicializar_mobs#0;class#Logica#0" expanded="false" />
+                <element signature="method#check_life#0;class#Logica#0" expanded="false" />
+                <element signature="method#eliminar_buildings#0;class#Logica#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -186,9 +120,7 @@
         <option value="$PROJECT_DIR$/src/Buildings/Building1Sprites2.java" />
         <option value="$PROJECT_DIR$/src/Buildings/Building1Sprites.java" />
         <option value="$PROJECT_DIR$/src/Buildings/BuildingOneSprites.java" />
-        <option value="$PROJECT_DIR$/src/com/Logica.java" />
         <option value="$PROJECT_DIR$/src/com/Opcoes.java" />
-        <option value="$PROJECT_DIR$/src/Load_Save/Load_save.java" />
         <option value="$PROJECT_DIR$/src/Load_Save/Save.java" />
         <option value="$PROJECT_DIR$/src/Buildings/StormTrooperSprites.java" />
         <option value="$PROJECT_DIR$/src/Buildings/Cannon.java" />
@@ -198,6 +130,8 @@
         <option value="$PROJECT_DIR$/src/Graphic/Jogo/Draw_game.java" />
         <option value="$PROJECT_DIR$/src/Graphic/Jogo/Loja_Mouse.java" />
         <option value="$PROJECT_DIR$/src/Buildings/StormTrooper.java" />
+        <option value="$PROJECT_DIR$/src/com/Logica.java" />
+        <option value="$PROJECT_DIR$/src/Load_Save/Load_save.java" />
       </list>
     </option>
   </component>
@@ -305,6 +239,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Load_Save" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projeto Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projeto Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -554,12 +506,6 @@
       <workItem from="1433345972336" duration="1142000" />
       <workItem from="1433347132601" duration="28875000" />
       <workItem from="1433424091318" duration="7194000" />
-    </task>
-    <task id="LOCAL-00003" summary="qqq">
-      <created>1431780547891</created>
-      <option name="number" value="00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1431780547891</updated>
     </task>
     <task id="LOCAL-00004" summary="Building1 a funcionar +/-">
       <created>1431868607125</created>
@@ -849,7 +795,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433431280598</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="save_load pt11">
+      <created>1433793056349</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1433793056352</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -882,12 +834,14 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32516703" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22349103" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22838499" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35523385" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32626426" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22867803" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -895,15 +849,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39915523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39915523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32516703" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35523385" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36215335" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
@@ -952,7 +904,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="almost done^^" />
     <MESSAGE value="Game is semi Working" />
     <MESSAGE value="Game is  Working" />
     <MESSAGE value="Game is  Working!!&#10;" />
@@ -977,7 +928,8 @@
     <MESSAGE value="building 1 sprites" />
     <MESSAGE value="(...)" />
     <MESSAGE value="mouse drag nos outros buildings" />
-    <option name="LAST_COMMIT_MESSAGE" value="mouse drag nos outros buildings" />
+    <MESSAGE value="save_load pt11" />
+    <option name="LAST_COMMIT_MESSAGE" value="save_load pt11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -989,7 +941,7 @@
           <option name="timeStamp" value="201" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="203" />
+      <option name="time" value="206" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1002,6 +954,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2006">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,6 +976,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46516854" vertical-offset="1935" max-vertical-offset="2380">
           <caret line="228" column="23" selection-start-line="228" selection-start-column="23" selection-end-line="228" selection-end-column="23" />
+          <folding>
+            <element signature="method#randomPos#0;class#BaseEnemy#0" expanded="false" />
+            <element signature="method#updateBoardPos#0;class#BaseEnemy#0" expanded="false" />
+            <element signature="method#spawnMob#0;class#BaseEnemy#0" expanded="false" />
+            <element signature="method#startMob#0;class#BaseEnemy#0" expanded="false" />
+            <element signature="method#inicPos#0;class#BaseEnemy#0" expanded="false" />
+            <element signature="method#attack#0;class#BaseEnemy#0" expanded="false" />
+            <element signature="method#changeLife#0;class#BaseEnemy#0" expanded="false" />
+            <element signature="e#5102#5103#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1044,6 +1007,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.1393259" vertical-offset="660" max-vertical-offset="1105">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1058,6 +1022,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.4831461" vertical-offset="1000" max-vertical-offset="1445">
           <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,6 +1030,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.247191" vertical-offset="1221" max-vertical-offset="1666">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1079,6 +1045,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.0876405" vertical-offset="1510" max-vertical-offset="1955">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,6 +1053,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.6157303" vertical-offset="2173" max-vertical-offset="2618">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1248,17 +1216,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Draw_game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30177516" vertical-offset="0" max-vertical-offset="1955">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Jogo_MouseInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="109" max-vertical-offset="1360">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1266,13 +1228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Logica.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3726" max-vertical-offset="4896">
-          <caret line="276" column="5" selection-start-line="276" selection-start-column="5" selection-end-line="276" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1301,6 +1256,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.427793" vertical-offset="1044" max-vertical-offset="1411">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1308,15 +1266,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7411444" vertical-offset="204" max-vertical-offset="5406">
           <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.121469" vertical-offset="1190" max-vertical-offset="1989">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="method#setState#0;class#Main#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1325,44 +1276,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37126437" vertical-offset="1037" max-vertical-offset="2006">
           <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Load_Save/Save.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3145" max-vertical-offset="4335">
-          <caret line="193" column="20" selection-start-line="193" selection-start-column="20" selection-end-line="193" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Load_Save/Load_save.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1323" max-vertical-offset="2550">
-          <caret line="474" column="0" selection-start-line="474" selection-start-column="0" selection-end-line="474" selection-end-column="0" />
-          <folding>
-            <element signature="method#Load_save#0;class#Load_save#0" expanded="false" />
-            <element signature="method#closeFile#0;class#Load_save#0" expanded="false" />
-            <element signature="method#getint#0;class#Load_save#0" expanded="false" />
-            <element signature="method#getposicao#0;class#Load_save#0" expanded="false" />
-            <element signature="method#level#0;class#Load_save#0" expanded="false" />
-            <element signature="method#gold#0;class#Load_save#0" expanded="false" />
-            <element signature="method#player_life#0;class#Load_save#0" expanded="false" />
-            <element signature="method#mobs#0;class#Load_save#0" expanded="false" />
-            <element signature="method#get_total_mobs#0;class#Load_save#0" expanded="false" />
-            <element signature="method#get_spawn_time#0;class#Load_save#0" expanded="false" />
-            <element signature="method#mobs_type1#0;class#Load_save#0" expanded="false" />
-            <element signature="method#mobs_type2#0;class#Load_save#0" expanded="false" />
-            <element signature="method#mobs_type3#0;class#Load_save#0" expanded="false" />
-            <element signature="method#mobs_type4#0;class#Load_save#0" expanded="false" />
-            <element signature="method#mobs_type5#0;class#Load_save#0" expanded="false" />
-            <element signature="method#mobs_type6#0;class#Load_save#0" expanded="false" />
-            <element signature="method#buildings#0;class#Load_save#0" expanded="false" />
-            <element signature="method#building_type1#0;class#Load_save#0" expanded="false" />
-            <element signature="method#building_type2#0;class#Load_save#0" expanded="false" />
-            <element signature="method#building_type3#0;class#Load_save#0" expanded="false" />
-            <element signature="method#building_type4#0;class#Load_save#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1395,10 +1309,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Buildings/StormTrooper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7816092" vertical-offset="102" max-vertical-offset="1020">
-          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.1954023" vertical-offset="102" max-vertical-offset="1020">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Load_Save/Save.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3145" max-vertical-offset="4335">
+          <caret line="193" column="20" selection-start-line="193" selection-start-column="20" selection-end-line="193" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43194193" vertical-offset="527" max-vertical-offset="2312">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="34" />
+          <folding>
+            <element signature="method#setState#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Draw_game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3321234" vertical-offset="735" max-vertical-offset="2074">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Logica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7586207" vertical-offset="2560" max-vertical-offset="6239">
+          <caret line="229" column="0" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#check_end_game#0;class#Logica#0" expanded="false" />
+            <element signature="method#inicializar_mobs#0;class#Logica#0" expanded="false" />
+            <element signature="method#check_life#0;class#Logica#0" expanded="false" />
+            <element signature="method#eliminar_buildings#0;class#Logica#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Load_Save/Load_save.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7356322" vertical-offset="959" max-vertical-offset="7140">
+          <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+          <folding>
+            <element signature="method#Load_save#0;class#Load_save#0" expanded="false" />
+            <element signature="method#closeFile#0;class#Load_save#0" expanded="false" />
+            <element signature="method#getint#0;class#Load_save#0" expanded="false" />
+            <element signature="method#getposicao#0;class#Load_save#0" expanded="false" />
+            <element signature="method#level#0;class#Load_save#0" expanded="false" />
+            <element signature="method#gold#0;class#Load_save#0" expanded="false" />
+            <element signature="method#player_life#0;class#Load_save#0" expanded="false" />
+            <element signature="method#get_total_mobs#0;class#Load_save#0" expanded="false" />
+            <element signature="method#get_spawn_time#0;class#Load_save#0" expanded="false" />
+            <element signature="method#mobs_type1#0;class#Load_save#0" expanded="false" />
+            <element signature="method#buildings#0;class#Load_save#0" expanded="false" />
+            <element signature="method#building_type1#0;class#Load_save#0" expanded="false" />
+            <element signature="method#building_type2#0;class#Load_save#0" expanded="false" />
+            <element signature="method#building_type3#0;class#Load_save#0" expanded="false" />
+            <element signature="method#building_type4#0;class#Load_save#0" expanded="false" />
           </folding>
         </state>
       </provider>
