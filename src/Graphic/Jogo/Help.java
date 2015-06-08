@@ -6,12 +6,18 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * Frame de ajuda
+ */
 public class Help {
 
     private static JFrame frame2;
     private static JPanel help;
-    private WebViewSample webView;
+    //private WebViewSample webView;
 
+    /**
+     * Construtor
+     */
     public Help() {
 
         frame2 = new JFrame("Help");
@@ -35,6 +41,9 @@ public class Help {
         //webView = new WebViewSample();
     }
 
+    /**
+     * exit
+     */
     class close implements ActionListener {
 
         public void actionPerformed(ActionEvent e) {

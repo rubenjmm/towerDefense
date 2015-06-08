@@ -9,16 +9,17 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Created by Ricardo on 25/05/2015.
+ * Popup com o menu de configurações do jogo
  */
 public class Config {
 
     private static JFrame frame2;
     private static JPanel Config_panel;
 
-
+    /**
+     * Construtor do menu
+     */
     public Config() {
-
 
         frame2 = new JFrame("Configurations");
         frame2.setLocationRelativeTo(null);
@@ -107,7 +108,9 @@ public class Config {
         }
 
 
-
+    /**
+     * define dificuldade easy
+     */
     public void gui_easy() {
 
         int value = JOptionPane.showConfirmDialog(null,"Tem a certeza que pretende alterar a dificuldade?");
@@ -116,6 +119,9 @@ public class Config {
         }
     }
 
+    /**
+     * define dificuldade normal
+     */
     public void gui_normal() {
         int value = JOptionPane.showConfirmDialog(null,"Tem a certeza que pretende alterar a dificuldade?");
         if(value==0) {
@@ -123,6 +129,9 @@ public class Config {
         }
     }
 
+    /**
+     * define dificuldade hard
+     */
     public void gui_hard() {
         int value = JOptionPane.showConfirmDialog(null,"Tem a certeza que pretende alterar a dificuldade?");
         if(value==0) {
@@ -130,12 +139,15 @@ public class Config {
         }
     }
 
+    /**
+     * define dificuldade custom
+     * @see Graphic.Jogo.Config_custom
+     */
     public void gui_custom() {
 
         Config_custom confg_custom = new Config_custom();
         frame2.setVisible(false);
         frame2.dispose();
     }
-
 
 }

@@ -13,7 +13,7 @@ import java.awt.event.KeyEvent;
 import java.awt.image.BufferedImage;
 
 /**
- * Created by Ricardo on 18/04/2015.
+ * Class que desenha o jogo
  */
 public class Draw_game extends JPanel implements ActionListener {
 
@@ -22,6 +22,10 @@ public class Draw_game extends JPanel implements ActionListener {
     private int WIDTH = Main.getMap().getcolunas() * 24 -10;
     private int HEIGHT = Main.getMap().getlinhas()*25   - 30;
 
+    /**
+     * Construtor da class
+     * Define event handlers
+     */
     public Draw_game(){
 
         this.addMouseMotionListener(new Jogo_MouseInput() );
@@ -52,7 +56,10 @@ public class Draw_game extends JPanel implements ActionListener {
         draw_build_drag(g);
     }
 
-
+    /**
+     * Desenha o arrastar de edificios da loja para o mapa
+     * @param g
+     */
     private void draw_build_drag(Graphics g)  {
 
 

@@ -8,7 +8,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Created by Ricardo on 27/05/2015.
+ * Class handler de fim do jogo
  */
 public class Game_Over  {
 
@@ -16,6 +16,10 @@ public class Game_Over  {
     private JPanel End_panel;
     private JLabel label;
 
+    /**
+     * Construtor da class
+     * @param type tipo de fim de jogo: 1 won game, else lost
+     */
     public Game_Over(int type ) {
 
         Main.setState('M');//Mudar animation STATE

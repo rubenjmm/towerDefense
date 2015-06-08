@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 /**
- * Created by Ricardo on 29/04/2015.
+ * Espaço de compra de edificios e estado do jogador (coins e vida)
  */
 public class Loja extends JPanel{
 
@@ -38,6 +38,9 @@ public class Loja extends JPanel{
 
     private int life=10;
 
+    /**
+     * Subtrai vida ao jogador
+     */
     public void change_life() {
         this.life = this.life - 1;
         repaint();
@@ -72,6 +75,9 @@ public class Loja extends JPanel{
 
     private Timer timer;
 
+    /**
+     * Construtor
+     */
     public Loja() {
 
         this.addMouseMotionListener(new Loja_Mouse());
@@ -121,6 +127,9 @@ public class Loja extends JPanel{
         ani_coin.play();
     }
 
+    /**
+     * Define vida e numero de coins inicial
+     */
     public void newgame() {
         life = 10;
         coins = 50;
@@ -141,6 +150,10 @@ public class Loja extends JPanel{
             draw(g);
     }
 
+    /**
+     * Desenha a loja e respectivos elementos
+     * @param g
+     */
     private void draw(Graphics g) {
 
         draw_life(g);
@@ -152,6 +165,10 @@ public class Loja extends JPanel{
         draw_build4(g);
     }
 
+    /**
+     * Desenha barra de vida de acordo com o estado
+     * @param g
+     */
     private void draw_life(Graphics g){
         g.drawImage(heart, 10, 400, 18, 18, null);//WIDTH->18    HEIGHT->18
         switch (life) {
@@ -188,6 +205,10 @@ public class Loja extends JPanel{
         }
     }
 
+    /**
+     * Desenha coin animation
+     * @param g
+     */
     private void draw_gold(Graphics g) {
 
         g.drawImage(ani_coin.getSprite(), 8, 421, 25, 20, null); //width & height
@@ -199,6 +220,10 @@ public class Loja extends JPanel{
         g.drawString(String.valueOf(coins),43,435);
     }
 
+    /**
+     * Desenha butoes correspondentes aos varios edificios
+     * @param g
+     */
     private void draw_rectangles(Graphics g){
 
         Graphics2D g2d = (Graphics2D) g;
@@ -239,6 +264,10 @@ public class Loja extends JPanel{
         //}
     }
 
+    /**
+     * Desenha representação do edificio no lugar repectivo na loja
+     * @param g
+     */
     private void draw_build1(Graphics g) {
 
         //Building icon
@@ -254,6 +283,10 @@ public class Loja extends JPanel{
         g.drawString(price.toString() ,60,61);
     }
 
+    /**
+     * Desenha representação do edificio no lugar repectivo na loja
+     * @param g
+     */
     private void draw_build2(Graphics g) {
 
         //Building icon
@@ -269,6 +302,10 @@ public class Loja extends JPanel{
         g.drawString(price.toString(), 67, 121);
     }
 
+    /**
+     * Desenha representação do edificio no lugar repectivo na loja
+     * @param g
+     */
     private void draw_build3(Graphics g) {
 
         //Building icon
@@ -284,6 +321,10 @@ public class Loja extends JPanel{
         g.drawString(price.toString(),60,181);
     }
 
+    /**
+     * Desenha representação do edificio no lugar repectivo na loja
+     * @param g
+     */
     private void draw_build4(Graphics g) {
 
         //Building icon
@@ -299,6 +340,10 @@ public class Loja extends JPanel{
         g.drawString(price.toString() ,52,241);
     }
 
+    /**
+     * Reduz numero de coins de acordo com o edificio comprado
+     * @param amount
+     */
     public void change_coin(int amount) {
         coins = coins - amount ;
     }

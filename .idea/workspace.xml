@@ -1,27 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4e87502-f8fd-496e-af93-0cf0ddcbd433" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Graphic/Jogo/Animator.java" afterPath="$PROJECT_DIR$/src/Graphic/Jogo/Animator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/BaseEnemy.java" afterPath="$PROJECT_DIR$/src/Enemys/BaseEnemy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/Goblin.java" afterPath="$PROJECT_DIR$/src/Enemys/Goblin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/GoblinSprites.java" afterPath="$PROJECT_DIR$/src/Enemys/GoblinSprites.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/Guna.java" afterPath="$PROJECT_DIR$/src/Enemys/Guna.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/GunaSprites.java" afterPath="$PROJECT_DIR$/src/Enemys/GunaSprites.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Logica.java" afterPath="$PROJECT_DIR$/src/com/Logica.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Main.java" afterPath="$PROJECT_DIR$/src/com/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Mapa.java" afterPath="$PROJECT_DIR$/src/com/Mapa.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/MonsterBlue.java" afterPath="$PROJECT_DIR$/src/Enemys/MonsterBlue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/MonsterBlueSprites.java" afterPath="$PROJECT_DIR$/src/Enemys/MonsterBlueSprites.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/MonsterRed.java" afterPath="$PROJECT_DIR$/src/Enemys/MonsterRed.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/MonsterRedSprites.java" afterPath="$PROJECT_DIR$/src/Enemys/MonsterRedSprites.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Opcoes.java" afterPath="$PROJECT_DIR$/src/com/Opcoes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/RedSkeleton.java" afterPath="$PROJECT_DIR$/src/Enemys/RedSkeleton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/RedSkeletonSprites.java" afterPath="$PROJECT_DIR$/src/Enemys/RedSkeletonSprites.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/WhiteSkeleton.java" afterPath="$PROJECT_DIR$/src/Enemys/WhiteSkeleton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/WhiteSkeletonSprites.java" afterPath="$PROJECT_DIR$/src/Enemys/WhiteSkeletonSprites.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/Zombie.java" afterPath="$PROJECT_DIR$/src/Enemys/Zombie.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Enemys/ZombieSprites.java" afterPath="$PROJECT_DIR$/src/Enemys/ZombieSprites.java" />
+    <list default="true" id="e4e87502-f8fd-496e-af93-0cf0ddcbd433" name="Default" comment="docs">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Graphic/Jogo/Config.java" afterPath="$PROJECT_DIR$/src/Graphic/Jogo/Config.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Graphic/Jogo/Config_custom.java" afterPath="$PROJECT_DIR$/src/Graphic/Jogo/Config_custom.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Graphic/Menus/Configurations.java" afterPath="$PROJECT_DIR$/src/Graphic/Menus/Configurations.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Graphic/Jogo/Draw_game.java" afterPath="$PROJECT_DIR$/src/Graphic/Jogo/Draw_game.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Graphic/Jogo/Frame.java" afterPath="$PROJECT_DIR$/src/Graphic/Jogo/Frame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Graphic/Menus/Game_Over.java" afterPath="$PROJECT_DIR$/src/Graphic/Menus/Game_Over.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Graphic/Jogo/Help.java" afterPath="$PROJECT_DIR$/src/Graphic/Jogo/Help.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Graphic/Jogo/Jogo_MouseInput.java" afterPath="$PROJECT_DIR$/src/Graphic/Jogo/Jogo_MouseInput.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Graphic/Jogo/Loja.java" afterPath="$PROJECT_DIR$/src/Graphic/Jogo/Loja.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Graphic/Jogo/Loja_Mouse.java" afterPath="$PROJECT_DIR$/src/Graphic/Jogo/Loja_Mouse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Graphic/Jogo/WebViewSample.java" afterPath="$PROJECT_DIR$/src/Graphic/Jogo/WebViewSample.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projeto Final.iws" />
@@ -47,7 +38,40 @@
     <favorites_list name="Projeto Final" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="WebViewSample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/WebViewSample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1808" max-vertical-offset="2193">
+              <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#3992#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Configurations.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Graphic/Menus/Configurations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4386">
+              <caret line="244" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Help.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Help.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2" vertical-offset="110" max-vertical-offset="969">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,20 +79,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Buildings/Building1Sprites2.java" />
-        <option value="$PROJECT_DIR$/src/Buildings/Building1Sprites.java" />
-        <option value="$PROJECT_DIR$/src/Load_Save/Load_save.java" />
-        <option value="$PROJECT_DIR$/src/Load_Save/Save.java" />
-        <option value="$PROJECT_DIR$/src/Graphic/Jogo/Loja.java" />
-        <option value="$PROJECT_DIR$/Saves/save.txt" />
-        <option value="$PROJECT_DIR$/src/Graphic/Jogo/Draw_game.java" />
-        <option value="$PROJECT_DIR$/src/Graphic/Jogo/Loja_Mouse.java" />
-        <option value="$PROJECT_DIR$/src/Graphic/Menus/Main_Mouse.java" />
         <option value="$PROJECT_DIR$/src/Graphic/Jogo/av.java" />
         <option value="$PROJECT_DIR$/src/Graphic/Jogo/WebView.java" />
-        <option value="$PROJECT_DIR$/src/Graphic/Jogo/WebViewSample.java" />
         <option value="$PROJECT_DIR$/src/Graphic/Menus/Main_Menu.java" />
-        <option value="$PROJECT_DIR$/src/Graphic/Jogo/Help.java" />
         <option value="$PROJECT_DIR$/src/Testes/AnimatorTest.java" />
         <option value="$PROJECT_DIR$/src/Testes/Base_buildingTest.java" />
         <option value="$PROJECT_DIR$/src/Testes/Base_enemyTest.java" />
@@ -106,6 +119,17 @@
         <option value="$PROJECT_DIR$/src/Enemys/WhiteSkeletonSprites.java" />
         <option value="$PROJECT_DIR$/src/Enemys/ZombieSprites.java" />
         <option value="$PROJECT_DIR$/src/Graphic/Jogo/Animator.java" />
+        <option value="$PROJECT_DIR$/src/Graphic/Jogo/Config.java" />
+        <option value="$PROJECT_DIR$/src/Graphic/Jogo/Config_custom.java" />
+        <option value="$PROJECT_DIR$/src/Graphic/Jogo/Draw_game.java" />
+        <option value="$PROJECT_DIR$/src/Graphic/Jogo/Frame.java" />
+        <option value="$PROJECT_DIR$/src/Graphic/Jogo/Loja.java" />
+        <option value="$PROJECT_DIR$/src/Graphic/Jogo/Jogo_MouseInput.java" />
+        <option value="$PROJECT_DIR$/src/Graphic/Jogo/Loja_Mouse.java" />
+        <option value="$PROJECT_DIR$/src/Graphic/Jogo/WebViewSample.java" />
+        <option value="$PROJECT_DIR$/src/Graphic/Menus/Game_Over.java" />
+        <option value="$PROJECT_DIR$/src/Graphic/Menus/Configurations.java" />
+        <option value="$PROJECT_DIR$/src/Graphic/Jogo/Help.java" />
       </list>
     </option>
   </component>
@@ -193,6 +217,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Graphic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Menus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -576,13 +604,7 @@
       <workItem from="1433345972336" duration="1142000" />
       <workItem from="1433347132601" duration="28875000" />
       <workItem from="1433424091318" duration="8457000" />
-      <workItem from="1433732941584" duration="16584000" />
-    </task>
-    <task id="LOCAL-00007" summary="adding buildings part1">
-      <created>1431882745752</created>
-      <option name="number" value="00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1431882745752</updated>
+      <workItem from="1433732941584" duration="18066000" />
     </task>
     <task id="LOCAL-00008" summary="adding buildings part2&#10;">
       <created>1431888983933</created>
@@ -872,11 +894,17 @@
       <option name="project" value="LOCAL" />
       <updated>1433786089158</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="docs">
+      <created>1433788489478</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1433788489478</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86246000" />
+    <option name="totallyTimeSpent" value="87728000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -900,7 +928,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -916,7 +944,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35562807" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32626426" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22919819" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22919819" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36215335" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -975,7 +1003,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Game is  Working!!&#10;" />
     <MESSAGE value="Raio de alcance dos mobs pt1" />
     <MESSAGE value="Tentativa de adicioanr efeito de tiro" />
     <MESSAGE value="Tentativa de adicioanr efeito de tiro pt2" />
@@ -1000,7 +1027,8 @@
     <MESSAGE value="verifica se existem coins suficientes para comprar os outros edificios" />
     <MESSAGE value="help" />
     <MESSAGE value="docs buildings" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs buildings" />
+    <MESSAGE value="docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1021,52 +1049,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Saves/save.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Saves/lvl1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="493">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Saves/lvl3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Saves/lvl2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.13896458" vertical-offset="51" max-vertical-offset="493">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Loja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23247863" vertical-offset="340" max-vertical-offset="5440">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Frame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26153848" vertical-offset="0" max-vertical-offset="1105">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,22 +1072,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graphic/Menus/Game_Over.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4940171" vertical-offset="51" max-vertical-offset="1445">
-          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Loja_Mouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.907357" vertical-offset="58" max-vertical-offset="2006">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Load_Save/Load_level.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="1530">
@@ -1109,24 +1079,6 @@
           <folding>
             <element signature="e#771#772#0" expanded="true" />
             <element signature="e#796#797#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/WebViewSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="568" max-vertical-offset="2193">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1035#1036#0" expanded="true" />
-            <element signature="e#2511#2708#0" expanded="true" />
-            <element signature="e#2707#2708#0" expanded="true" />
-            <element signature="e#3624#3625#0" expanded="true" />
-            <element signature="e#3650#3651#0" expanded="true" />
-            <element signature="e#3716#3717#0" expanded="true" />
-            <element signature="e#3742#3743#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1155,24 +1107,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Help.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7411444" vertical-offset="51" max-vertical-offset="884">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8065395" vertical-offset="170" max-vertical-offset="2414">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Graphic/Menus/Main_Mouse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09264305" vertical-offset="1224" max-vertical-offset="2720">
@@ -1197,16 +1131,6 @@
           <folding>
             <element signature="e#1498#1499#0" expanded="false" />
             <element signature="e#1531#1532#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Draw_game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11965812" vertical-offset="219" max-vertical-offset="1955">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1548,6 +1472,112 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6025974" vertical-offset="1740" max-vertical-offset="2125">
           <caret line="129" column="36" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Loja_Mouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9116883" vertical-offset="1553" max-vertical-offset="2006">
+          <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51428574" vertical-offset="2148" max-vertical-offset="2618">
+          <caret line="143" column="38" selection-start-line="143" selection-start-column="38" selection-end-line="143" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Config_custom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7350649" vertical-offset="2896" max-vertical-offset="3349">
+          <caret line="192" column="5" selection-start-line="192" selection-start-column="5" selection-end-line="192" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Draw_game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9116883" vertical-offset="1621" max-vertical-offset="2074">
+          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Frame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3090909" vertical-offset="374" max-vertical-offset="1190">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Loja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.41298702" vertical-offset="5990" max-vertical-offset="6375">
+          <caret line="345" column="7" selection-start-line="345" selection-start-column="7" selection-end-line="345" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#9950#9951#0" expanded="true" />
+            <element signature="e#9989#9990#0" expanded="true" />
+            <element signature="e#10097#10098#0" expanded="true" />
+            <element signature="e#10124#10125#0" expanded="true" />
+            <element signature="e#10153#10154#0" expanded="true" />
+            <element signature="e#10181#10182#0" expanded="true" />
+            <element signature="e#10296#10297#0" expanded="true" />
+            <element signature="e#10326#10327#0" expanded="true" />
+            <element signature="e#10360#10361#0" expanded="true" />
+            <element signature="e#10389#10390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Jogo_MouseInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3090909" vertical-offset="0" max-vertical-offset="1360">
+          <caret line="11" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphic/Menus/Game_Over.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/WebViewSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1808" max-vertical-offset="2193">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#3992#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphic/Menus/Configurations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4386">
+          <caret line="244" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphic/Jogo/Help.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2" vertical-offset="110" max-vertical-offset="969">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding />
         </state>
       </provider>

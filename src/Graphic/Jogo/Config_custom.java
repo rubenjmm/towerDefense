@@ -8,14 +8,17 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Created by Ricardo on 29/05/2015.
+ * Definições custom
  */
 public class Config_custom {
 
     private static JFrame frame2;
     private static JPanel Config_panel;
 
-
+    /**
+     * Construtor da class
+     * Define botões para interação
+     */
     public Config_custom() {
 
 
@@ -106,7 +109,9 @@ public class Config_custom {
     }
 
 
-
+    /**
+     * define opções para monstros tipo 1
+     */
     public void gui_mobs_t1() {
 
 
@@ -129,6 +134,9 @@ public class Config_custom {
 
     }
 
+    /**
+     * define opções para monstros tipo 2
+     */
     public void gui_mobs_t2() {
 
 
@@ -150,6 +158,9 @@ public class Config_custom {
         Main.getOptions().setCoin_mobs_t2(coin_mobs_t2);
     }
 
+    /**
+     * define opções para edificios do tipo 1
+     */
     public void gui_buildings() {
 
 
@@ -169,6 +180,9 @@ public class Config_custom {
 
     }
 
+    /**
+     * define tempo entre o spawn de monstros
+     */
     public void gui_spawn() {
 
         String s  = JOptionPane.showInputDialog("Introduza o tempo de Spawn entre mobs ?:\nDefault = 2500");
@@ -179,5 +193,4 @@ public class Config_custom {
         frame2.setVisible(false);
         frame2.dispose();
     }
-
 }

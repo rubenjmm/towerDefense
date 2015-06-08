@@ -8,7 +8,7 @@ import java.awt.*;
 
 
 /**
- * Created by Ricardo on 26/03/2015.
+ * Frame do jogo
  */
 public class Frame extends JFrame  {
 
@@ -18,13 +18,18 @@ public class Frame extends JFrame  {
     private int HEIGHT=Main.getMap().getcolunas()*25;
     private int WIDTH=Main.getMap().getlinhas()*24+100;
 
-
+    /**
+     * exit
+     */
     public void close() {
 
         setVisible(false);
         dispose();
     }
 
+    /**
+     * construtor da frame do jogo
+     */
     public Frame() {
 
         jogo = new Draw_game();

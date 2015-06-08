@@ -8,7 +8,7 @@ import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
 
 /**
- * Created by Ricardo on 29/04/2015.
+ * Class que gere mouse inputs na loja de edificios
  */
 public class Loja_Mouse implements MouseListener,MouseMotionListener{
 
