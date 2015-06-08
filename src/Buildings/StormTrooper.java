@@ -5,10 +5,6 @@ import com.Main;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 
-/**
- * Edificio tipo 2
- * @see Buildings.BaseBuilding
- */
 public class StormTrooper extends BaseBuilding
 {
     //ANIMACOES
@@ -23,10 +19,6 @@ public class StormTrooper extends BaseBuilding
        8 -> left/down
      */
 
-    /**
-     * Construtor
-     * @see Buildings.BaseBuilding
-     */
     public StormTrooper(int x, int y)
     {
 
@@ -55,9 +47,6 @@ public class StormTrooper extends BaseBuilding
         atack_effect = new BaseAttack(listAttack, posx, posy, 150, 20);
     }
 
-    /**
-     * @see Buildings.BaseBuilding
-     */
     @Override
     public void change_animation()
     {

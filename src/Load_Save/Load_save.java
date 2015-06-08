@@ -131,6 +131,7 @@ public class Load_save {
         mobs_type5();
         mobs_type6();
         mobs_type7();
+
     }
 
     public void get_total_mobs() {
@@ -161,6 +162,7 @@ public class Load_save {
 
         int i;
         int j = 0;
+        //System.out.println("mobs_spawned1 -> "+mobs_spawned);
         for(i=0;i<mobs_spawned;i++) {
             x.nextLine();
 
@@ -173,7 +175,7 @@ public class Load_save {
             mobs[mobs_created].inGame=true;
             if(is_dead==0)
                 mobs[mobs_created].isDead =false;
-            else
+            else    
                 mobs[mobs_created].isDead =true;
             mobs[mobs_created].posx=posx;
             mobs[mobs_created].posy=posy;
@@ -212,6 +214,7 @@ public class Load_save {
         Main.getOptions().setCoin_mobs_t2(coin_value);
 
         int i=0,j=0;
+        //System.out.println("mobs_spawned2 -> "+mobs_spawned);
         for(i=0;i<mobs_spawned;i++) {
             x.nextLine();
 
@@ -266,6 +269,7 @@ public class Load_save {
         Main.getOptions().setCoin_mobs_t3(coin_value);
 
         int i = 0, j = 0;
+        //System.out.println("mobs_spawned3 -> "+mobs_spawned);
         for (i = 0; i < mobs_spawned; i++)
         {
             x.nextLine();
@@ -291,6 +295,13 @@ public class Load_save {
 
             mobs_created++;
         }
+
+
+        for(j=0;j< n_mobs - mobs_spawned;j++) {
+            mobs[mobs_created] = new MonsterRed();
+
+            mobs_created++;
+        }
     }
 
     public void mobs_type4()
@@ -309,6 +320,7 @@ public class Load_save {
         Main.getOptions().setCoin_mobs_t4(coin_value);
 
         int i = 0, j = 0;
+        //System.out.println("mobs_spawned4 -> "+mobs_spawned);
         for (i = 0; i < mobs_spawned; i++)
         {
             x.nextLine();
@@ -334,6 +346,13 @@ public class Load_save {
 
             mobs_created++;
         }
+
+
+        for(j=0;j< n_mobs - mobs_spawned;j++) {
+            mobs[mobs_created] = new MonsterRed();
+
+            mobs_created++;
+        }
     }
 
     public void mobs_type5()
@@ -352,6 +371,7 @@ public class Load_save {
         Main.getOptions().setCoin_mobs_t5(coin_value);
 
         int i = 0, j = 0;
+        //System.out.println("mobs_spawned5 -> "+mobs_spawned);
         for (i = 0; i < mobs_spawned; i++)
         {
             x.nextLine();
@@ -377,6 +397,13 @@ public class Load_save {
 
             mobs_created++;
         }
+
+
+        for(j=0;j< n_mobs - mobs_spawned;j++) {
+            mobs[mobs_created] = new MonsterRed();
+
+            mobs_created++;
+        }
     }
 
     public void mobs_type6()
@@ -395,6 +422,7 @@ public class Load_save {
         Main.getOptions().setCoin_mobs_t6(coin_value);
 
         int i = 0, j = 0;
+        //System.out.println("mobs_spawned6 -> "+mobs_spawned);
         for (i = 0; i < mobs_spawned; i++)
         {
             x.nextLine();
@@ -420,6 +448,15 @@ public class Load_save {
 
             mobs_created++;
         }
+
+
+
+        for(j=0;j< n_mobs - mobs_spawned;j++) {
+            mobs[mobs_created] = new MonsterRed();
+
+            mobs_created++;
+        }
+
     }
 
     public void mobs_type7()
@@ -439,6 +476,7 @@ public class Load_save {
         Main.getOptions().setCoin_mobs_t7(coin_value);
 
         int i = 0, j = 0;
+        //System.out.println("mobs_spawned7-> "+mobs_spawned);
         for (i = 0; i < mobs_spawned; i++)
         {
             x.nextLine();
@@ -464,6 +502,14 @@ public class Load_save {
 
             mobs_created++;
         }
+
+
+
+        for(j=0;j< n_mobs - mobs_spawned;j++) {
+            mobs[mobs_created] = new MonsterRed();
+
+            mobs_created++;
+        }
     }
 
     public void buildings() {
@@ -486,13 +532,16 @@ public class Load_save {
         int raio = getint(new Scanner(x.nextLine()));
         int preco = getint(new Scanner(x.nextLine()));
 
+       // System.out.println("n_buildings1-> "+n_buildings);
+       // System.out.println("preco tipo1-> "+preco);
+
         Main.getOptions().setAttack_b1(atack);
         Main.getOptions().setAttack_speed_b1(atack_delay);
         Main.getOptions().setRaio_b1(raio);
         Main.getOptions().setBuilding1Price(preco);
-        if(n_buildings>0){
+        //if(n_buildings>0){
             x.nextLine();
-        }
+        //}
         for(int i=0;i<n_buildings;i++) {
 
             getposicao( new Scanner(x.nextLine() ) );
@@ -513,13 +562,16 @@ public class Load_save {
         int raio = getint(new Scanner(x.nextLine()));
         int preco = getint(new Scanner(x.nextLine()));
 
+        //System.out.println("n_buildings2-> "+n_buildings);
+        //System.out.println("preco tipo2-> "+preco);
+
         Main.getOptions().setAttack_b2(atack);
         Main.getOptions().setAttack_speed_b2(atack_delay);
         Main.getOptions().setRaio_b2(raio);
         Main.getOptions().setBuilding2Price(preco);
-        if(n_buildings>0){
+       // if(n_buildings>0){
             x.nextLine();
-        }
+       // }
         for(int i=0;i<n_buildings;i++) {
 
             getposicao( new Scanner(x.nextLine() ) );
@@ -540,13 +592,16 @@ public class Load_save {
         int raio = getint(new Scanner(x.nextLine()));
         int preco = getint(new Scanner(x.nextLine()));
 
+        //System.out.println("n_buildings3-> "+n_buildings);
+        //System.out.println("preco tipo3-> "+preco);
+
         Main.getOptions().setAttack_b3(atack);
         Main.getOptions().setAttack_speed_b3(atack_delay);
         Main.getOptions().setRaio_b3(raio);
         Main.getOptions().setBuilding3Price(preco);
-        if(n_buildings>0){
+        //if(n_buildings>0){
             x.nextLine();
-        }
+        //}
         for(int i=0;i<n_buildings;i++) {
 
             getposicao( new Scanner(x.nextLine() ) );
@@ -566,6 +621,9 @@ public class Load_save {
         int atack_delay =getint( new Scanner(x.nextLine()) );
         int raio = getint(new Scanner(x.nextLine()));
         int preco = getint(new Scanner(x.nextLine()));
+
+        //System.out.println("n_buildings4-> "+n_buildings);
+        //System.out.println("preco tipo4-> "+preco);
 
         Main.getOptions().setAttack_b4(atack);
         Main.getOptions().setAttack_speed_b4(atack_delay);
