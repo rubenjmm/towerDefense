@@ -4,7 +4,7 @@ import Buildings.BaseBuilding;
 import Enemys.BaseEnemy;
 import Graphic.Jogo.Frame;
 import Graphic.Jogo.Loja;
-//import Graphic.Menus.Inic_Menu;
+import Graphic.Menus.Inic_Menu;
 import Load_Save.Load_level;
 
 import java.util.ArrayList;
