@@ -44,7 +44,7 @@ public class StormTrooper extends BaseBuilding
         ////////////////////////////////////////////////////////////////////////
         ArrayList<BufferedImage> listAttack = new ArrayList<BufferedImage>();
         listAttack.add(StormTrooperSprites.getBullet());
-        atack_effect = new Base_atack(listAttack, posx, posy, 150, 20);
+        atack_effect = new BaseAttack(listAttack, posx, posy, 150, 20);
     }
 
     @Override
