@@ -5,7 +5,7 @@ import java.awt.*;
 
 
 /**
- * Created by Ricardo on 26/04/2015.
+ * Classe geradora do mapa do jogo
  */
 public class Mapa {
 
@@ -14,7 +14,10 @@ public class Mapa {
     private   Image grass1,ground4,Background;
 
 
-
+    /**
+     * Construtor da classe
+     * Inicializa o mapa
+     */
     public Mapa() {
 
         ImageIcon img = new ImageIcon("Textures/Mapas/quadrados/grass1.png");
@@ -27,6 +30,10 @@ public class Mapa {
         ground4 = img.getImage();
     }
 
+    /**
+     * Desenha o mapa de jogo
+     * @param g
+     */
     public void draw_board(Graphics g) {
 
         if(Main.getLevel()==1) {
@@ -34,6 +41,10 @@ public class Mapa {
         }
     }
 
+    /**
+     * Desenha o mapa para o nivel 1
+     * @param g
+     */
     public void draw_lvl1(Graphics g){
         g.drawImage(Background, 0, 0, null);
 
@@ -46,10 +57,17 @@ public class Mapa {
         }
     }
 
+    /**
+     * Desenha o mapa para o nivel 2
+     * @param g
+     */
     public void draw_lvl2(Graphics g) {
 
     }
 
+    /**
+     * Imprime o mapa na forma de caracteres para linha de comandos
+     */
     public void print_map() {
 
         System.out.println("linhas-> "+linhas+"       colunas-> "+colunas+"\n");

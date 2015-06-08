@@ -10,7 +10,8 @@ import java.util.ArrayList;
 
 
 /**
- * Created by Ricardo on 03/05/2015.
+ * Monstro tipo 4
+ * @see Enemys.BaseEnemy
  */
 public class Goblin extends BaseEnemy
 {

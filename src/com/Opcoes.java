@@ -1,7 +1,7 @@
 package com;
 
 /**
- * Created by Ricardo on 26/04/2015.
+ * Class contentor das opções de jogo relativas a monstros, edificios, etc.
  */
 public class Opcoes {
 

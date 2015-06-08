@@ -14,9 +14,8 @@ import java.util.Random;
 import javax.swing.Timer;
 
 /**
- * Created by Ricardo on 04/05/2015.
+ * Class com a logica do jogo
  */
-
 public class Logica {
 
     private int delay;  //milliseconds
@@ -66,6 +65,10 @@ public class Logica {
         }
     };
 
+    /**
+     * Construtor do jogo
+     * Carrega as varias opções relativas aos monstros, torres, etc.
+     */
     public Logica() {
         number_mobs_t1 = Main.getOptions().getNumber_mobs_t1();
         number_mobs_t2 = Main.getOptions().getNumber_mobs_t2();
@@ -84,6 +87,9 @@ public class Logica {
 
     }
 
+    /**
+     * Gera um novo jogo com base nas opções activas
+     */
     public void new_game() {
         number_mobs_t1 = Main.getOptions().getNumber_mobs_t1();
         number_mobs_t2 = Main.getOptions().getNumber_mobs_t2();
@@ -104,7 +110,11 @@ public class Logica {
         inicializacao=true;
     }
 
-
+    /**
+     * Abre um jogo guardado anteriormente ja carregado
+     * @param m vector de enimigos
+     * @param b lista de edificios
+     */
     public void load_old_game(BaseEnemy[]  m, ArrayList<BaseBuilding> b) {
 
         number_mobs_t1 = Main.getOptions().getNumber_mobs_t1();
@@ -128,6 +138,9 @@ public class Logica {
         inicializacao=true;
     }
 
+    /**
+     * Verifica se o jogo chegou ao fim
+     */
     public void check_end_game() {
 
         int contador=0;
@@ -144,6 +157,9 @@ public class Logica {
         }
     }
 
+    /**
+     * Inicializa os monstros do jogo
+     */
     public void inicializar_mobs(){
 
         ingame_mobs_t1 = 0;
@@ -202,6 +218,10 @@ public class Logica {
         mobs_inic = true;
     }
 
+    /**
+     * Desenha os varios monstros e edificios
+     * @param g
+     */
     public void draw(Graphics g){
 
         if ( inicializacao ) {
@@ -218,12 +238,18 @@ public class Logica {
         }
     }
 
+    /**
+     * Verifica a vida restante do jogador
+     */
     private void check_life() {
         if( Main.getLoja().getLife()  <= 0){
             Game_Over end = new Game_Over(0); //tipo 0-> Perdeu o Jogo
         }
     }
 
+    /**
+     * Coloca novos monstros em jogo
+     */
     private void mobSpawner() {
 
         for (int i = 0; i < mobs.length; i++) {
@@ -260,6 +286,12 @@ public class Logica {
         }
     }
 
+    /**
+     * Coloca edificios em jogo
+     * @param x posição em x
+     * @param y posição em x
+     * @param build_id tipo de edificio
+     */
     public void place_building(int x, int y, int build_id) {
 
         int posx_b= x/24;
@@ -276,11 +308,18 @@ public class Logica {
         Main.setHeld_id(0);
     }
 
+    /**
+     * Elimina todos os edificios
+     */
     public void eliminar_buildings() {
         buildings.clear();
         building_inic=false;
     }
 
+    /**
+     * Reduz o gold restante com cada compra de edificios do tipo id
+     * @param id tipo de edificio
+     */
     public void atualizar_gold(int id) {
 
         if (id == 1) {
@@ -300,85 +339,146 @@ public class Logica {
 
     //////////////////////////////// GETTER's ////////////////////////////////
 
+    /**
+     * @return vector com monstros do jogo
+     */
     public BaseEnemy[] getMobs() {
         return mobs;
     }
 
+    /**
+     * @return mobs em jogo do tipo 1
+     */
     public int getIngame_mobs_t1() {
         return ingame_mobs_t1;
     }
 
+    /**
+     * @return mobs em jogo do tipo 2
+     */
     public int getIngame_mobs_t2() {
         return ingame_mobs_t2;
     }
 
+    /**
+     * @return mobs em jogo do tipo 3
+     */
     public int getIngame_mobs_t3()
     {
         return ingame_mobs_t3;
     }
 
+    /**
+     * @return mobs em jogo do tipo 4
+     */
     public int getIngame_mobs_t4()
     {
         return ingame_mobs_t4;
     }
 
+    /**
+     * @return mobs em jogo do tipo 5
+     */
     public int getIngame_mobs_t5()
     {
         return ingame_mobs_t5;
     }
 
+    /**
+     * @return mobs em jogo do tipo 6
+     */
     public int getIngame_mobs_t6()
     {
         return ingame_mobs_t6;
     }
 
+    /**
+     * @return mobs em jogo do tipo 7
+     */
     public int getIngame_mobs_t7()
     {
         return ingame_mobs_t7;
     }
 
+    /**
+     * @return total de monstros em jogo
+     */
     public int getTotal_number_mobs() {
         return total_number_mobs;
     }
 
+    /**
+     * @return lista de edificios em jogo
+     */
     public ArrayList<BaseBuilding> getBuildings() {
         return buildings;
     }
 
+    /**
+     * @return estado da inicialização
+     */
     public boolean isInicializacao() {
         return inicializacao;
     }
 
     //////////////////////////////// SETTER's ////////////////////////////////
 
+    /**
+     * Define numero de monstros do tipo 1
+     * @param ingame_mobs_t1
+     */
     public void setIngame_mobs_t1(int ingame_mobs_t1) {
          this.ingame_mobs_t1 = ingame_mobs_t1;
     }
 
+    /**
+     * Define numero de monstros do tipo 2
+     * @param ingame_mobs_t2
+     */
     public void setIngame_mobs_t2(int ingame_mobs_t2) {
          this.ingame_mobs_t2 = ingame_mobs_t2;
     }
 
+    /**
+     * Define numero de monstros do tipo 3
+     * @param ingame_mobs_t3
+     */
     public void setIngame_mobs_t3(int ingame_mobs_t3)
     {
         this.ingame_mobs_t3 = ingame_mobs_t3;
     }
 
+    /**
+     * Define numero de monstros do tipo 4
+     * @param ingame_mobs_t4
+     */
     public void setIngame_mobs_t4(int ingame_mobs_t4)
     {
         this.ingame_mobs_t4 = ingame_mobs_t4;
     }
 
+    /**
+     * Define numero de monstros do tipo 5
+     * @param ingame_mobs_t5
+     */
     public void setIngame_mobs_t5(int ingame_mobs_t5)
     {
         this.ingame_mobs_t5 = ingame_mobs_t5;
     }
 
+    /**
+     * Define numero de monstros do tipo 6
+     * @param ingame_mobs_t6
+     */
     public void setIngame_mobs_t6(int ingame_mobs_t6)
     {
         this.ingame_mobs_t6 = ingame_mobs_t6;
     }
 
+    /**
+     * Define numero de monstros do tipo 7
+     * @param ingame_mobs_t7
+     */
     public void setIngame_mobs_t7(int ingame_mobs_t7)
     {
         this.ingame_mobs_t7 = ingame_mobs_t7;

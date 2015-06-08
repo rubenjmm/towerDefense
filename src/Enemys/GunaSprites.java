@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 /**
- * Created by Ricardo on 16/04/2015.
+ * Class contentor para os sprites correspondentes aos monstros tipo 3
  */
 public abstract class GunaSprites
 {
@@ -19,6 +19,9 @@ public abstract class GunaSprites
 
     }
 
+    /**
+     * Carregamento das imagens no programa
+     */
     static {
         String temp;
 
@@ -47,11 +50,17 @@ public abstract class GunaSprites
         }
     }
 
+    /**
+     * @return -> Lista de imagens correspondentes ao ataque do monstro
+     */
     public static ArrayList<BufferedImage> getSpriteAttack()
     {
         return listAttack;
     }
 
+    /**
+     * @return -> Lista de imagens correspondentes ao movimento do monstro
+     */
     public static ArrayList<BufferedImage> getSpriteWalking()
     {
         return listWalking;

@@ -9,7 +9,8 @@ import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 
 /**
- * Created by Ricardo on 10/05/2015.
+ * Monstro tipo 2
+ * @see Enemys.BaseEnemy
  */
 public class MonsterRed extends BaseEnemy
 {

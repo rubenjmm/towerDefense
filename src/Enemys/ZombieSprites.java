@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 /**
- * Created by Ricardo on 16/04/2015.
+ * Class contentor para os sprites correspondentes aos monstros tipo 7
  */
 public abstract class ZombieSprites
 {
@@ -21,6 +21,9 @@ public abstract class ZombieSprites
 
     }
 
+    /**
+     * Carregamento das imagens no programa
+     */
     static {
         String temp;
 
@@ -61,48 +64,26 @@ public abstract class ZombieSprites
         }
     }
 
-    private static Image flipHorizontal(Image img, ImageObserver obs) {
-        PixelGrabber pg;
-        int[] pix;
-        int[] newPix;
-        int rows = img.getHeight(obs);
-        int cols = img.getWidth(obs);
 
-        pix = new int[rows*cols];
-        newPix = new int[rows*cols];
-
-        pg = new PixelGrabber(img, 0, 0, cols, rows, pix, 0, cols);
-
-        try {
-            pg.grabPixels();
-        }
-        catch (InterruptedException e) {
-            System.out.println("interupted");
-        }
-
-        for (int row = 0; row < rows; row++)
-            for (int col = 0; col < cols; col++)
-                newPix[row*cols + (cols-col-1)] = pix[row*cols + col];
-
-        img = null;
-
-        Canvas imageCreator = new Canvas();
-        img = imageCreator.createImage(new MemoryImageSource(cols, rows, newPix,
-                0, cols));
-        return img;
-
-    }
-
+    /**
+     * @return -> Lista de imagens correspondentes ao ataque do monstro
+     */
     public static ArrayList<BufferedImage> getSpriteAttack()
     {
         return listAttack;
     }
 
+    /**
+     * @return -> Lista de imagens correspondentes ao movimento do monstro
+     */
     public static ArrayList<BufferedImage> getSpriteWalking()
     {
         return listWalking;
     }
 
+    /**
+     * @return -> Lista de imagens correspondentes a morte do monstro
+     */
     public static ArrayList<BufferedImage> getSpriteDeath()
     {
         return listDeath;

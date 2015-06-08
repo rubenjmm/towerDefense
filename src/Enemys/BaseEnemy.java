@@ -12,10 +12,16 @@ import java.util.ArrayList;
 import java.util.Random;
 
 /**
- * Created by Ricardo on 12/05/2015.
+ * Class base para os inimigos
  */
 public class BaseEnemy
 {
+    /**
+     * board -> mapa na forma de caracteres
+     * inGame -> activo no jogo
+     * posx_b, posy_b -> posição do centro do monstro
+     * posx, posy -> posição onde é desenhado
+     */
     public char[][] board = Main.getMap().getMapa();
     public boolean inGame = false;
     public int posx_b,posy_b;
@@ -46,7 +52,10 @@ public class BaseEnemy
     protected ArrayList<BufferedImage> listReborn;
     protected Animator animReborn;
 
-
+    /**
+     * coinValue -> premio por morte
+     * mobType -> tipo de monstro
+     */
     public int coinValue = 0;
 
     public int mobType;
@@ -59,6 +68,10 @@ public class BaseEnemy
 
     }
 
+    /**
+     * Desenha o monstro
+     * @param g
+     */
     public void draw (Graphics g){
 
     }
@@ -71,6 +84,10 @@ public class BaseEnemy
         }
     };
 
+    /**
+     * Actualiza a posição
+     * @see Buildings.BaseBuilding
+     */
     public void updatePos() 
     {
         if (board[posx_b][posy_b] == 'r'   ) {
@@ -137,6 +154,9 @@ public class BaseEnemy
         }
     }
 
+    /**
+     * Actualiza posição no mapa
+     */
     public void updateBoardPos() {
 
         if(posx%24==0){
@@ -149,12 +169,18 @@ public class BaseEnemy
 
     }
 
+    /**
+     * Inicializa a posição do monstro e coloca-o no mapa
+     */
     public void spawnMob(){
         //criar mobs no mapa..
         inicPos();
         startMob();
     }
 
+    /**
+     * @see this.spawnMob()
+     */
     public void startMob() {
         inGame =  true;
 
@@ -162,6 +188,9 @@ public class BaseEnemy
         timer.start();
     }
 
+    /**
+     * @see this.spawnMob()
+     */
     public void inicPos(){
 
         Random r = new Random();
@@ -187,6 +216,9 @@ public class BaseEnemy
         posy = posx_b * 25;
     }
 
+    /**
+     * ataca quando chegar ao fim do percurso
+     */
     public void attack() {
         if(animAttack.isdeu_reset())
             cnt++;
@@ -202,6 +234,11 @@ public class BaseEnemy
         }
     }
 
+    /**
+     * actualiza a vida quando atingido por projectil
+     * @param hit -> dano recebido
+     * @return true se monstro morreu
+     */
     public boolean changeLife(int hit) {
 
         this.life = this.life - hit;

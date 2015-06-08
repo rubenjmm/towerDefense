@@ -9,6 +9,9 @@ import Load_Save.Load_level;
 
 import java.util.ArrayList;
 
+/**
+ * Classe main que começa a aplicação
+ */
 public class Main {
 
     private static Mapa map;
@@ -18,6 +21,9 @@ public class Main {
     private static  Loja loja;
     private static Logica game_logic;
 
+    /**
+     * Estado do programa
+     */
     public enum STATE {
         Main_menu,
         Inic_menu,
@@ -32,6 +38,10 @@ public class Main {
 
     private static boolean first_game=false;
 
+    /**
+     * Metedo inicial do programa
+     * @param args
+     */
     public static void main(String[] args) {
         //Inicializar as texturas
         //MonsterBlueSprites.inic();
@@ -45,6 +55,9 @@ public class Main {
         inic_menu();
     }
 
+    /**
+     * Gera menu inicial
+     */
     public static void inic_menu() {
         state = STATE.Inic_menu;
 
@@ -54,6 +67,9 @@ public class Main {
         n.begin();
     }
 
+    /**
+     * Handler para opção new_game
+     */
     public static void new_game() {
 
         first_game=true;
@@ -65,6 +81,9 @@ public class Main {
         loja.newgame();
     }
 
+    /**
+     * Handler para opção load game
+     */
     public static void load__old_game(int lvl ,int gold  ,int player_life  , BaseEnemy[]  mobs, ArrayList<BaseBuilding> buildings  ) {
 
         loja.setGold(gold);

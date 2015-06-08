@@ -9,7 +9,8 @@ import java.util.ArrayList;
 
 
 /**
- * Created by Ricardo on 03/05/2015.
+ * Monstro tipo 5
+ * @see Enemys.BaseEnemy
  */
 public class WhiteSkeleton extends BaseEnemy
 {

@@ -10,9 +10,9 @@ import java.util.ArrayList;
 
 
 /**
- * Created by Ricardo on 03/05/2015.
+ * Monstro tipo 1
+ * @see Enemys.BaseEnemy
  */
-
 public class MonsterBlue extends BaseEnemy
 {
     /*

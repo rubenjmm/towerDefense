@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 /**
- * Created by Ricardo on 16/04/2015.
+ * Class contentor para os sprites correspondentes aos monstros tipo 5
  */
 public abstract class WhiteSkeletonSprites
 {
@@ -20,6 +20,9 @@ public abstract class WhiteSkeletonSprites
 
     }
 
+    /**
+     * Carregamento das imagens no programa
+     */
     static {
         String temp;
 
@@ -60,16 +63,24 @@ public abstract class WhiteSkeletonSprites
         }
     }
 
+    /**
+     * @return -> Lista de imagens correspondentes ao ataque do monstro
+     */
     public static ArrayList<BufferedImage> getSpriteAttack()
     {
         return listAttack;
     }
-
+    /**
+     * @return -> Lista de imagens correspondentes ao movimento do monstro
+     */
     public static ArrayList<BufferedImage> getSpriteWalking()
     {
         return listWalking;
     }
 
+    /**
+     * @return -> Lista de imagens correspondentes a morte do monstro
+     */
     public static ArrayList<BufferedImage> getSpriteDeath()
     {
         return listDeath;
