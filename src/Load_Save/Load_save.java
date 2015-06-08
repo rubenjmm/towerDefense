@@ -9,6 +9,9 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * Class de leitura de dados do ficheiro de jogo guardado
+ */
 public class Load_save {
 
     private Scanner x;
@@ -26,6 +29,7 @@ public class Load_save {
     public Load_save() {
 
     }
+
 
     public void openFile(){
 

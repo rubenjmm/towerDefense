@@ -12,7 +12,7 @@ import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
 
 /**
- * Created by Ricardo on 27/04/2015.
+ * Class que gere acções do rato no ecra de pausa
  */
 public class Main_Mouse implements MouseListener,MouseMotionListener {
 

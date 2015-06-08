@@ -1,15 +1,14 @@
 package Load_Save;
 
-/**
- * Created by Ricardo on 26/04/2015.
- */
-
 import com.Main;
 import com.Mapa;
 
 import java.io.File;
 import java.util.Scanner;
 
+/**
+ * Class que carrega niveis previamente guardados
+ */
 public class Load_level {
 
     private Mapa map = Main.getMap();
@@ -18,6 +17,10 @@ public class Load_level {
     int linhas,colunas;
     private String level;
 
+    /**
+     * Abre ficheiros de jogos guardados
+     * @param a uri do ficheiro
+     */
     public Load_level(String a) {
         this.level = a;
         openFile();
@@ -25,6 +28,10 @@ public class Load_level {
         closeFile();
     }
 
+    /**
+     *  Abre o jogo definido anteriormente
+     *  @see Load_Save.Load_level
+     */
     public void openFile(){
 
         try {
@@ -35,18 +42,29 @@ public class Load_level {
             System.out.println("Erro ao criar ficheiro de save: " + e);
         }
 
-
     }
 
+    /**
+     * le os dados do ficheiro de jogo guardado
+     */
     public void readFile(){
         map_size();
         lermapa();
     }
 
+    /**
+     * fecha o ficheiro de jogo aberto
+     * @see Load_Save.Load_level
+     */
     public void closeFile(){
         x.close();
     }
 
+    /**
+     * Le o primeiro inteiro disponivel
+     * @param linescanner
+     * @return Primeiro inteiro disponivel
+     */
     public int getint(Scanner linescanner) {
 
         int a=0;
@@ -62,6 +80,10 @@ public class Load_level {
         return a;
     }
 
+    /**
+     * define o tamanho do mapa de acordo com o indicado no ficheiro de jogo
+     * @see Load_Save.Load_level
+     */
     public void map_size() {
 
         linhas  =   getint( new Scanner(x.nextLine()) );

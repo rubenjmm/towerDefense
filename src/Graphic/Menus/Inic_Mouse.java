@@ -10,7 +10,7 @@ import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
 
 /**
- * Created by Ricardo on 27/04/2015.
+ * Class que gere acções do rato no ecra principal
  */
 public class Inic_Mouse implements MouseListener,MouseMotionListener {
 
@@ -87,7 +87,6 @@ public class Inic_Mouse implements MouseListener,MouseMotionListener {
     }
 
     public void loadButton() {
-
 
         Load_save load_g = new Load_save();
 

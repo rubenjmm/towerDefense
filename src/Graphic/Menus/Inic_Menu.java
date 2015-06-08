@@ -7,7 +7,7 @@ import java.awt.event.ActionEvent;
 
 
 /**
- * Created by Ricardo on 28/04/2015.
+ * Menu Inicial do jogo
  */
 public class Inic_Menu extends JFrame{
 

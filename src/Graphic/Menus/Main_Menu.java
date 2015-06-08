@@ -11,7 +11,7 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
 /**
- * Created by Ricardo on 26/04/2015.
+ * Class que gere o menu de pausa
  */
 public class Main_Menu extends JFrame {
 
@@ -26,6 +26,7 @@ public class Main_Menu extends JFrame {
 
     public Main_Menu() {
     }
+
 
     public void menu() {
 
@@ -96,6 +97,7 @@ public class Main_Menu extends JFrame {
         }
 
     }
+
 
     public class Action_listener extends KeyAdapter {
 
