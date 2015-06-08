@@ -7,12 +7,25 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 
+
 /**
- * Created by Ricardo on 23/05/2015.
+ * Building attack class
+ * Verifica se é possivel atacar algum monstro, se sim dispara
+ *
  */
-public class Base_atack  {
-
-
+public class BaseAttack
+{
+    /**
+     * Atributos da classe publicos por simplicidade
+     * pos_building_x, pos_building_y -> posição do edificio
+     * mob_x, mob_y -> posição do monstro
+     * mob_index -> identificador do monstro
+     * Listatack -> imagens do projectil
+     * mob_hited -> flag que indica se o monstro foi atingido
+     * ani_atack -> classe que anima o projectil @see Graphic.Jogo.Animator
+     * posx, posy -> posição inicial do projectil
+     * bullet_speed, speed_x, speed_y -> velocidade do projectil absoluta e segundo os eixos x e y
+     */
     public int pos_building_x,pos_building_y;
     public int mob_x,mob_y;
     public int mob_index;
@@ -30,11 +43,19 @@ public class Base_atack  {
     //////////////////////////////////////
 
 
-    public Base_atack() {
+    public BaseAttack() {
 
     }
 
-    public Base_atack(ArrayList<BufferedImage> Lista,int x, int y,int speed,int  bullet_spd) {
+    /**
+     * Construtor da classe
+     * @param Lista -> imagens do projectil
+     * @param x -> posição do edificio em segundo x
+     * @param y -> posição do edificio em segundo y
+     * @param speed -> cadencia de disparo
+     * @param bullet_spd -> velocidade da bala
+     */
+    public BaseAttack(ArrayList<BufferedImage> Lista, int x, int y, int speed, int bullet_spd) {
 
         this.pos_building_x = x;
         this.pos_building_y = y;
@@ -50,6 +71,11 @@ public class Base_atack  {
         ani_atack.setSpeed(speed);//150ms
     }
 
+    /**
+     * Handler do disparo.
+     * @param index -> monstro alvo
+     * @see Buildings.BaseAttack
+     */
     public void shot_fired  (int index ) {
 
         this.mob_index = index;
@@ -68,6 +94,9 @@ public class Base_atack  {
 
     }
 
+    /**
+     * Calcula a velocidade do projectil em cada eixo
+     */
     public void calcular_declive() {
 
         int distancia_x,distancia_y;
@@ -127,6 +156,10 @@ public class Base_atack  {
 
     }
 
+    /**
+     * Desenho do projectil durante o percurso ate ao monstro
+     * @param g
+     */
     public void draw(Graphics g) {
 
         if(!mob_hited) {
@@ -137,12 +170,18 @@ public class Base_atack  {
         }
     }
 
+    /**
+     * Actualiza a posição do projectil ao longo do tempo
+     */
     public void update_pos(){
 
         posx+=speed_x;
         posy+=speed_y;
     }
 
+    /**
+     * Verifica se o monstro já foi atingido
+     */
     public void check_mob_hited() {
 
         if(    Math.abs(posx -Main.getGame_logic().getMobs()[mob_index].getPosx())<=speed_x*4+5  && Math.abs(posy -Main.getGame_logic().getMobs()[mob_index].getPosy())<=speed_y*4+5) {
@@ -152,5 +191,4 @@ public class Base_atack  {
             posy=0;
         }
     }
-
 }

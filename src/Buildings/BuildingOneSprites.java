@@ -6,7 +6,7 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * Created by Ricardo on 17/05/2015.
+ * Class contentor para os sprites correspondentes aos edificios tipo 1
  */
 public class BuildingOneSprites
 {
@@ -34,6 +34,9 @@ public class BuildingOneSprites
 
     }
 
+    /**
+     * Carregamento das imagens no programa
+     */
     static{
         try {
             A1_1 = ImageIO.read(new File("Textures/Buildings/BuildingOne/1/A1_1.png"));
@@ -68,6 +71,9 @@ public class BuildingOneSprites
         }
     }
 
+    /**
+     * @return -> Imagem correspondente ao projectil
+     */
     public static BufferedImage getBullet() {
         return bullet;
     }

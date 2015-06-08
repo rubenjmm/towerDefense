@@ -6,8 +6,9 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
-
-
+/**
+ * Class contentor para os sprites correspondentes aos edificios tipo 2
+ */
 public abstract class StormTrooperSprites
 {
     private static ArrayList<BufferedImage> listAttack = new ArrayList<BufferedImage>();
@@ -17,6 +18,9 @@ public abstract class StormTrooperSprites
 
     }
 
+    /**
+     * Carregamento das imagens no programa
+     */
     static {
         String temp;
 
@@ -33,10 +37,16 @@ public abstract class StormTrooperSprites
         }
     }
 
+    /**
+     * @return -> Lista de imagens correspondentes ao movimento do projectil
+     */
     public static BufferedImage getBullet() {
         return bullet;
     }
 
+    /**
+     * @return -> Lista de imagens correspondentes ao movimento da torre
+     */
     public static ArrayList<BufferedImage> getSpriteAttack()
     {
         return listAttack;

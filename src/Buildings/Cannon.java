@@ -5,6 +5,10 @@ import com.Main;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 
+/**
+ * Edificio tipo 4
+ * @see Buildings.BaseBuilding
+ */
 public class Cannon extends BaseBuilding
 {
     //ANIMACOES
@@ -19,6 +23,10 @@ public class Cannon extends BaseBuilding
        8 -> left/down
      */
 
+    /**
+     * Construtor
+     * @see Buildings.BaseBuilding
+     */
     public Cannon(int x, int y) {
 
         type_building = 4;
@@ -43,10 +51,13 @@ public class Cannon extends BaseBuilding
         ////////////////////////////////////////////////////////////////////////
         ArrayList<BufferedImage> listAttack = new ArrayList<BufferedImage>();
         listAttack.add(CannonSprites.getBullet());
-        atack_effect =  new Base_atack(listAttack,posx,posy,150,20);
+        atack_effect =  new BaseAttack(listAttack,posx,posy,150,20);
 
     }
 
+    /**
+     * @see Buildings.BaseBuilding
+     */
     @Override
     public void change_animation()
     {

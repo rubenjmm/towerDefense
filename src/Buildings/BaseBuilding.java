@@ -9,10 +9,25 @@ import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 
 /**
- * Created by Ricardo on 12/05/2015.
+ * Class base para os edificios
  */
 public class BaseBuilding
 {
+    /**
+     * Atributos da classe publicos por simplicidade
+     * atack -> dano que o edificio causa por ataque
+     * posx_b, posy_b -> centro do edificio
+     * posx, posy -> posição onde sera colocada a imagem
+     * time, time2, timer -> controlo e restrição da cadencia de tiro
+     * attack_delay -> tempo entre cada ataque
+     * in_position -> flag que indica se o monstro foi atingido
+     * target_alive -> Flag indica se o alvo sobreviveu
+     * first_atack -> Flag indicadora de primeiro ataque
+     * mob_x, mob_y -> posição do monstro a ser atacado
+     * type_building -> id do tipo de edificio
+     * bullet_speed, speed_x, speed_y -> velocidade do projectil absoluta e segundo os eixos x e y
+     * animation_actual_state, animation_next_state -> estado da animação e proximo estado
+     */
 
     public int atack=0;
     public int posx_b,posy_b;
@@ -46,9 +61,14 @@ public class BaseBuilding
        8 -> left/down
      */
 
+
+    /**
+     * img1, img2 -> imagens do estado actual
+     * last_hit -> indica se o tiro actual mata o monstro
+     * disabled -> permite desactivar a torre
+     */
     public BufferedImage img1;
     public BufferedImage img2;
-
 
     public boolean last_hit=false;
     public boolean disabled = false;
@@ -60,19 +80,29 @@ public class BaseBuilding
         }
     };
 
+    /**
+     * raio -> alcance do ataque
+     * atack_effect -> @see Buildings.BaseAttack
+     */
     public int raio=0; //raio de alcance
 
-    public Base_atack atack_effect;
+    public BaseAttack atack_effect;
 
 
     public BaseBuilding() {
-        atack_effect =  new Base_atack();
+        atack_effect =  new BaseAttack();
         inic();
     }
 
+    /**
+     * Construtor da classe
+     * @param x -> posicao em x
+     * @param y -> posicao em y
+     * @param r -> raio de ataque
+     */
     public BaseBuilding(int x, int y, int r) {
 
-        atack_effect =  new Base_atack();
+        atack_effect =  new BaseAttack();
 
         this.posx_b=x;
         this.posy_b=y;
@@ -84,6 +114,9 @@ public class BaseBuilding
         inic() ;
     }
 
+    /**
+     * Inicializador do timer que controla o cumprimento da cadencia de tiro
+     */
     public void inic() {
 
         timer = new Timer(atack_delay,timer_listener);
@@ -94,6 +127,10 @@ public class BaseBuilding
             }
     }
 
+    /**
+     * Desenha o edificio
+     * @param g
+     */
     public void draw(Graphics g) {
 
         //a cada 250ms verificar a posicao relativa do mob face à torre
@@ -120,6 +157,10 @@ public class BaseBuilding
 
     }
 
+    /**
+     * Metedo que procura um alvo para atacar
+     * @return -> alvo em mira
+     */
     public boolean find_target() {
 
 
@@ -144,6 +185,9 @@ public class BaseBuilding
         return true;
 }
 
+    /**
+     * Tenta atacar um monstro se existir algume dentro do alcance
+     */
     public void atack() {
 
         if( first_atack ){
@@ -179,6 +223,10 @@ public class BaseBuilding
         }
     }
 
+    /**
+     * Verifica se é possivel atacar o alvo
+     * @return true se o target pode ser atacado
+     */
     public boolean verify_target_range() { //dá return a true se o target pode ser atacado
 
         mob_x = Main.getGame_logic().getMobs()[mob_index].getPosx();
@@ -187,9 +235,10 @@ public class BaseBuilding
         return Math.abs(posx - mob_x) <= raio && Math.abs(posy - mob_y) <= raio;
     }
 
+    /**
+     * Verifica o proximo estado de animação da torre para estar em mira com o monstro
+     */
     public void verify_pos() {
-
-
         mob_x = Main.getGame_logic().getMobs()[mob_index].getPosx();
         mob_y = Main.getGame_logic().getMobs()[mob_index].getPosy();
 
@@ -242,12 +291,18 @@ public class BaseBuilding
 
     }
 
+    /**
+     * Alterna as imagens consoante o estad da animação
+     */
     public void change_animation() {
 
         //altera as imagens consoante a animação
     }
 
-
+    /**
+     * Seleciona estado da animação
+     * @param a -> estado a ser activado
+     */
     public void setAnimation_state(int a) {
         this.animation_actual_state=a;
     }

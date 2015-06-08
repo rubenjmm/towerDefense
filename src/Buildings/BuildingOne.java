@@ -7,7 +7,8 @@ import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 
 /**
- * Created by Ricardo on 17/05/2015.
+ * Edificio tipo 1
+ * @see Buildings.BaseBuilding
  */
 public class BuildingOne extends BaseBuilding
 {
@@ -22,7 +23,9 @@ public class BuildingOne extends BaseBuilding
        7 -> down
        8 -> left/down
      */
-
+    /**
+     * @see Buildings.BaseBuilding
+     */
     public BuildingOne(int x, int y) {
 
         type_building = 1;
@@ -47,10 +50,13 @@ public class BuildingOne extends BaseBuilding
         ////////////////////////////////////////////////////////////////////////
         ArrayList<BufferedImage> listAttack = new ArrayList<BufferedImage>();
         listAttack.add(BuildingOneSprites.getBullet());
-        atack_effect =  new Base_atack(listAttack,posx,posy,150,20);
+        atack_effect =  new BaseAttack(listAttack,posx,posy,150,20);
 
     }
 
+    /**
+     * @see Buildings.BaseBuilding
+     */
     @Override
     public void change_animation() {
 
