@@ -197,7 +197,7 @@ public class Save
             x.format("\r\n");
             x.format("Posx = %d         Posy = %d\r\n", Main.getGame_logic().getBuildings().get(i).posx_b, Main.getGame_logic().getBuildings().get(i).posy_b);
             //////ALTEREI AQUI PQPQPQPQ
-            x.format("Animation State = %d", Main.getGame_logic().getBuildings().get(i).animation_actual_state);
+            x.format("Animation State = %d\r\n", Main.getGame_logic().getBuildings().get(i).animation_actual_state);
         }
 
         x.format("//////////////////////////////////Type_two:\r\n");
@@ -211,7 +211,7 @@ public class Save
             x.format("\r\n");
             x.format("Posx = %d         Posy = %d\r\n", Main.getGame_logic().getBuildings().get(i).posx_b, Main.getGame_logic().getBuildings().get(i).posy_b);
             //////ALTEREI AQUI PQPQPQPQ
-            x.format("Animation State = %d", Main.getGame_logic().getBuildings().get(i).animation_actual_state);
+            x.format("Animation State = %d\r\n", Main.getGame_logic().getBuildings().get(i).animation_actual_state);
         }
 
         x.format("//////////////////////////////////Type_three:\r\n");
@@ -225,7 +225,7 @@ public class Save
             x.format("\r\n");
             x.format("Posx = %d         Posy = %d\r\n", Main.getGame_logic().getBuildings().get(i).posx_b, Main.getGame_logic().getBuildings().get(i).posy_b);
             //////ALTEREI AQUI PQPQPQPQ
-            x.format("Animation State = %d", Main.getGame_logic().getBuildings().get(i).animation_actual_state);
+            x.format("Animation State = %d\r\n", Main.getGame_logic().getBuildings().get(i).animation_actual_state);
         }
 
         x.format("//////////////////////////////////Type_four:\r\n");
@@ -239,7 +239,7 @@ public class Save
             x.format("\r\n");
             x.format("Posx = %d         Posy = %d\r\n", Main.getGame_logic().getBuildings().get(i).posx_b, Main.getGame_logic().getBuildings().get(i).posy_b);
             //////ALTEREI AQUI PQPQPQPQ
-            x.format("Animation State = %d", Main.getGame_logic().getBuildings().get(i).animation_actual_state);
+            x.format("Animation State = %d\r\n", Main.getGame_logic().getBuildings().get(i).animation_actual_state);
         }
     }
 

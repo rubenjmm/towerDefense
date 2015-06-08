@@ -226,8 +226,10 @@ public class Logica {
 
         if ( inicializacao ) {
             if (mobs_inic) {
-                for (int i = 0; i < mobs.length; i++)
+                for (int i = 0; i < mobs.length; i++) {
+                    System.out.println("i ->" + i);
                     mobs[i].draw(g);
+                }
             }
 
             if (building_inic) {
